@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import './index.css'
+import 'antd/dist/antd.css';
+import { Row, Col } from 'antd';
 
 function mobileCheck() {
   if (typeof window === 'undefined') {
@@ -42,11 +44,16 @@ export default function MyApp({ Component, pageProps }) {
         <title>Kkollectibles</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {mobileCheck() ? (
-        <Component {...pageProps} />
-      ) : (
-        <h3>Please access from mobile!</h3>
-      )}
+      <Row
+        justify="center"
+        style={{
+          fontFamily: 'Architects Daughter, cursive',
+          margin: '1em'
+        }}>
+        <Col xs={24} md={10}>
+          <Component {...pageProps} />
+        </Col>
+      </Row>
     </>
   )
 }
