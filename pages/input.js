@@ -21,6 +21,7 @@ const submitInput = (data) =>
 export default function InputPage() {
   const [form] = Form.useForm()
   const [selectedEra, setSelectedEra] = useState()
+  const [rounded, setRounded] = useState(true)
 
   const handleFinish = (payload) => {
     submitInput(payload).then(() => alert('OK'))
@@ -30,7 +31,7 @@ export default function InputPage() {
 
   return (
     <Row justify="center" style={{ marginTop: '5vh' }}>
-      <Col span={12}>
+      <Col span={20}>
         <Form layout="vertical" form={form} onFinish={handleFinish}>
           <Form.Item label="Member" name="memberCode">
             <Select
@@ -58,10 +59,10 @@ export default function InputPage() {
             <Input />
           </Form.Item>
           <Form.Item label="Rounded" name="rounded" valuePropName="checked" initialValue={true}>
-            <Switch defaultChecked />
+            <Switch defaultChecked onChange={() => setRounded(!rounded)}/>
           </Form.Item>
           <Form.Item label="Image" name="image">
-            <ImageUploader />
+            <ImageUploader rounded={rounded}/>
           </Form.Item>
           <Form.Item>
             <Button
@@ -91,7 +92,7 @@ const toBase64 = file =>
     reader.onerror = error => reject(error);
   });
 
-function ImageUploader({ value, onChange, filenamePrefix = '' }) {
+function ImageUploader({ value, onChange, filenamePrefix = '', rounded }) {
   const [internalFileList, setInternalFileList] = useState(value ?? []);
   const [b64src, setB64src] = useState();
 
@@ -148,7 +149,8 @@ function ImageUploader({ value, onChange, filenamePrefix = '' }) {
       >
         Drag to Upload Here
       </Upload.Dragger>
-      <img src={b64src} style={{ maxHeight: '20vh' }}/>
+      <br />
+      <img src={b64src} style={{ maxHeight: '20vh', borderRadius: rounded && '0.8em' }}/>
     </>
   );
 }

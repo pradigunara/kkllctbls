@@ -540,6 +540,468 @@
           }
         ]
       }
+    },
+    "lsr": {
+      "mg": {
+        "album": [
+          {
+            "id": "e9IHxKsyTYLwar5ZyVkRO",
+            "code": "before-midnight-1",
+            "name": "Before Midnight 1",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/public/card/lsr-mg-album-before-midnight-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "6HsWUyLjz8mddw2Y6amLw",
+            "code": "before-midnight-2",
+            "name": "Before Midnight 2",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/public/card/lsr-mg-album-before-midnight-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "zM2njTeQITcAKRxTOcvEv",
+            "code": "after-midnight-1",
+            "name": "After Midnight 1",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/public/card/lsr-mg-album-after-midnight-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "Ns22NXHAS2QWogVGHmc2e",
+            "code": "after-midnight-2",
+            "name": "After Midnight 2",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/public/card/lsr-mg-album-after-midnight-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "rfLE3xoN61I4TApi9RY3p",
+            "code": "jewel",
+            "name": "Jewel",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/public/card/lsr-mg-album-jewel.jpg",
+            "rounded": true
+          },
+          {
+            "id": "wc-dlEw-oUcrdRHY-7MAT",
+            "code": "kihno-before-midnight",
+            "name": "Kihno Before Midnight",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/public/card/lsr-mg-album-kihno-before-midnight.jpg",
+            "rounded": true
+          },
+          {
+            "id": "DIy1qPJYfmAlCYB1OtAtD",
+            "code": "kihno-after-midnight",
+            "name": "Kihno After Midnight",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/public/card/lsr-mg-album-kihno-after-midnight.jpg",
+            "rounded": true
+          },
+          {
+            "id": "nuzcQTN44qWxLH_LsRSsI",
+            "code": "minicard-before-midnight",
+            "name": "Minicard Before Midnight",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/public/card/lsr-mg-album-minicard-before-midnight.jpg",
+            "rounded": false
+          },
+          {
+            "id": "08JC23E7TeSf-_b1c-8cL",
+            "code": "minicard-after-midnight",
+            "name": "Minicard After Midnight",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/public/card/lsr-mg-album-minicard-after-midnight.jpg",
+            "rounded": false
+          },
+          {
+            "id": "HDu_4q2v4Tgbn5DT5akFI",
+            "code": "kihno-square-before-midnight",
+            "name": "Kihno Square Before Midnight",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/public/card/lsr-mg-album-kihno-square-before-midnight.jpg",
+            "rounded": false
+          },
+          {
+            "id": "81oLIXnhTYkYBuAw6VwB0",
+            "code": "kihno-square-after-midnight",
+            "name": "Kihno Square After Midnight",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/public/card/lsr-mg-album-kihno-square-after-midnight.jpg",
+            "rounded": false
+          },
+          {
+            "id": "IZTu73m7hvu3gwbMgH-KD",
+            "code": "postcard-before-midnight",
+            "name": "Postcard Before Midnight",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/public/card/lsr-mg-album-postcard-before-midnight.jpg",
+            "rounded": false
+          },
+          {
+            "id": "eg3Rfcc-tcUA7aAuGM7Oi",
+            "code": "postcard-after-midnight",
+            "name": "Postcard After Midnight",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/public/card/lsr-mg-album-postcard-after-midnight.jpg",
+            "rounded": false
+          },
+          {
+            "id": "4aAaI30YmnTusX3Jgkr-h",
+            "code": "filmstrip-before-midnight",
+            "name": "Filmstrip Before Midnight",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/public/card/lsr-mg-album-filmstrip-before-midnight.jpg",
+            "rounded": false
+          },
+          {
+            "id": "kgaSQSgkROvmCNFzgMEn4",
+            "code": "filmstrip-after-midnight",
+            "name": "Filmstrip After Midnight",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/public/card/lsr-mg-album-filmstrip-after-midnight.jpg",
+            "rounded": false
+          }
+        ],
+        "pob": [
+          {
+            "id": "P1LCDpvBJvFgzIbtdJmS9",
+            "code": "aladin",
+            "name": "Aladin",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/public/card/lsr-mg-pob-aladin.jpg",
+            "rounded": false
+          },
+          {
+            "id": "p-x5WOY_MJ8Tkf7DGnoR8",
+            "code": "apple-music",
+            "name": "Apple Music",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/public/card/lsr-mg-pob-apple-music.jpg",
+            "rounded": false
+          },
+          {
+            "id": "jNLd6HDKSHzqH9lAAJzkV",
+            "code": "interpark",
+            "name": "Interpark",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/public/card/lsr-mg-pob-interpark.jpg",
+            "rounded": true
+          },
+          {
+            "id": "cADIfAvvaKNEier6doZKh",
+            "code": "music-korea",
+            "name": "Music Korea",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/public/card/lsr-mg-pob-music-korea.jpg",
+            "rounded": true
+          },
+          {
+            "id": "zoaSVlf0P9mRODm-j-36e",
+            "code": "synnara",
+            "name": "Synnara",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/public/card/lsr-mg-pob-synnara.jpg",
+            "rounded": true
+          },
+          {
+            "id": "X13wyWPdeqmldR0vvC4hy",
+            "code": "yes-24",
+            "name": "Yes24",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/public/card/lsr-mg-pob-yes-24.jpg",
+            "rounded": true
+          },
+          {
+            "id": "CRYkctHI8w7MXBl4JOXPK",
+            "code": "weverse",
+            "name": "Weverse",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/public/card/lsr-mg-pob-weverse.jpg",
+            "rounded": false
+          },
+          {
+            "id": "Rvipoh0WTUMvW0zZnI7p3",
+            "code": "tower-records-1",
+            "name": "Tower Records 1",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/public/card/lsr-mg-pob-tower-records-1.jpg",
+            "rounded": false
+          },
+          {
+            "id": "J5tmQI6XW5bwuWR9ioJFn",
+            "code": "tower-records-2",
+            "name": "Tower Records 2",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/public/card/lsr-mg-pob-tower-records-2.jpg",
+            "rounded": false
+          },
+          {
+            "id": "vCKekINJLy8vfKnY1L65q",
+            "code": "universal-music-japan-1",
+            "name": "Universal Music Japan 1",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/public/card/lsr-mg-pob-universal-music-japan-1.jpg",
+            "rounded": false
+          },
+          {
+            "id": "flCw0dFj5BVFBnEDyo246",
+            "code": "universal-music-japan-2",
+            "name": "Universal Music Japan 2",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/public/card/lsr-mg-pob-universal-music-japan-2.jpg",
+            "rounded": false
+          }
+        ],
+        "other": [
+          {
+            "id": "bEP1WfXG4cf7Jn1Gx734p",
+            "code": "naver-live-album",
+            "name": "Naver Live Album",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/public/card/lsr-mg-other-naver-live-album.jpg",
+            "rounded": true
+          },
+          {
+            "id": "HUESk4OMz-UOZyUBI4mdW",
+            "code": "naver-live-jewel",
+            "name": "Naver Live Jewel",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/public/card/lsr-mg-other-naver-live-jewel.jpg",
+            "rounded": true
+          },
+          {
+            "id": "rEEPigRSv48JQprkuardg",
+            "code": "weverse-print",
+            "name": "Weverse Print",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/public/card/lsr-mg-other-weverse-print.jpg",
+            "rounded": false
+          },
+          {
+            "id": "klNwF2belSwJU5jZjFd2L",
+            "code": "ld-soundwave-r-1",
+            "name": "LD Soundwave R1",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/public/card/lsr-mg-other-ld-soundwave-r-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "LrzEGH-i0chyzaGCGrCYc",
+            "code": "ld-soundwave-r-2",
+            "name": "LD Soundwave R2",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/public/card/lsr-mg-other-ld-soundwave-r-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "byGrp9R-auiQwL5QTmyJj",
+            "code": "ld-m-2-u-r-1",
+            "name": "LD M2U R1",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/public/card/lsr-mg-other-ld-m-2-u-r-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "4K5hDjVWkqpa9d1Trcd3o",
+            "code": "ld-m-2-u-r-2",
+            "name": "LD M2U R2",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/public/card/lsr-mg-other-ld-m-2-u-r-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "o-dsZ-aY9Kt4McujHl7n6",
+            "code": "ld-powerstation-r-1",
+            "name": "LD Powerstation R1",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/public/card/lsr-mg-other-ld-powerstation-r-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "Bw26ayNhxFK4htTfswZa0",
+            "code": "ld-powerstation-r-2",
+            "name": "LD Powerstation R2",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/public/card/lsr-mg-other-ld-powerstation-r-2.jpg",
+            "rounded": true
+          }
+        ],
+        "fs": [
+          {
+            "id": "vDUupUydSKBT9XXh3ks8R",
+            "code": "weverse",
+            "name": "Weverse",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/public/card/lsr-mg-fs-weverse.jpg",
+            "rounded": true
+          },
+          {
+            "id": "1-hEH9m4JJsCAZVMV0NHV",
+            "code": "music-korea",
+            "name": "Music Korea",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/public/card/lsr-mg-fs-music-korea.jpg",
+            "rounded": true
+          },
+          {
+            "id": "QRlxBUsWgBlhOa_X61mzS",
+            "code": "yes-24",
+            "name": "Yes24",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/public/card/lsr-mg-fs-yes-24.jpg",
+            "rounded": true
+          },
+          {
+            "id": "4hJflj5Jao0jUt3d6chXC",
+            "code": "shopee",
+            "name": "Shopee",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/public/card/lsr-mg-fs-shopee.jpg",
+            "rounded": true
+          },
+          {
+            "id": "STRgL3B6mKlFi4rVZcAgP",
+            "code": "soundwave",
+            "name": "Soundwave",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/public/card/lsr-mg-fs-soundwave.jpg",
+            "rounded": true
+          },
+          {
+            "id": "sP8lPg2N2Xa8AIFfwzM8B",
+            "code": "interpark",
+            "name": "Interpark",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/public/card/lsr-mg-fs-interpark.jpg",
+            "rounded": true
+          },
+          {
+            "id": "Z7KbuU3k5ZGxHPPbui8Lj",
+            "code": "mk-media",
+            "name": "MK Media",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/public/card/lsr-mg-fs-mk-media.jpg",
+            "rounded": true
+          },
+          {
+            "id": "StGZ8m0Xps7y8cxOAHhBh",
+            "code": "music-plant",
+            "name": "Music Plant",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/public/card/lsr-mg-fs-music-plant.jpg",
+            "rounded": true
+          },
+          {
+            "id": "FPBZCwnoxMxvYkuLINszr",
+            "code": "joeun",
+            "name": "Joeun",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/public/card/lsr-mg-fs-joeun.jpg",
+            "rounded": true
+          },
+          {
+            "id": "zRQJd-z7HQFLx3xCzBA8Q",
+            "code": "beatroad",
+            "name": "Beatroad",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/public/card/lsr-mg-fs-beatroad.jpg",
+            "rounded": true
+          }
+        ]
+      }
     }
   }
 }
