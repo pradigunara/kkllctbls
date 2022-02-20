@@ -8,9 +8,11 @@ export default function Footer() {
       justify="center"
     >
       <Col span={24}>
-        <span style={{ textAlign: 'center' }}>
-          Made with ♡ by <a href="https://twitter.com/bucinakko">@bucinakko</a>
-        </span>
+        <p style={{ textAlign: 'center' }}>
+          Made with ♡ for fromis_9 by <a href="https://twitter.com/bucinakko">@bucinakko</a>
+          <br />
+          Source template by <a href="https://twitter.com/kiombocore">@kiombocore</a>
+        </p>
       </Col>
     </Row>
   )

@@ -1002,6 +1002,468 @@
           }
         ]
       }
+    },
+    "shy": {
+      "mg": {
+        "album": [
+          {
+            "id": "2O96mtFbgMXCpc8flcj4w",
+            "code": "before-midnight-1",
+            "name": "Before Midnight 1",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-before-midnight-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "fGqTJizKaBT5LvbCFiO2F",
+            "code": "before-midnight-2",
+            "name": "Before Midnight 2",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-before-midnight-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "b53WDc2Oy_gCeZ9ok12Z2",
+            "code": "after-midnight-1",
+            "name": "After Midnight 1",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-after-midnight-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "QTFrqZSy8Vz7-WXyfgo1s",
+            "code": "after-midnight-2",
+            "name": "After Midnight 2",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-after-midnight-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "aHXy_Jazy2xINhWMmlG8E",
+            "code": "jewel",
+            "name": "Jewel",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-jewel.jpg",
+            "rounded": true
+          },
+          {
+            "id": "gPuInEqZfnAWAr0GGqm5w",
+            "code": "kihno-before-midnight",
+            "name": "Kihno Before Midnight",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-kihno-before-midnight.jpg",
+            "rounded": true
+          },
+          {
+            "id": "dw4VmTyA6iHThLYgqrS2p",
+            "code": "kihno-after-midnight",
+            "name": "Kihno After Midnight",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-kihno-after-midnight.jpg",
+            "rounded": true
+          },
+          {
+            "id": "SP-vOGH6Fj2P75Wua8b6D",
+            "code": "minicard-before-midnight",
+            "name": "Minicard Before Midnight",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-minicard-before-midnight.jpg",
+            "rounded": false
+          },
+          {
+            "id": "hVPRotj_nelhePgF2JZKS",
+            "code": "minicard-after-midnight",
+            "name": "Minicard After Midnight",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-minicard-after-midnight.jpg",
+            "rounded": false
+          },
+          {
+            "id": "UItn2Oq2L_VIl2o6RUQpT",
+            "code": "kihno-square-before-midnight",
+            "name": "Kihno Square Before Midnight",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-kihno-square-before-midnight.jpg",
+            "rounded": false
+          },
+          {
+            "id": "qm2nm4F58gLyFVjC7Hm87",
+            "code": "kihno-square-after-midnight",
+            "name": "Kihno Square After Midnight",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-kihno-square-after-midnight.jpg",
+            "rounded": false
+          },
+          {
+            "id": "JApc0aEUAnlgQVGm9XCkh",
+            "code": "postcard-before-midnight",
+            "name": "Postcard Before Midnight",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-postcard-before-midnight.jpg",
+            "rounded": false
+          },
+          {
+            "id": "ek_BBs5Zb0I9D3bFMGV9f",
+            "code": "postcard-after-midnight",
+            "name": "Postcard After Midnight",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-postcard-after-midnight.jpg",
+            "rounded": false
+          },
+          {
+            "id": "V9oLRvFodOVmLKBBtUMXm",
+            "code": "filmstrip-before-midnight",
+            "name": "Filmstrip Before Midnight",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-filmstrip-before-midnight.jpg",
+            "rounded": false
+          },
+          {
+            "id": "oItxMo2tbxXLb5Nlwso2B",
+            "code": "filmstrip-after-midnight",
+            "name": "Filmstrip After Midnight",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-filmstrip-after-midnight.jpg",
+            "rounded": false
+          }
+        ],
+        "pob": [
+          {
+            "id": "rd_MjhhPNcllyfKsgydOW",
+            "code": "aladin",
+            "name": "Aladin",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/shy-mg-pob-aladin.jpg",
+            "rounded": false
+          },
+          {
+            "id": "Ia3RXKw8oNBbiNe-yB0k6",
+            "code": "apple-music",
+            "name": "Apple Music",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/shy-mg-pob-apple-music.jpg",
+            "rounded": false
+          },
+          {
+            "id": "e9IunVbRl58z_ZEVw0hgT",
+            "code": "interpark",
+            "name": "Interpark",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/shy-mg-pob-interpark.jpg",
+            "rounded": true
+          },
+          {
+            "id": "UwLf0Nq37rru0f_vhXW39",
+            "code": "music-korea",
+            "name": "Music Korea",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/shy-mg-pob-music-korea.jpg",
+            "rounded": true
+          },
+          {
+            "id": "AK8a9-gJYPxqH2JcgP32m",
+            "code": "synnara",
+            "name": "Synnara",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/shy-mg-pob-synnara.jpg",
+            "rounded": true
+          },
+          {
+            "id": "orKFYLZ5wTEEbF3seZcTN",
+            "code": "yes-24",
+            "name": "Yes24",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/shy-mg-pob-yes-24.jpg",
+            "rounded": true
+          },
+          {
+            "id": "ZjBtWE3bQZ86PeUMv7Plw",
+            "code": "weverse",
+            "name": "Weverse",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/shy-mg-pob-weverse.jpg",
+            "rounded": false
+          },
+          {
+            "id": "2M9SdvcNdyBuzKUKlD_ut",
+            "code": "tower-records-1",
+            "name": "Tower Records 1",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/shy-mg-pob-tower-records-1.jpg",
+            "rounded": false
+          },
+          {
+            "id": "P_9m5nMHzC0dJke5RC4Qn",
+            "code": "tower-records-2",
+            "name": "Tower Records 2",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/shy-mg-pob-tower-records-2.jpg",
+            "rounded": false
+          },
+          {
+            "id": "YCncJQLCbQ_pGujLdafvv",
+            "code": "universal-music-japan-1",
+            "name": "Universal Music Japan 1",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/shy-mg-pob-universal-music-japan-1.jpg",
+            "rounded": false
+          },
+          {
+            "id": "7vD8Zny1wLaHZ0m_MpbJj",
+            "code": "universal-music-japan-2",
+            "name": "Universal Music Japan 2",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/shy-mg-pob-universal-music-japan-2.jpg",
+            "rounded": false
+          }
+        ],
+        "other": [
+          {
+            "id": "pEYdzZV50M7DLwi5Zt8Rs",
+            "code": "naver-live-album",
+            "name": "Naver Live Album",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/shy-mg-other-naver-live-album.jpg",
+            "rounded": true
+          },
+          {
+            "id": "q4OZ5a1H7KnYKAtaOwueT",
+            "code": "naver-live-jewel",
+            "name": "Naver Live Jewel",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/shy-mg-other-naver-live-jewel.jpg",
+            "rounded": true
+          },
+          {
+            "id": "18mpQsRZvZLWfk40_Rd1Y",
+            "code": "weverse-print",
+            "name": "Weverse Print",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/shy-mg-other-weverse-print.jpg",
+            "rounded": false
+          },
+          {
+            "id": "fgyg-DHDmMUhArWs-td_l",
+            "code": "ld-soundwave-r-1",
+            "name": "LD Soundwave R1",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/shy-mg-other-ld-soundwave-r-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "UVJC3hrpprzjQp7K7LaOJ",
+            "code": "ld-soundwave-r-2",
+            "name": "LD Soundwave R2",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/shy-mg-other-ld-soundwave-r-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "6I-ZqEFACBcZSleFNkJ7w",
+            "code": "ld-m-2-u-r-1",
+            "name": "LD M2U R1",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/shy-mg-other-ld-m-2-u-r-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "ALqcPIfxXpNY457p_-_Sl",
+            "code": "ld-m-2-u-r-2",
+            "name": "LD M2U R2",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/shy-mg-other-ld-m-2-u-r-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "mAIB9UjeMztuOCP7Lg8VD",
+            "code": "ld-powerstation-r-1",
+            "name": "LD Powerstation R1",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/shy-mg-other-ld-powerstation-r-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "-jwzkbZBAbaaFg59SdOHv",
+            "code": "ld-powerstation-r-2",
+            "name": "LD Powerstation R2",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/shy-mg-other-ld-powerstation-r-2.jpg",
+            "rounded": true
+          }
+        ],
+        "fs": [
+          {
+            "id": "-ZzNaM5Gj8IT50zbiQs2x",
+            "code": "weverse",
+            "name": "Weverse",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/shy-mg-fs-weverse.jpg",
+            "rounded": true
+          },
+          {
+            "id": "Hza6q57rb4J_UNFLjMCw5",
+            "code": "music-korea",
+            "name": "Music Korea",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/shy-mg-fs-music-korea.jpg",
+            "rounded": true
+          },
+          {
+            "id": "8tdnk86aaoUBO8jVYcltF",
+            "code": "yes-24",
+            "name": "Yes24",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/shy-mg-fs-yes-24.jpg",
+            "rounded": true
+          },
+          {
+            "id": "e873Z5vITtUXdTQbREIfs",
+            "code": "shopee",
+            "name": "Shopee",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/shy-mg-fs-shopee.jpg",
+            "rounded": true
+          },
+          {
+            "id": "aOF0hOe1VS5U6_f-q2BrP",
+            "code": "soundwave",
+            "name": "Soundwave",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/shy-mg-fs-soundwave.jpg",
+            "rounded": true
+          },
+          {
+            "id": "sRZ9bAAWaopfm8taZsR3U",
+            "code": "interpark",
+            "name": "Interpark",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/shy-mg-fs-interpark.jpg",
+            "rounded": true
+          },
+          {
+            "id": "p70HlG4BIB4cXNtFZTHSb",
+            "code": "mk-media",
+            "name": "MK Media",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/shy-mg-fs-mk-media.jpg",
+            "rounded": true
+          },
+          {
+            "id": "6-j9DhmzSgyUNFOBcwnpo",
+            "code": "music-plant",
+            "name": "Music Plant",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/shy-mg-fs-music-plant.jpg",
+            "rounded": true
+          },
+          {
+            "id": "tfOuEvUATPaahop2yNXqY",
+            "code": "joeun",
+            "name": "Joeun",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/shy-mg-fs-joeun.jpg",
+            "rounded": true
+          },
+          {
+            "id": "V2QxMiWiJXmZoOZBLlQ3H",
+            "code": "beatroad",
+            "name": "Beatroad",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/shy-mg-fs-beatroad.jpg",
+            "rounded": true
+          }
+        ]
+      }
     }
   }
 }

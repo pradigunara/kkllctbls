@@ -3,14 +3,14 @@ import path from 'path'
 import _ from 'lodash'
 import { nanoid } from 'nanoid'
 
-const pt = (p) => path.join(process.cwd(), p)
+const pt = (...p) => path.join(process.cwd(), ...p)
 const dbPath = pt('/data/db.json')
 
 const load = () => JSON.parse(fs.readFileSync(dbPath).toString())
 const write = (db) => fs.writeFileSync(dbPath, JSON.stringify(db, null, 2))
 const writeImg = (base64image, imgPath) => {
   const buffer = new Buffer(base64image, 'base64')
-  fs.writeFileSync(pt(imgPath), buffer)
+  fs.writeFileSync(pt('/public', imgPath), buffer)
 }
 
 export default function handler(req, res) {
