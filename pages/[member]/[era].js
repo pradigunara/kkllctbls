@@ -138,6 +138,7 @@ function Card({ card, isCrossed, onDoubleTap }) {
           cursor: 'pointer',
           borderRadius: card.rounded && '0.8em',
           opacity: isCrossed && '0.3',
+          boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)'
         }}
         src={card.img}
         alt={card.name}
