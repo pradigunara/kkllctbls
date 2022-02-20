@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Row, Col, Divider } from 'antd'
 import Header from 'components/header'
+import Footer from 'components/footer'
 import Breadcrumbs from 'components/breadcrumbs'
 import db from 'data/db.json'
 
@@ -59,6 +60,7 @@ export default function Member() {
             </Col>
           </Row>
         </Col>
+        <Footer />
       </Row>
     </>
   )

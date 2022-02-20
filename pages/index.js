@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Row, Col } from 'antd'
 import Header from 'components/header'
+import Footer from 'components/footer'
 import db from 'data/db.json'
 import _ from 'lodash'
 
@@ -21,6 +22,7 @@ export default function Home() {
                 <Row
                   gutter={{ xs: 16, md: 24 }}
                   justify="space-evenly"
+                  align="bottom"
                   key={idx}
                 >
                   {chunk.map((member) => (
@@ -50,6 +52,7 @@ export default function Home() {
             </Col>
           </Row>
         </Col>
+        <Footer />
       </Row>
     </>
   )

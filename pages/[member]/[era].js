@@ -2,6 +2,7 @@ import _ from 'lodash'
 import { useRouter } from 'next/router'
 import { Row, Col, Divider } from 'antd'
 import Header from 'components/header'
+import Footer from 'components/footer'
 import Breadcrumbs from 'components/breadcrumbs'
 import db from 'data/db.json'
 import { useState } from 'react'
@@ -49,6 +50,7 @@ export default function Era() {
             </Col>
           </Row>
         </Col>
+        <Footer />
       </Row>
     </>
   )
@@ -95,7 +97,7 @@ function Section({ name, content }) {
         {chunkedContent.map((cardChunk, idx) => (
           <Row
             gutter={{ xs: 16, md: 24 }}
-            justify="space-between"
+            justify="space-evenly"
             align="bottom"
             key={idx}
           >
