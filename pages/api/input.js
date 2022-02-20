@@ -34,7 +34,7 @@ export default function handler(req, res) {
   const storagePath = ['cards', memberCode, eraCode, sectionCode]
   const cards = _.get(db, storagePath, [])
 
-  const imgPath = `/public/card/${memberCode}-${eraCode}-${sectionCode}-${_.kebabCase(name)}.jpg`
+  const imgPath = `/card/${memberCode}-${eraCode}-${sectionCode}-${_.kebabCase(name)}.jpg`
   cards.push({
     id: nanoid(),
     code: _.kebabCase(name),
