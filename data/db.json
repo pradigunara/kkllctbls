@@ -55,7 +55,8 @@
     {
       "code": "mg",
       "name": "Midnight Guest",
-      "img": "/era/mg.jpg"
+      "img": "/era/mg.jpg",
+      "photosPerRow": 4
     }
   ],
   "sections": {
@@ -266,16 +267,6 @@
             "rounded": true
           },
           {
-            "id": "Wsl60maCIQWXf5vWHB9el",
-            "code": "jewel",
-            "name": "Jewel",
-            "memberCode": "lng",
-            "eraCode": "mg",
-            "sectionCode": "album",
-            "img": "/card/lng-mg-album-jewel.jpg",
-            "rounded": true
-          },
-          {
             "id": "5i3pKt4ggKBLwwdM_NdE_",
             "code": "kihno-before-midnight",
             "name": "Kihno Before Midnight",
@@ -374,6 +365,16 @@
             "sectionCode": "album",
             "img": "/card/lng-mg-album-filmstrip-after-midnight.jpg",
             "rounded": false
+          },
+          {
+            "id": "Wsl60maCIQWXf5vWHB9el",
+            "code": "jewel",
+            "name": "Jewel",
+            "memberCode": "lng",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/lng-mg-album-jewel.jpg",
+            "rounded": true
           }
         ],
         "pob": [
@@ -438,16 +439,6 @@
             "rounded": true
           },
           {
-            "id": "LNzZxXoeKCDEowWH0EGpl",
-            "code": "weverse",
-            "name": "Weverse",
-            "memberCode": "lng",
-            "eraCode": "mg",
-            "sectionCode": "pob",
-            "img": "/card/lng-mg-pob-weverse.jpg",
-            "rounded": false
-          },
-          {
             "id": "BnUvygmJM0j_aEcWU465b",
             "code": "tower-records-1",
             "name": "Tower Records 1",
@@ -486,6 +477,16 @@
             "sectionCode": "pob",
             "img": "/card/lng-mg-pob-universal-music-japan-2.jpg",
             "rounded": false
+          },
+          {
+            "id": "LNzZxXoeKCDEowWH0EGpl",
+            "code": "weverse",
+            "name": "Weverse",
+            "memberCode": "lng",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/lng-mg-pob-weverse.jpg",
+            "rounded": false
           }
         ],
         "other": [
@@ -508,16 +509,6 @@
             "sectionCode": "other",
             "img": "/card/lng-mg-other-naver-live-jewel.jpg",
             "rounded": true
-          },
-          {
-            "id": "GewoY4FwT_vagvkjcmqt5",
-            "code": "weverse-postcard",
-            "name": "Weverse Postcard",
-            "memberCode": "lng",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/lng-mg-other-weverse-postcard.jpg",
-            "rounded": false
           },
           {
             "id": "1h5KjQpH8btOR570ZlO6F",
@@ -578,6 +569,16 @@
             "sectionCode": "other",
             "img": "/card/lng-mg-other-ld-powerstation-r-2.jpg",
             "rounded": true
+          },
+          {
+            "id": "GewoY4FwT_vagvkjcmqt5",
+            "code": "weverse-print",
+            "name": "Weverse Print",
+            "memberCode": "lng",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lng-mg-other-weverse-print.jpg",
+            "rounded": false
           }
         ],
         "fs": [
@@ -728,16 +729,6 @@
             "rounded": true
           },
           {
-            "id": "rfLE3xoN61I4TApi9RY3p",
-            "code": "jewel",
-            "name": "Jewel",
-            "memberCode": "lsr",
-            "eraCode": "mg",
-            "sectionCode": "album",
-            "img": "/card/lsr-mg-album-jewel.jpg",
-            "rounded": true
-          },
-          {
             "id": "wc-dlEw-oUcrdRHY-7MAT",
             "code": "kihno-before-midnight",
             "name": "Kihno Before Midnight",
@@ -836,6 +827,16 @@
             "sectionCode": "album",
             "img": "/card/lsr-mg-album-filmstrip-after-midnight.jpg",
             "rounded": false
+          },
+          {
+            "id": "rfLE3xoN61I4TApi9RY3p",
+            "code": "jewel",
+            "name": "Jewel",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/lsr-mg-album-jewel.jpg",
+            "rounded": true
           }
         ],
         "pob": [
@@ -900,16 +901,6 @@
             "rounded": true
           },
           {
-            "id": "CRYkctHI8w7MXBl4JOXPK",
-            "code": "weverse",
-            "name": "Weverse",
-            "memberCode": "lsr",
-            "eraCode": "mg",
-            "sectionCode": "pob",
-            "img": "/card/lsr-mg-pob-weverse.jpg",
-            "rounded": false
-          },
-          {
             "id": "Rvipoh0WTUMvW0zZnI7p3",
             "code": "tower-records-1",
             "name": "Tower Records 1",
@@ -948,6 +939,16 @@
             "sectionCode": "pob",
             "img": "/card/lsr-mg-pob-universal-music-japan-2.jpg",
             "rounded": false
+          },
+          {
+            "id": "CRYkctHI8w7MXBl4JOXPK",
+            "code": "weverse",
+            "name": "Weverse",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/lsr-mg-pob-weverse.jpg",
+            "rounded": false
           }
         ],
         "other": [
@@ -970,16 +971,6 @@
             "sectionCode": "other",
             "img": "/card/lsr-mg-other-naver-live-jewel.jpg",
             "rounded": true
-          },
-          {
-            "id": "rEEPigRSv48JQprkuardg",
-            "code": "weverse-print",
-            "name": "Weverse Print",
-            "memberCode": "lsr",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/lsr-mg-other-weverse-print.jpg",
-            "rounded": false
           },
           {
             "id": "klNwF2belSwJU5jZjFd2L",
@@ -1040,6 +1031,16 @@
             "sectionCode": "other",
             "img": "/card/lsr-mg-other-ld-powerstation-r-2.jpg",
             "rounded": true
+          },
+          {
+            "id": "rEEPigRSv48JQprkuardg",
+            "code": "weverse-print",
+            "name": "Weverse Print",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lsr-mg-other-weverse-print.jpg",
+            "rounded": false
           }
         ],
         "fs": [
@@ -1190,16 +1191,6 @@
             "rounded": true
           },
           {
-            "id": "aHXy_Jazy2xINhWMmlG8E",
-            "code": "jewel",
-            "name": "Jewel",
-            "memberCode": "shy",
-            "eraCode": "mg",
-            "sectionCode": "album",
-            "img": "/card/shy-mg-album-jewel.jpg",
-            "rounded": true
-          },
-          {
             "id": "gPuInEqZfnAWAr0GGqm5w",
             "code": "kihno-before-midnight",
             "name": "Kihno Before Midnight",
@@ -1298,6 +1289,16 @@
             "sectionCode": "album",
             "img": "/card/shy-mg-album-filmstrip-after-midnight.jpg",
             "rounded": false
+          },
+          {
+            "id": "aHXy_Jazy2xINhWMmlG8E",
+            "code": "jewel",
+            "name": "Jewel",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/shy-mg-album-jewel.jpg",
+            "rounded": true
           }
         ],
         "pob": [
@@ -1362,16 +1363,6 @@
             "rounded": true
           },
           {
-            "id": "ZjBtWE3bQZ86PeUMv7Plw",
-            "code": "weverse",
-            "name": "Weverse",
-            "memberCode": "shy",
-            "eraCode": "mg",
-            "sectionCode": "pob",
-            "img": "/card/shy-mg-pob-weverse.jpg",
-            "rounded": false
-          },
-          {
             "id": "2M9SdvcNdyBuzKUKlD_ut",
             "code": "tower-records-1",
             "name": "Tower Records 1",
@@ -1410,6 +1401,16 @@
             "sectionCode": "pob",
             "img": "/card/shy-mg-pob-universal-music-japan-2.jpg",
             "rounded": false
+          },
+          {
+            "id": "ZjBtWE3bQZ86PeUMv7Plw",
+            "code": "weverse",
+            "name": "Weverse",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/shy-mg-pob-weverse.jpg",
+            "rounded": false
           }
         ],
         "other": [
@@ -1432,16 +1433,6 @@
             "sectionCode": "other",
             "img": "/card/shy-mg-other-naver-live-jewel.jpg",
             "rounded": true
-          },
-          {
-            "id": "18mpQsRZvZLWfk40_Rd1Y",
-            "code": "weverse-print",
-            "name": "Weverse Print",
-            "memberCode": "shy",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/shy-mg-other-weverse-print.jpg",
-            "rounded": false
           },
           {
             "id": "fgyg-DHDmMUhArWs-td_l",
@@ -1502,6 +1493,16 @@
             "sectionCode": "other",
             "img": "/card/shy-mg-other-ld-powerstation-r-2.jpg",
             "rounded": true
+          },
+          {
+            "id": "18mpQsRZvZLWfk40_Rd1Y",
+            "code": "weverse-print",
+            "name": "Weverse Print",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/shy-mg-other-weverse-print.jpg",
+            "rounded": false
           }
         ],
         "fs": [
@@ -1652,16 +1653,6 @@
             "rounded": true
           },
           {
-            "id": "widCIZe3MzSeTNC0vQrWI",
-            "code": "jewel",
-            "name": "Jewel",
-            "memberCode": "jgr",
-            "eraCode": "mg",
-            "sectionCode": "album",
-            "img": "/card/jgr-mg-album-jewel.jpg",
-            "rounded": true
-          },
-          {
             "id": "u7z8TlDwQNoOBrb6ybzVN",
             "code": "kihno-before-midnight",
             "name": "Kihno Before Midnight",
@@ -1760,6 +1751,16 @@
             "sectionCode": "album",
             "img": "/card/jgr-mg-album-filmstrip-after-midnight.jpg",
             "rounded": false
+          },
+          {
+            "id": "widCIZe3MzSeTNC0vQrWI",
+            "code": "jewel",
+            "name": "Jewel",
+            "memberCode": "jgr",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/jgr-mg-album-jewel.jpg",
+            "rounded": true
           }
         ],
         "pob": [
@@ -1824,16 +1825,6 @@
             "rounded": true
           },
           {
-            "id": "xw75JepQlMQ7d0_nvcQeZ",
-            "code": "weverse",
-            "name": "Weverse",
-            "memberCode": "jgr",
-            "eraCode": "mg",
-            "sectionCode": "pob",
-            "img": "/card/jgr-mg-pob-weverse.jpg",
-            "rounded": false
-          },
-          {
             "id": "-hSpik1c6GWQPCpyPhQvc",
             "code": "tower-records-1",
             "name": "Tower Records 1",
@@ -1872,6 +1863,16 @@
             "sectionCode": "pob",
             "img": "/card/jgr-mg-pob-universal-music-japan-2.jpg",
             "rounded": false
+          },
+          {
+            "id": "xw75JepQlMQ7d0_nvcQeZ",
+            "code": "weverse",
+            "name": "Weverse",
+            "memberCode": "jgr",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/jgr-mg-pob-weverse.jpg",
+            "rounded": false
           }
         ],
         "other": [
@@ -1894,16 +1895,6 @@
             "sectionCode": "other",
             "img": "/card/jgr-mg-other-naver-live-jewel.jpg",
             "rounded": true
-          },
-          {
-            "id": "E848BLlgd9lX0QzY4IkrY",
-            "code": "weverse-print",
-            "name": "Weverse Print",
-            "memberCode": "jgr",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/jgr-mg-other-weverse-print.jpg",
-            "rounded": false
           },
           {
             "id": "ZHyyu8gP-53LmIjtjJGUS",
@@ -1964,6 +1955,16 @@
             "sectionCode": "other",
             "img": "/card/jgr-mg-other-ld-powerstation-r-2.jpg",
             "rounded": true
+          },
+          {
+            "id": "E848BLlgd9lX0QzY4IkrY",
+            "code": "weverse-print",
+            "name": "Weverse Print",
+            "memberCode": "jgr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/jgr-mg-other-weverse-print.jpg",
+            "rounded": false
           }
         ],
         "fs": [
@@ -2114,16 +2115,6 @@
             "rounded": true
           },
           {
-            "id": "fwfBq8sGgjrtAooX8W3ow",
-            "code": "jewel",
-            "name": "Jewel",
-            "memberCode": "rjs",
-            "eraCode": "mg",
-            "sectionCode": "album",
-            "img": "/card/rjs-mg-album-jewel.jpg",
-            "rounded": true
-          },
-          {
             "id": "1JLy7oq1nUwnM8oke-Pyx",
             "code": "kihno-before-midnight",
             "name": "Kihno Before Midnight",
@@ -2222,6 +2213,16 @@
             "sectionCode": "album",
             "img": "/card/rjs-mg-album-filmstrip-after-midnight.jpg",
             "rounded": false
+          },
+          {
+            "id": "fwfBq8sGgjrtAooX8W3ow",
+            "code": "jewel",
+            "name": "Jewel",
+            "memberCode": "rjs",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/rjs-mg-album-jewel.jpg",
+            "rounded": true
           }
         ],
         "pob": [
@@ -2286,16 +2287,6 @@
             "rounded": true
           },
           {
-            "id": "0zDrLNv59vzqcEWKDMQny",
-            "code": "weverse",
-            "name": "Weverse",
-            "memberCode": "rjs",
-            "eraCode": "mg",
-            "sectionCode": "pob",
-            "img": "/card/rjs-mg-pob-weverse.jpg",
-            "rounded": false
-          },
-          {
             "id": "rEtAipycaA2utH-IprLLC",
             "code": "tower-records-1",
             "name": "Tower Records 1",
@@ -2334,6 +2325,16 @@
             "sectionCode": "pob",
             "img": "/card/rjs-mg-pob-universal-music-japan-2.jpg",
             "rounded": false
+          },
+          {
+            "id": "0zDrLNv59vzqcEWKDMQny",
+            "code": "weverse",
+            "name": "Weverse",
+            "memberCode": "rjs",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/rjs-mg-pob-weverse.jpg",
+            "rounded": false
           }
         ],
         "other": [
@@ -2356,16 +2357,6 @@
             "sectionCode": "other",
             "img": "/card/rjs-mg-other-naver-live-jewel.jpg",
             "rounded": true
-          },
-          {
-            "id": "WHRGoWyiwA4mtJvKk9qE8",
-            "code": "weverse-print",
-            "name": "Weverse Print",
-            "memberCode": "rjs",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/rjs-mg-other-weverse-print.jpg",
-            "rounded": false
           },
           {
             "id": "ad2LDvu1MMmZy618rbpye",
@@ -2426,6 +2417,16 @@
             "sectionCode": "other",
             "img": "/card/rjs-mg-other-ld-powerstation-r-2.jpg",
             "rounded": true
+          },
+          {
+            "id": "WHRGoWyiwA4mtJvKk9qE8",
+            "code": "weverse-print",
+            "name": "Weverse Print",
+            "memberCode": "rjs",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/rjs-mg-other-weverse-print.jpg",
+            "rounded": false
           }
         ],
         "fs": [
@@ -2576,16 +2577,6 @@
             "rounded": true
           },
           {
-            "id": "Axe4zfUo_1kOdkyuur58A",
-            "code": "jewel",
-            "name": "Jewel",
-            "memberCode": "pjw",
-            "eraCode": "mg",
-            "sectionCode": "album",
-            "img": "/card/pjw-mg-album-jewel.jpg",
-            "rounded": true
-          },
-          {
             "id": "FNbKcfyiWEz31y2ItQZ1S",
             "code": "kihno-before-midnight",
             "name": "Kihno Before Midnight",
@@ -2684,6 +2675,16 @@
             "sectionCode": "album",
             "img": "/card/pjw-mg-album-filmstrip-after-midnight.jpg",
             "rounded": false
+          },
+          {
+            "id": "Axe4zfUo_1kOdkyuur58A",
+            "code": "jewel",
+            "name": "Jewel",
+            "memberCode": "pjw",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/pjw-mg-album-jewel.jpg",
+            "rounded": true
           }
         ],
         "pob": [
@@ -2748,16 +2749,6 @@
             "rounded": true
           },
           {
-            "id": "apW6ZIXV3Ek751OtB2m0k",
-            "code": "weverse",
-            "name": "Weverse",
-            "memberCode": "pjw",
-            "eraCode": "mg",
-            "sectionCode": "pob",
-            "img": "/card/pjw-mg-pob-weverse.jpg",
-            "rounded": false
-          },
-          {
             "id": "UAPFc285wy6mPD-UXnsut",
             "code": "tower-records-1",
             "name": "Tower Records 1",
@@ -2796,6 +2787,16 @@
             "sectionCode": "pob",
             "img": "/card/pjw-mg-pob-universal-music-japan-2.jpg",
             "rounded": false
+          },
+          {
+            "id": "apW6ZIXV3Ek751OtB2m0k",
+            "code": "weverse",
+            "name": "Weverse",
+            "memberCode": "pjw",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/pjw-mg-pob-weverse.jpg",
+            "rounded": false
           }
         ],
         "other": [
@@ -2818,16 +2819,6 @@
             "sectionCode": "other",
             "img": "/card/pjw-mg-other-naver-live-jewel.jpg",
             "rounded": true
-          },
-          {
-            "id": "-AQUymvajJ28lwlQRfPOM",
-            "code": "weverse-print",
-            "name": "Weverse Print",
-            "memberCode": "pjw",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/pjw-mg-other-weverse-print.jpg",
-            "rounded": false
           },
           {
             "id": "5QwdzClxBp5vlg0VKiurY",
@@ -2888,6 +2879,16 @@
             "sectionCode": "other",
             "img": "/card/pjw-mg-other-ld-powerstation-r-2.jpg",
             "rounded": true
+          },
+          {
+            "id": "-AQUymvajJ28lwlQRfPOM",
+            "code": "weverse-print",
+            "name": "Weverse Print",
+            "memberCode": "pjw",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/pjw-mg-other-weverse-print.jpg",
+            "rounded": false
           }
         ],
         "fs": [
@@ -3038,16 +3039,6 @@
             "rounded": true
           },
           {
-            "id": "xvNDTONgQ9Hf2La1tw6yE",
-            "code": "jewel",
-            "name": "Jewel",
-            "memberCode": "lsy",
-            "eraCode": "mg",
-            "sectionCode": "album",
-            "img": "/card/lsy-mg-album-jewel.jpg",
-            "rounded": true
-          },
-          {
             "id": "DDxb9DRVdJJhTNQ6oV6C0",
             "code": "kihno-before-midnight",
             "name": "Kihno Before Midnight",
@@ -3146,6 +3137,16 @@
             "sectionCode": "album",
             "img": "/card/lsy-mg-album-filmstrip-after-midnight.jpg",
             "rounded": false
+          },
+          {
+            "id": "xvNDTONgQ9Hf2La1tw6yE",
+            "code": "jewel",
+            "name": "Jewel",
+            "memberCode": "lsy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/lsy-mg-album-jewel.jpg",
+            "rounded": true
           }
         ],
         "pob": [
@@ -3210,16 +3211,6 @@
             "rounded": true
           },
           {
-            "id": "PpjwudTlJ9zlE9BjQ7dyw",
-            "code": "weverse",
-            "name": "Weverse",
-            "memberCode": "lsy",
-            "eraCode": "mg",
-            "sectionCode": "pob",
-            "img": "/card/lsy-mg-pob-weverse.jpg",
-            "rounded": false
-          },
-          {
             "id": "oFSUpmc94jQSojX9roJWN",
             "code": "tower-records-1",
             "name": "Tower Records 1",
@@ -3258,6 +3249,16 @@
             "sectionCode": "pob",
             "img": "/card/lsy-mg-pob-universal-music-japan-2.jpg",
             "rounded": false
+          },
+          {
+            "id": "PpjwudTlJ9zlE9BjQ7dyw",
+            "code": "weverse",
+            "name": "Weverse",
+            "memberCode": "lsy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/lsy-mg-pob-weverse.jpg",
+            "rounded": false
           }
         ],
         "other": [
@@ -3280,16 +3281,6 @@
             "sectionCode": "other",
             "img": "/card/lsy-mg-other-naver-live-jewel.jpg",
             "rounded": true
-          },
-          {
-            "id": "tIr1X8XsywqVAdfR9zAwd",
-            "code": "weverse-print",
-            "name": "Weverse Print",
-            "memberCode": "lsy",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/lsy-mg-other-weverse-print.jpg",
-            "rounded": false
           },
           {
             "id": "_01fzijZRLrhfBvVcV11F",
@@ -3350,6 +3341,16 @@
             "sectionCode": "other",
             "img": "/card/lsy-mg-other-ld-powerstation-r-2.jpg",
             "rounded": true
+          },
+          {
+            "id": "tIr1X8XsywqVAdfR9zAwd",
+            "code": "weverse-print",
+            "name": "Weverse Print",
+            "memberCode": "lsy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lsy-mg-other-weverse-print.jpg",
+            "rounded": false
           }
         ],
         "fs": [
@@ -3500,16 +3501,6 @@
             "rounded": true
           },
           {
-            "id": "yMfrmEZbNgJlj-TxoRUw1",
-            "code": "jewel",
-            "name": "Jewel",
-            "memberCode": "lcy",
-            "eraCode": "mg",
-            "sectionCode": "album",
-            "img": "/card/lcy-mg-album-jewel.jpg",
-            "rounded": true
-          },
-          {
             "id": "KKJfoQYE9Tdt6jBDqh-6j",
             "code": "kihno-before-midnight",
             "name": "Kihno Before Midnight",
@@ -3608,6 +3599,16 @@
             "sectionCode": "album",
             "img": "/card/lcy-mg-album-filmstrip-after-midnight.jpg",
             "rounded": false
+          },
+          {
+            "id": "yMfrmEZbNgJlj-TxoRUw1",
+            "code": "jewel",
+            "name": "Jewel",
+            "memberCode": "lcy",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/lcy-mg-album-jewel.jpg",
+            "rounded": true
           }
         ],
         "pob": [
@@ -3672,16 +3673,6 @@
             "rounded": true
           },
           {
-            "id": "Ib_k3X6-pDv2X7YEMaMwt",
-            "code": "weverse",
-            "name": "Weverse",
-            "memberCode": "lcy",
-            "eraCode": "mg",
-            "sectionCode": "pob",
-            "img": "/card/lcy-mg-pob-weverse.jpg",
-            "rounded": false
-          },
-          {
             "id": "JUr1NNxfnW6KNVkJgBkMz",
             "code": "tower-records-1",
             "name": "Tower Records 1",
@@ -3720,6 +3711,16 @@
             "sectionCode": "pob",
             "img": "/card/lcy-mg-pob-universal-music-japan-2.jpg",
             "rounded": false
+          },
+          {
+            "id": "Ib_k3X6-pDv2X7YEMaMwt",
+            "code": "weverse",
+            "name": "Weverse",
+            "memberCode": "lcy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/lcy-mg-pob-weverse.jpg",
+            "rounded": false
           }
         ],
         "other": [
@@ -3742,16 +3743,6 @@
             "sectionCode": "other",
             "img": "/card/lcy-mg-other-naver-live-jewel.jpg",
             "rounded": true
-          },
-          {
-            "id": "ivC5gCgvTgrGSJfd__Eep",
-            "code": "weverse-print",
-            "name": "Weverse Print",
-            "memberCode": "lcy",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/lcy-mg-other-weverse-print.jpg",
-            "rounded": false
           },
           {
             "id": "6fknxKNLoUI3QqABU6pGa",
@@ -3812,6 +3803,16 @@
             "sectionCode": "other",
             "img": "/card/lcy-mg-other-ld-powerstation-r-2.jpg",
             "rounded": true
+          },
+          {
+            "id": "ivC5gCgvTgrGSJfd__Eep",
+            "code": "weverse-print",
+            "name": "Weverse Print",
+            "memberCode": "lcy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lcy-mg-other-weverse-print.jpg",
+            "rounded": false
           }
         ],
         "fs": [
@@ -3962,16 +3963,6 @@
             "rounded": true
           },
           {
-            "id": "CxhCWepVjudacwi1tcwbz",
-            "code": "jewel",
-            "name": "Jewel",
-            "memberCode": "bjh",
-            "eraCode": "mg",
-            "sectionCode": "album",
-            "img": "/card/bjh-mg-album-jewel.jpg",
-            "rounded": true
-          },
-          {
             "id": "4DIb73R6mi9Rd-68KHP9X",
             "code": "kihno-before-midnight",
             "name": "Kihno Before Midnight",
@@ -4070,6 +4061,16 @@
             "sectionCode": "album",
             "img": "/card/bjh-mg-album-filmstrip-after-midnight.jpg",
             "rounded": false
+          },
+          {
+            "id": "CxhCWepVjudacwi1tcwbz",
+            "code": "jewel",
+            "name": "Jewel",
+            "memberCode": "bjh",
+            "eraCode": "mg",
+            "sectionCode": "album",
+            "img": "/card/bjh-mg-album-jewel.jpg",
+            "rounded": true
           }
         ],
         "pob": [
@@ -4134,16 +4135,6 @@
             "rounded": true
           },
           {
-            "id": "zO1ilfWoRBFx1-hNN2ycd",
-            "code": "weverse",
-            "name": "Weverse",
-            "memberCode": "bjh",
-            "eraCode": "mg",
-            "sectionCode": "pob",
-            "img": "/card/bjh-mg-pob-weverse.jpg",
-            "rounded": false
-          },
-          {
             "id": "Ifkp3-7gwaALopzZrdSr-",
             "code": "tower-records-1",
             "name": "Tower Records 1",
@@ -4182,6 +4173,16 @@
             "sectionCode": "pob",
             "img": "/card/bjh-mg-pob-universal-music-japan-2.jpg",
             "rounded": false
+          },
+          {
+            "id": "zO1ilfWoRBFx1-hNN2ycd",
+            "code": "weverse",
+            "name": "Weverse",
+            "memberCode": "bjh",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/bjh-mg-pob-weverse.jpg",
+            "rounded": false
           }
         ],
         "other": [
@@ -4204,16 +4205,6 @@
             "sectionCode": "other",
             "img": "/card/bjh-mg-other-naver-live-jewel.jpg",
             "rounded": true
-          },
-          {
-            "id": "xraqW__sNRCQOI_ds2pdd",
-            "code": "weverse-print",
-            "name": "Weverse Print",
-            "memberCode": "bjh",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/bjh-mg-other-weverse-print.jpg",
-            "rounded": false
           },
           {
             "id": "6_Ouw_r-To2Gibxpgz5Xy",
@@ -4274,6 +4265,16 @@
             "sectionCode": "other",
             "img": "/card/bjh-mg-other-ld-powerstation-r-2.jpg",
             "rounded": true
+          },
+          {
+            "id": "xraqW__sNRCQOI_ds2pdd",
+            "code": "weverse-print",
+            "name": "Weverse Print",
+            "memberCode": "bjh",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/bjh-mg-other-weverse-print.jpg",
+            "rounded": false
           }
         ],
         "fs": [

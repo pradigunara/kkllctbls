@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import imageCompression from 'browser-image-compression'
-import { useEffect, useState } from 'react'
-import { Form, Input, Select, Row, Col, Upload, Button, Switch } from 'antd'
+import { useState } from 'react'
+import { Form, Select, Row, Col, Upload, Button } from 'antd'
 import db from 'data/db.json'
 
 const submitInput = (data) =>

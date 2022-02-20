@@ -1,6 +1,6 @@
 import _ from 'lodash'
 import { useRouter } from 'next/router'
-import { Row, Col, Divider } from 'antd'
+import { Row, Col, Divider, Radio } from 'antd'
 import Header from 'components/header'
 import Footer from 'components/footer'
 import Breadcrumbs from 'components/breadcrumbs'
@@ -8,11 +8,14 @@ import db from 'data/db.json'
 import { useState } from 'react'
 import { useDoubleTap } from 'use-double-tap'
 
-const CHUNK_SIZE = 3
-
 export default function Era() {
   const router = useRouter()
   const { member, era } = router.query
+  const foundMember = _.find(db.members, { code: router.query?.member })
+  const foundEra = _.find(db.eras, { code: router.query?.era })
+
+  const [chunkSize, setChunkSize] = useState(foundEra?.photosPerRow ?? 3)
+
   const eraSections = db.cards?.[member]?.[era] ?? []
   const sectionList = db.sections?.[era] ?? []
   const sortedSections = sectionList.map((section) => ({
@@ -20,31 +23,39 @@ export default function Era() {
     content: eraSections[section.code],
   }))
 
-  const getSectionName = (code) =>
-    _.find(db.sections?.[router.query?.era], {
-      code,
-    })?.name
+  const handleChunkChange = ({ target }) => {
+    setChunkSize(target?.value)
+  }
 
   return (
     <>
       <Row justify="center">
-        <Col span={22} offset={1}>
+        <Col span={22}>
           <Header />
           <Breadcrumbs
             crumbs={[
-              [
-                _.find(db.members, { code: router.query?.member })?.name,
-                `/${router.query?.member}`,
-              ],
-              [_.find(db.eras, { code: router.query?.era })?.name],
+              [foundMember?.name, `/${router.query?.member}`],
+              [foundEra?.name],
             ]}
           />
+
           <h2>Double tap to mark photos!</h2>
+
+          <Row justify="end">
+            <Col>Photos per row :</Col>
+            <Col offset={1}>
+              <Radio.Group onChange={handleChunkChange} value={chunkSize}>
+                <Radio value={3}>3</Radio>
+                <Radio value={4}>4</Radio>
+              </Radio.Group>
+            </Col>
+          </Row>
+
           <Row>
             <Col>
               {sortedSections.map(({ name, content }) => (
                 <Row key={name}>
-                  <Section name={name} content={content} />
+                  <Section name={name} content={content} chunk={chunkSize} />
                 </Row>
               ))}
             </Col>
@@ -71,14 +82,10 @@ function getIDs() {
   return JSON.parse(localStorage.getItem(STORAGE_KEY))
 }
 
-function Section({ name, content }) {
+function Section({ name, content, chunk = 3 }) {
   const [crossed, setCrossed] = useState(new Set(getIDs()))
 
-  console.log('crs', crossed)
-
   const handleDoubleTap = (imgID) => {
-    console.log('id', imgID)
-
     crossed.has(imgID) ? crossed.delete(imgID) : crossed.add(imgID)
 
     const updatedIDs = [...crossed]
@@ -87,7 +94,7 @@ function Section({ name, content }) {
     return setCrossed(new Set(updatedIDs))
   }
 
-  const chunkedContent = _.chunk(content ?? [], CHUNK_SIZE)
+  const chunkedContent = _.chunk(content ?? [], chunk)
 
   return (
     <>
@@ -106,6 +113,7 @@ function Section({ name, content }) {
                 card={card}
                 isCrossed={crossed.has(card.id)}
                 onDoubleTap={handleDoubleTap}
+                chunk={chunk}
               />
             ))}
           </Row>
@@ -115,15 +123,16 @@ function Section({ name, content }) {
   )
 }
 
-function Card({ card, isCrossed, onDoubleTap }) {
+function Card({ card, isCrossed, onDoubleTap, chunk = 3 }) {
   const bindDoubleTap = useDoubleTap((e) => {
     return onDoubleTap(e?.target?.id)
   }, 800)
 
   return (
-    <Col span={8} key={card.id} style={{ marginBottom: '1em' }}>
+    <Col span={24 / chunk} key={card.id} style={{ marginBottom: '1em' }}>
       <span
         style={{
+          fontSize: `${3 / chunk}em`,
           textDecoration: isCrossed && 'line-through',
         }}
       >
@@ -138,7 +147,7 @@ function Card({ card, isCrossed, onDoubleTap }) {
           cursor: 'pointer',
           borderRadius: card.rounded && '0.8em',
           opacity: isCrossed && '0.3',
-          boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)'
+          boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
         }}
         src={card.img}
         alt={card.name}
