@@ -39,6 +39,8 @@ export default function Home() {
                               maxHeight: '50vh',
                               width: '100%',
                               minWidth: 0,
+                              borderRadius: '0.8em',
+                              boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)'
                             }}
                             src={member.img}
                             alt={member.name}

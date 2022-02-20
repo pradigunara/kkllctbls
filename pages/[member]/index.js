@@ -47,6 +47,7 @@ export default function Member() {
                               maxHeight: '50vh',
                               width: '100%',
                               minWidth: 0,
+                              boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)'
                             }}
                             src={era.img}
                             alt={era.name}
