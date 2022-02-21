@@ -88,7 +88,7 @@ export default function Era() {
         </Col>
       </Row>
 
-      <Container>
+      <Container span={24}>
         {sortedSections.map(({ name, content }) => {
           const contentChunks = _.chain(content ?? [])
             .filter((c) => (hideMark ? !crossed.has(c.id) : true))
@@ -129,7 +129,7 @@ function Container({ children, span }) {
 
 function Section({ name, children }) {
   return (
-    <Container>
+    <Container span={24}>
       <Divider />
       <h2>{name}</h2>
       {children}
