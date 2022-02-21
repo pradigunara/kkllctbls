@@ -35,7 +35,8 @@ export default function Era() {
     setChunkSize(foundEra?.photosPerRow)
   }, [foundEra])
 
-  const [hideMark, setHideMark] = useState(false)
+  const [showMark, setShowMark] = useState(true)
+  const [showName, setShowName] = useState(true)
   const [crossed, setCrossed] = useState(new Set(getIDs()))
 
   const eraSections = db.cards?.[member]?.[era] ?? []
@@ -46,7 +47,8 @@ export default function Era() {
   }))
 
   const handleChunkChange = ({ target }) => setChunkSize(target?.value)
-  const handleHideMarkChange = ({ target }) => setHideMark(target?.value)
+  const handleShowMarkChange = ({ target }) => setShowMark(target?.value)
+  const handleShowNameChange = ({ target }) => setShowName(target?.value)
 
   const handleDoubleTap = (imgID) => {
     crossed.has(imgID) ? crossed.delete(imgID) : crossed.add(imgID)
@@ -79,9 +81,18 @@ export default function Era() {
         </Col>
       </Row>
       <Row justify="end">
-        <Col>Hide marked :</Col>
+        <Col>Show marked :</Col>
         <Col offset={1}>
-          <Radio.Group onChange={handleHideMarkChange} value={hideMark}>
+          <Radio.Group onChange={handleShowMarkChange} value={showMark}>
+            <Radio value={true}>Y</Radio>
+            <Radio value={false}>N</Radio>
+          </Radio.Group>
+        </Col>
+      </Row>
+      <Row justify="end">
+        <Col>Show name :</Col>
+        <Col offset={1}>
+          <Radio.Group onChange={handleShowNameChange} value={showName}>
             <Radio value={true}>Y</Radio>
             <Radio value={false}>N</Radio>
           </Radio.Group>
@@ -91,14 +102,14 @@ export default function Era() {
       <Container span={24}>
         {sortedSections.map(({ name, content }) => {
           const contentChunks = _.chain(content ?? [])
-            .filter((c) => (hideMark ? !crossed.has(c.id) : true))
+            .filter((c) => (showMark ? true : !crossed.has(c.id)))
             .chunk(chunkSize)
             .value()
 
           return (
             <Section name={name} key={name}>
               {contentChunks.map((cardChunk, idx) => (
-                <CardRow key={`${name}-${idx}`}>
+                <CardRow key={`${name}-${idx}`} chunk={chunkSize}>
                   {cardChunk.map((card) => (
                     <Card
                       key={card.id}
@@ -106,6 +117,7 @@ export default function Era() {
                       isCrossed={crossed.has(card.id)}
                       onDoubleTap={handleDoubleTap}
                       chunk={chunkSize}
+                      showName={showName}
                     />
                   ))}
                 </CardRow>
@@ -141,15 +153,21 @@ function Section({ name, children }) {
   )
 }
 
-function CardRow({ children }) {
+function CardRow({ children, chunk }) {
+  const base = chunk === 3 ? 8 : chunk === 4 ? 4 : 8
+
   return (
-    <Row gutter={{ xs: 16, md: 24 }} justify="space-evenly" align="bottom">
+    <Row
+      gutter={{ xs: base * 2, md: base * 3 }}
+      justify="space-evenly"
+      align="bottom"
+    >
       {children}
     </Row>
   )
 }
 
-function Card({ card, isCrossed, onDoubleTap, chunk = 3 }) {
+function Card({ card, isCrossed, onDoubleTap, chunk = 3, showName }) {
   const bindDoubleTap = useDoubleTap((e) => {
     return onDoubleTap(e?.target?.id)
   }, 800)
@@ -160,6 +178,7 @@ function Card({ card, isCrossed, onDoubleTap, chunk = 3 }) {
         style={{
           fontSize: `${3 / chunk}em`,
           textDecoration: isCrossed && 'line-through',
+          display: !showName && 'none',
         }}
       >
         {card.name}
