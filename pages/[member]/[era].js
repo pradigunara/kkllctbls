@@ -1,77 +1,18 @@
 import _ from 'lodash'
+import { useState, useEffect } from 'react'
+import { useDoubleTap } from 'use-double-tap'
 import { useRouter } from 'next/router'
 import { Row, Col, Divider, Radio } from 'antd'
 import Header from 'components/header'
 import Footer from 'components/footer'
 import Breadcrumbs from 'components/breadcrumbs'
 import db from 'data/db.json'
-import { useState } from 'react'
-import { useDoubleTap } from 'use-double-tap'
-
-export default function Era() {
-  const router = useRouter()
-  const { member, era } = router.query
-  const foundMember = _.find(db.members, { code: router.query?.member })
-  const foundEra = _.find(db.eras, { code: router.query?.era })
-
-  const [chunkSize, setChunkSize] = useState(foundEra?.photosPerRow ?? 3)
-
-  const eraSections = db.cards?.[member]?.[era] ?? []
-  const sectionList = db.sections?.[era] ?? []
-  const sortedSections = sectionList.map((section) => ({
-    name: section.name,
-    content: eraSections[section.code],
-  }))
-
-  const handleChunkChange = ({ target }) => {
-    setChunkSize(target?.value)
-  }
-
-  return (
-    <>
-      <Row justify="center">
-        <Col span={22}>
-          <Header />
-          <Breadcrumbs
-            crumbs={[
-              [foundMember?.name, `/${router.query?.member}`],
-              [foundEra?.name],
-            ]}
-          />
-
-          <h2>Double tap to mark photos!</h2>
-
-          <Row justify="end">
-            <Col>Photos per row :</Col>
-            <Col offset={1}>
-              <Radio.Group onChange={handleChunkChange} value={chunkSize}>
-                <Radio value={3}>3</Radio>
-                <Radio value={4}>4</Radio>
-              </Radio.Group>
-            </Col>
-          </Row>
-
-          <Row>
-            <Col>
-              {sortedSections.map(({ name, content }) => (
-                <Row key={name}>
-                  <Section name={name} content={content} chunk={chunkSize} />
-                </Row>
-              ))}
-            </Col>
-          </Row>
-        </Col>
-        <Footer />
-      </Row>
-    </>
-  )
-}
 
 const STORAGE_KEY = 'crossedIds'
 
 const localStorage =
   typeof window === 'undefined'
-    ? { getItem: _.noop, setItem: _.noop }
+    ? { getItem: _.constant('[]'), setItem: _.noop }
     : window?.localStorage
 
 function storeIDs(ids) {
@@ -82,8 +23,28 @@ function getIDs() {
   return JSON.parse(localStorage.getItem(STORAGE_KEY))
 }
 
-function Section({ name, content, chunk = 3 }) {
+export default function Era() {
+  const router = useRouter()
+  const { member, era } = router.query
+  const foundMember = _.find(db.members, { code: router.query?.member })
+  const foundEra = _.find(db.eras, { code: router.query?.era })
+
+  const [chunkSize, setChunkSize] = useState(3)
+  useEffect(() => {
+    // era can be delayed
+    setChunkSize(foundEra?.photosPerRow)
+  }, [foundEra])
+
   const [crossed, setCrossed] = useState(new Set(getIDs()))
+
+  const eraSections = db.cards?.[member]?.[era] ?? []
+  const sectionList = db.sections?.[era] ?? []
+  const sortedSections = sectionList.map((section) => ({
+    name: section.name,
+    content: eraSections[section.code],
+  }))
+
+  const handleChunkChange = ({ target }) => setChunkSize(target?.value)
 
   const handleDoubleTap = (imgID) => {
     crossed.has(imgID) ? crossed.delete(imgID) : crossed.add(imgID)
@@ -94,32 +55,75 @@ function Section({ name, content, chunk = 3 }) {
     return setCrossed(new Set(updatedIDs))
   }
 
-  const chunkedContent = _.chunk(content ?? [], chunk)
-
   return (
-    <>
-      <Divider />
-      <h1>{name}</h1>
-      <Col>
-        {chunkedContent.map((cardChunk, idx) => (
-          <Row
-            gutter={{ xs: 16, md: 24 }}
-            justify="space-evenly"
-            align="bottom"
-            key={idx}
-          >
-            {cardChunk.map((card) => (
-              <Card
-                card={card}
-                isCrossed={crossed.has(card.id)}
-                onDoubleTap={handleDoubleTap}
-                chunk={chunk}
-              />
+    <Container span={22}>
+      <Header />
+      <Breadcrumbs
+        crumbs={[
+          [foundMember?.name, `/${router.query?.member}`],
+          [foundEra?.name],
+        ]}
+      />
+
+      <h2>Double tap to mark photos!</h2>
+
+      <Row justify="end">
+        <Col>Photos per row :</Col>
+        <Col offset={1}>
+          <Radio.Group onChange={handleChunkChange} value={chunkSize}>
+            <Radio value={3}>3</Radio>
+            <Radio value={4}>4</Radio>
+          </Radio.Group>
+        </Col>
+      </Row>
+
+      <Container>
+        {sortedSections.map(({ name, content }) => (
+          <Section name={name} key={name}>
+            {_.chunk(content ?? [], chunkSize).map((cardChunk, idx) => (
+              <CardRow key={`${name}-${idx}`}>
+                {cardChunk.map((card) => (
+                  <Card
+                    key={card.id}
+                    card={card}
+                    isCrossed={crossed.has(card.id)}
+                    onDoubleTap={handleDoubleTap}
+                    chunk={chunkSize}
+                  />
+                ))}
+              </CardRow>
             ))}
-          </Row>
+          </Section>
         ))}
-      </Col>
-    </>
+      </Container>
+      <Footer />
+    </Container>
+  )
+}
+
+function Container({ children, span }) {
+  return (
+    <Row justify="center">
+      <Col span={span}>{children}</Col>
+    </Row>
+  )
+}
+
+function Section({ name, children }) {
+  return (
+    <Container>
+      <Divider />
+      <h2>{name}</h2>
+      {children}
+    </Container>
+  )
+}
+
+function CardRow({ children }) {
+  return (
+    <Row gutter={{ xs: 16, md: 24 }} justify="space-evenly" align="bottom">
+      {children}
+    </Row>
   )
 }
 
