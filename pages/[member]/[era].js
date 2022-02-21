@@ -35,6 +35,7 @@ export default function Era() {
     setChunkSize(foundEra?.photosPerRow)
   }, [foundEra])
 
+  const [hideMark, setHideMark] = useState(false)
   const [crossed, setCrossed] = useState(new Set(getIDs()))
 
   const eraSections = db.cards?.[member]?.[era] ?? []
@@ -45,6 +46,7 @@ export default function Era() {
   }))
 
   const handleChunkChange = ({ target }) => setChunkSize(target?.value)
+  const handleHideMarkChange = ({ target }) => setHideMark(target?.value)
 
   const handleDoubleTap = (imgID) => {
     crossed.has(imgID) ? crossed.delete(imgID) : crossed.add(imgID)
@@ -76,25 +78,41 @@ export default function Era() {
           </Radio.Group>
         </Col>
       </Row>
+      <Row justify="end">
+        <Col>Hide marked :</Col>
+        <Col offset={1}>
+          <Radio.Group onChange={handleHideMarkChange} value={hideMark}>
+            <Radio value={true}>Y</Radio>
+            <Radio value={false}>N</Radio>
+          </Radio.Group>
+        </Col>
+      </Row>
 
       <Container>
-        {sortedSections.map(({ name, content }) => (
-          <Section name={name} key={name}>
-            {_.chunk(content ?? [], chunkSize).map((cardChunk, idx) => (
-              <CardRow key={`${name}-${idx}`}>
-                {cardChunk.map((card) => (
-                  <Card
-                    key={card.id}
-                    card={card}
-                    isCrossed={crossed.has(card.id)}
-                    onDoubleTap={handleDoubleTap}
-                    chunk={chunkSize}
-                  />
-                ))}
-              </CardRow>
-            ))}
-          </Section>
-        ))}
+        {sortedSections.map(({ name, content }) => {
+          const contentChunks = _.chain(content ?? [])
+            .filter((c) => (hideMark ? !crossed.has(c.id) : true))
+            .chunk(chunkSize)
+            .value()
+
+          return (
+            <Section name={name} key={name}>
+              {contentChunks.map((cardChunk, idx) => (
+                <CardRow key={`${name}-${idx}`}>
+                  {cardChunk.map((card) => (
+                    <Card
+                      key={card.id}
+                      card={card}
+                      isCrossed={crossed.has(card.id)}
+                      onDoubleTap={handleDoubleTap}
+                      chunk={chunkSize}
+                    />
+                  ))}
+                </CardRow>
+              ))}
+            </Section>
+          )
+        })}
       </Container>
       <Footer />
     </Container>
@@ -149,7 +167,7 @@ function Card({ card, isCrossed, onDoubleTap, chunk = 3 }) {
           width: '100%',
           minWidth: 0,
           cursor: 'pointer',
-          borderRadius: card.rounded && '0.8em',
+          borderRadius: card.rounded && `${2.4 / chunk}em`,
           opacity: isCrossed && '0.3',
           boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
         }}
