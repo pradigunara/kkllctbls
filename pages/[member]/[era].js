@@ -130,8 +130,12 @@ function Container({ children, span }) {
 function Section({ name, children }) {
   return (
     <Container span={24}>
-      <Divider />
-      <h2>{name}</h2>
+      <Divider
+        orientation="left"
+        style={{ fontWeight: '600', fontSize: '1.2em' }}
+      >
+        {name}
+      </Divider>
       {children}
     </Container>
   )
