@@ -23,14 +23,16 @@ export default function InputPage() {
   const [selectedEra, setSelectedEra] = useState()
   const [selectedSection, setSelectedSection] = useState()
 
-  const findVariant = (era, section) => _.find(db.sections?.[era], { code: section })?.variant ?? {}
+  const findVariant = (era, section) =>
+    _.find(db.sections?.[era], { code: section })?.variant ?? {}
 
   const handleFinish = (form) => {
-    const rounded = findVariant(form.eraCode, form.sectionCode)?.[form.name]?.rounded ?? true
+    const rounded =
+      findVariant(form.eraCode, form.sectionCode)?.[form.name]?.rounded ?? true
 
     const payload = {
       ...form,
-      rounded
+      rounded,
     }
 
     submitInput(payload).then(() => alert('OK'))
@@ -41,7 +43,10 @@ export default function InputPage() {
 
   const nameVariant =
     _.find(db.sections?.[selectedEra], { code: selectedSection })?.variant ?? {}
-  const nameOptions = _.keys(nameVariant).map((name) => ({ label: name, value: name }))
+  const nameOptions = _.keys(nameVariant).map((name) => ({
+    label: name,
+    value: name,
+  }))
 
   return (
     <Row justify="center" style={{ marginTop: '5vh' }}>
@@ -152,28 +157,33 @@ function ImageUploader({ value, onChange, filenamePrefix = '', rounded }) {
     handleChange({ fileList: dataTransfer.files })
 
   return (
-    <>
-      <Upload.Dragger
-        accept="image/jpg"
-        listType="picture"
-        defaultFileList={internalFileList}
-        beforeUpload={() => false}
-        onChange={handleChange}
-        onDrop={handleDrop}
-        maxCount={1}
-        openFileDialogOnClick={false}
-      >
-        Drag to Upload Here
-      </Upload.Dragger>
+    <Row style={{ minHeight: '20vh' }} justify="space-between">
+      <Col span={8}>
+        <img
+          src={b64src}
+          style={{
+            maxHeight: '20vh',
+            borderRadius: rounded && '0.8em',
+            boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
+          }}
+        />
+      </Col>
+      <Col span={16}>
+        <Upload.Dragger
+          accept="image/jpg"
+          listType="text"
+          defaultFileList={internalFileList}
+          beforeUpload={() => false}
+          onChange={handleChange}
+          onDrop={handleDrop}
+          maxCount={1}
+          showUploadList={false}
+          openFileDialogOnClick={false}
+        >
+          Drag to Upload Here
+        </Upload.Dragger>
+      </Col>
       <br />
-      <img
-        src={b64src}
-        style={{
-          maxHeight: '20vh',
-          borderRadius: rounded && '0.8em',
-          boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)'
-        }}
-      />
-    </>
+    </Row>
   )
 }

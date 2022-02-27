@@ -31,6 +31,7 @@ export default function Member() {
                 <Row
                   gutter={{ xs: 16, md: 24 }}
                   justify="space-evenly"
+                  align="bottom"
                   key={idx}
                 >
                   {chunk.map((era) => (
