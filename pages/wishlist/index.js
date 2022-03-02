@@ -63,20 +63,23 @@ export default function Wishlist() {
     doSwap(index, 1)
   }
 
-  const handleDelete = (index) => {
-    const slicedWishlist = wishlists
-      .slice(0, index)
-      .concat(wishlists.slice(index + 1))
-
-    storeWishlist(slicedWishlist)
-    setWishlists(slicedWishlist)
-  }
-
   const prioSet = new Set(JSON.parse(prioIds))
   const handlePrio = (id) => {
     prioSet.has(id) ? prioSet.delete(id) : prioSet.add(id)
 
     setPrioIds(JSON.stringify([...prioSet.values()]))
+  }
+
+  const handleDelete = (id, index) => {
+    const slicedWishlist = wishlists
+      .slice(0, index)
+      .concat(wishlists.slice(index + 1))
+
+    prioSet.delete(id)
+    setPrioIds(JSON.stringify([...prioSet.values()]))
+
+    storeWishlist(slicedWishlist)
+    setWishlists(slicedWishlist)
   }
 
   const selectedChunkSize = chunkSizeSelection[chunkSizeIdx]
@@ -188,8 +191,8 @@ function Card({
             size="small"
             type="primary"
             danger
-            onClick={() => onDelete(index)}
-            style={{ marginBottom: '-50%', marginTop: '5%', zIndex: 500 }}
+            onClick={() => onDelete(card?.id, index)}
+            style={{ marginBottom: '5%' }}
           >
             Delete
           </Button>
@@ -241,7 +244,7 @@ function MoveButton({ children, onClick }) {
     <Button
       shape="circle"
       size="small"
-      style={{ marginTop: '-60%', marginLeft: '5%', marginRight: '5%' }}
+      style={{ marginTop: '-60%', marginLeft: '-15%', marginRight: '-15%' }}
       onClick={onClick}
     >
       {children}
