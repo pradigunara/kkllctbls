@@ -2,7 +2,7 @@ import _ from 'lodash'
 import { useState, useEffect } from 'react'
 import { useDoubleTap } from 'use-double-tap'
 import { useRouter } from 'next/router'
-import { Row, Col, Divider, Radio, Button } from 'antd'
+import { Row, Col, Divider, Radio, Button, Modal } from 'antd'
 import { StarOutlined, StarFilled } from '@ant-design/icons'
 import Header from 'components/header'
 import Footer from 'components/footer'
@@ -12,26 +12,23 @@ import db from 'data/db.json'
 const CROSSED_STORAGE_KEY = 'crossedIds'
 const WISHLIST_STORAGE_KEY = 'wishlists'
 
-const localStorage =
-  typeof window === 'undefined'
-    ? { getItem: _.constant('[]'), setItem: _.noop }
-    : window?.localStorage
+const win = typeof window === 'undefined' ? {} : window
 
 function storeIDs(ids) {
-  localStorage.setItem(CROSSED_STORAGE_KEY, JSON.stringify(ids))
+  win.localStorage.setItem(CROSSED_STORAGE_KEY, JSON.stringify(ids))
 }
 
 function getIDs() {
-  return new Set(JSON.parse(localStorage.getItem(CROSSED_STORAGE_KEY)))
+  return new Set(JSON.parse(win.localStorage.getItem(CROSSED_STORAGE_KEY)))
 }
 
 function storeWishlist(wishlist) {
-  localStorage.setItem(WISHLIST_STORAGE_KEY, JSON.stringify(wishlist))
+  win.localStorage.setItem(WISHLIST_STORAGE_KEY, JSON.stringify(wishlist))
 }
 
 function getWishlist() {
   const wishlist = JSON.parse(
-    localStorage.getItem(WISHLIST_STORAGE_KEY) || '[]'
+    win.localStorage.getItem(WISHLIST_STORAGE_KEY) || '[]'
   )
 
   return new Map(wishlist.map(({ id, url, rounded }) => [id, { url, rounded }]))
@@ -66,12 +63,38 @@ export default function Era() {
   const handleShowMarkChange = ({ target }) => setShowMark(target?.value)
   const handleShowNameChange = ({ target }) => setShowName(target?.value)
 
+  const handleWishlistMode = () => {
+    !win.sessionStorage.getItem('wlguide') &&
+      !wishlistMode &&
+      Modal.info({
+        title: 'Wishlist Mode',
+        content: (
+          <div>
+            <p>
+              In this mode, double-tapping the item will add that item to your
+              wishlist.
+              <br />
+              You can access your wishlist from the bottom of homepage (below
+              member selection)
+            </p>
+          </div>
+        ),
+        onOk() {
+          win.sessionStorage.setItem('wlguide', '1')
+        },
+      })
+
+    setWishlistMode((wl) => !wl)
+  }
+
   const handleToggleWishlist = (id, url, rounded) => {
-    wishlists.has(id) ? wishlists.delete(id) : wishlists.set(id, { url, rounded })
+    wishlists.has(id)
+      ? wishlists.delete(id)
+      : wishlists.set(id, { url, rounded })
 
     const updatedWishlists = _.map([...wishlists.entries()], ([k, v]) => ({
       id: k,
-      ...v
+      ...v,
     }))
 
     storeWishlist(updatedWishlists)
@@ -100,7 +123,7 @@ export default function Era() {
             shape="circle"
             icon={wishlistMode ? <StarFilled /> : <StarOutlined />}
             size="large"
-            onClick={() => setWishlistMode((wl) => !wl)}
+            onClick={handleWishlistMode}
           />
         }
       />
@@ -148,7 +171,9 @@ export default function Era() {
       <Container span={24}>
         {sortedSections.map(({ name, content }) => {
           const contentChunks = _.chain(content ?? [])
-            .filter((c) => ((wishlistMode || showMark) ? true : !crossed.has(c.id)))
+            .filter((c) =>
+              wishlistMode || showMark ? true : !crossed.has(c.id)
+            )
             .chunk(chunkSize)
             .value()
 

@@ -7,7 +7,7 @@ export default function Header({ slotRight }) {
       <Col>
         <Link href="/">
           <a>
-            <p
+            <div
               style={{
                 lineHeight: '0.3em',
                 fontSize: '1.5em',
@@ -16,7 +16,7 @@ export default function Header({ slotRight }) {
             >
               <h1>Kkollectibles</h1>
               <h5>.nakko.fans</h5>
-            </p>
+            </div>
           </a>
         </Link>
       </Col>

@@ -1,15 +1,15 @@
 import _ from 'lodash'
 import { useState } from 'react'
-import { useRouter } from 'next/router'
-import { Button, Col, Divider, Radio, Row } from 'antd'
+import { Button, Col, Divider, Row } from 'antd'
 import Header from 'components/header'
 import Footer from 'components/footer'
 import Breadcrumbs from 'components/breadcrumbs'
 import { useDoubleTap } from 'use-double-tap'
-
-const CHUNK_SIZE = 6
+import { CrownFilled } from '@ant-design/icons'
+import { useLocalStorageValue } from '@mantine/hooks'
 
 const WISHLIST_STORAGE_KEY = 'wishlists'
+const PRIO_STORAGE_KEY = 'wlprio'
 
 const localStorage =
   typeof window === 'undefined'
@@ -29,6 +29,10 @@ const chunkSizeSelection = [2, 3, 4, 6]
 export default function Wishlist() {
   const [chunkSizeIdx, setChunkSizeIdx] = useState(2)
   const [wishlists, setWishlists] = useState(getWishlist())
+  const [prioIds, setPrioIds] = useLocalStorageValue({
+    key: PRIO_STORAGE_KEY,
+    defaultValue: '[]',
+  })
   const [selectedId, setSelectedId] = useState('')
 
   const handleChangeChunk = () =>
@@ -68,6 +72,13 @@ export default function Wishlist() {
     setWishlists(slicedWishlist)
   }
 
+  const prioSet = new Set(JSON.parse(prioIds))
+  const handlePrio = (id) => {
+    prioSet.has(id) ? prioSet.delete(id) : prioSet.add(id)
+
+    setPrioIds(JSON.stringify([...prioSet.values()]))
+  }
+
   const selectedChunkSize = chunkSizeSelection[chunkSizeIdx]
   const chunkedCards = _.chunk(wishlists, selectedChunkSize)
 
@@ -77,7 +88,7 @@ export default function Wishlist() {
         <Col span={22}>
           <Header />
           <Breadcrumbs crumbs={[['Wishlist']]} />
-          <h2>Double tap to move wishlist!</h2>
+          <h2>Double tap to edit wishlist!</h2>
 
           <Row justify="end">
             <Col>
@@ -90,22 +101,29 @@ export default function Wishlist() {
 
           <Divider
             orientation="center"
-            style={{ fontWeight: '600', fontSize: '1.2em' }}
+            style={{ fontWeight: '600', fontSize: '1.5em', marginTop: '2.5em' }}
           >
             * WISHLIST *
           </Divider>
+          {prioSet.size > 0 && (
+            <div style={{ marginBottom: '1em', marginTop: '-1em' }}>
+              <CrownFilled style={{ color: 'goldenrod' }} /> = priority
+            </div>
+          )}
           {chunkedCards.map((chunk, idx) => (
-            <CardRow key={_.uniqueId()} chunk={selectedChunkSize}>
+            <CardRow key={idx} chunk={selectedChunkSize}>
               {chunk.map((card, cardIndex) => (
                 <Card
                   key={card?.id}
                   index={idx * selectedChunkSize + cardIndex}
                   card={card}
                   selected={card?.id === selectedId}
+                  priority={prioSet.has(card?.id)}
                   onDoubleTap={handleDoubleTap}
                   onLeft={handleLeft}
                   onRight={handleRight}
                   onDelete={handleDelete}
+                  onPrio={handlePrio}
                   chunk={selectedChunkSize}
                 />
               ))}
@@ -137,9 +155,11 @@ function Card({
   index,
   onDoubleTap,
   selected,
+  priority,
   onLeft,
   onRight,
   onDelete,
+  onPrio,
   chunk = 3,
 }) {
   const bindDoubleTap = useDoubleTap((e) => {
@@ -147,7 +167,21 @@ function Card({
   }, 800)
 
   return (
-    <Col span={24 / chunk} key={card.id} style={{ marginBottom: '1em' }}>
+    <Col span={24 / chunk} key={card?.id} style={{ marginBottom: '1em' }}>
+      {priority && (
+        <span style={{ display: 'flex', justifyContent: 'end' }}>
+          <CrownFilled
+            style={{
+              fontSize: `${8 / chunk}em`,
+              textAlign: 'right',
+              color: 'goldenrod',
+              transform: 'rotate(35deg)',
+              marginBottom: '-0.5em',
+              marginRight: '-0.2em'
+            }}
+          />
+        </span>
+      )}
       {selected && (
         <span style={{ display: 'flex', justifyContent: 'center' }}>
           <Button
@@ -155,32 +189,48 @@ function Card({
             type="primary"
             danger
             onClick={() => onDelete(index)}
-            style={{ marginBottom: '-30%', marginTop: '5%', zIndex: 500 }}
+            style={{ marginBottom: '-50%', marginTop: '5%', zIndex: 500 }}
           >
             Delete
           </Button>
         </span>
       )}
       <img
-        id={card.id}
+        id={card?.id}
         style={{
           maxHeight: '70vh',
           width: '100%',
           minWidth: 0,
           cursor: 'pointer',
           opacity: selected && '0.5',
-          borderRadius: card.rounded && `${2.4 / chunk}em`,
+          borderRadius: card?.rounded && `${2.4 / chunk}em`,
           boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
         }}
-        src={card.url}
-        data-url={card.url}
+        src={card?.url}
         {...bindDoubleTap}
       />
       {selected && (
-        <span style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <MoveButton onClick={() => onLeft(index)}>{'<'}</MoveButton>
-          <MoveButton onClick={() => onRight(index)}>{'>'}</MoveButton>
-        </span>
+        <>
+          <span style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <MoveButton onClick={() => onLeft(index)}>{'<'}</MoveButton>
+            <MoveButton onClick={() => onRight(index)}>{'>'}</MoveButton>
+          </span>
+          <span
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              marginTop: '5%',
+            }}
+          >
+            <Button
+              type={priority && 'primary'}
+              size="small"
+              onClick={() => onPrio(card?.id)}
+            >
+              Prio
+            </Button>
+          </span>
+        </>
       )}
     </Col>
   )
