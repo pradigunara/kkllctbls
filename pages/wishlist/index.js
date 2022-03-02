@@ -74,7 +74,7 @@ export default function Wishlist() {
   return (
     <>
       <Row justify="center">
-        <Col span={22} offset={1}>
+        <Col span={22}>
           <Header />
           <Breadcrumbs crumbs={[['Wishlist']]} />
           <h2>Double tap to move wishlist!</h2>

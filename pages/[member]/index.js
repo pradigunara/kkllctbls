@@ -16,7 +16,7 @@ export default function Member() {
   return (
     <>
       <Row justify="center">
-        <Col span={22} offset={1}>
+        <Col span={22}>
           <Header />
           <Breadcrumbs
             crumbs={[
