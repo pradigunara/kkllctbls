@@ -9,9 +9,10 @@ export default function Header({ slotRight }) {
           <a>
             <div
               style={{
-                lineHeight: '0.3em',
+                lineHeight: '0.2em',
                 fontSize: '1.5em',
                 marginTop: '1em',
+                marginBottom: '1em'
               }}
             >
               <h1>Kkollectibles</h1>
