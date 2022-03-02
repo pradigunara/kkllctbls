@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Row, Col } from 'antd'
+import { Row, Col, Divider } from 'antd'
 import Header from 'components/header'
 import Footer from 'components/footer'
 import db from 'data/db.json'
@@ -15,7 +15,12 @@ export default function Home() {
       <Row justify="center">
         <Col span={22} offset={1}>
           <Header />
-
+          <Divider
+            orientation="center"
+            style={{ fontWeight: '600', fontSize: '1.2em' }}
+          >
+            Select Member
+          </Divider>
           <Row>
             <Col>
               {chunkedContents.map((chunk, idx) => (
@@ -40,7 +45,8 @@ export default function Home() {
                               width: '100%',
                               minWidth: 0,
                               borderRadius: '0.8em',
-                              boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)'
+                              boxShadow:
+                                '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
                             }}
                             src={member.img}
                             alt={member.name}
@@ -53,6 +59,13 @@ export default function Home() {
               ))}
             </Col>
           </Row>
+
+          <br />
+
+          ... or go to{' '}
+          <Link href="/wishlist">
+            <a>wishlist</a>
+          </Link>
         </Col>
         <Footer />
       </Row>

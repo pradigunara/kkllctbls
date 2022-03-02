@@ -2,13 +2,15 @@ import _ from 'lodash'
 import { useState, useEffect } from 'react'
 import { useDoubleTap } from 'use-double-tap'
 import { useRouter } from 'next/router'
-import { Row, Col, Divider, Radio } from 'antd'
+import { Row, Col, Divider, Radio, Button } from 'antd'
+import { StarOutlined, StarFilled } from '@ant-design/icons'
 import Header from 'components/header'
 import Footer from 'components/footer'
 import Breadcrumbs from 'components/breadcrumbs'
 import db from 'data/db.json'
 
-const STORAGE_KEY = 'crossedIds'
+const CROSSED_STORAGE_KEY = 'crossedIds'
+const WISHLIST_STORAGE_KEY = 'wishlists'
 
 const localStorage =
   typeof window === 'undefined'
@@ -16,11 +18,23 @@ const localStorage =
     : window?.localStorage
 
 function storeIDs(ids) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(ids))
+  localStorage.setItem(CROSSED_STORAGE_KEY, JSON.stringify(ids))
 }
 
 function getIDs() {
-  return JSON.parse(localStorage.getItem(STORAGE_KEY))
+  return new Set(JSON.parse(localStorage.getItem(CROSSED_STORAGE_KEY)))
+}
+
+function storeWishlist(wishlist) {
+  localStorage.setItem(WISHLIST_STORAGE_KEY, JSON.stringify(wishlist))
+}
+
+function getWishlist() {
+  const wishlist = JSON.parse(
+    localStorage.getItem(WISHLIST_STORAGE_KEY) || '[]'
+  )
+
+  return new Map(wishlist.map(({ id, url, rounded }) => [id, { url, rounded }]))
 }
 
 export default function Era() {
@@ -35,9 +49,11 @@ export default function Era() {
     setChunkSize(foundEra?.photosPerRow)
   }, [foundEra])
 
+  const [wishlistMode, setWishlistMode] = useState(false)
   const [showMark, setShowMark] = useState(true)
   const [showName, setShowName] = useState(true)
-  const [crossed, setCrossed] = useState(new Set(getIDs()))
+  const [crossed, setCrossed] = useState(getIDs())
+  const [wishlists, setWishlists] = useState(getWishlist())
 
   const eraSections = db.cards?.[member]?.[era] ?? []
   const sectionList = db.sections?.[era] ?? []
@@ -50,7 +66,23 @@ export default function Era() {
   const handleShowMarkChange = ({ target }) => setShowMark(target?.value)
   const handleShowNameChange = ({ target }) => setShowName(target?.value)
 
-  const handleDoubleTap = (imgID) => {
+  const handleToggleWishlist = (id, url, rounded) => {
+    wishlists.has(id) ? wishlists.delete(id) : wishlists.set(id, { url, rounded })
+
+    const updatedWishlists = _.map([...wishlists.entries()], ([k, v]) => ({
+      id: k,
+      ...v
+    }))
+
+    storeWishlist(updatedWishlists)
+    return setWishlists(new Map([...wishlists.entries()]))
+  }
+
+  const handleDoubleTap = (imgID, imgUrl, rounded) => {
+    if (wishlistMode) {
+      return handleToggleWishlist(imgID, imgUrl, rounded)
+    }
+
     crossed.has(imgID) ? crossed.delete(imgID) : crossed.add(imgID)
 
     const updatedIDs = [...crossed]
@@ -61,7 +93,17 @@ export default function Era() {
 
   return (
     <Container span={22}>
-      <Header />
+      <Header
+        slotRight={
+          <Button
+            type="primary"
+            shape="circle"
+            icon={wishlistMode ? <StarFilled /> : <StarOutlined />}
+            size="large"
+            onClick={() => setWishlistMode((wl) => !wl)}
+          />
+        }
+      />
       <Breadcrumbs
         crumbs={[
           [foundMember?.name, `/${router.query?.member}`],
@@ -69,7 +111,7 @@ export default function Era() {
         ]}
       />
 
-      <h2>Double tap to mark photos!</h2>
+      <h3>Double tap to {wishlistMode ? 'add wishlist' : 'mark photos'}!</h3>
 
       <Row justify="end">
         <Col>Photos per row :</Col>
@@ -80,24 +122,28 @@ export default function Era() {
           </Radio.Group>
         </Col>
       </Row>
-      <Row justify="end">
-        <Col>Show marked :</Col>
-        <Col offset={1}>
-          <Radio.Group onChange={handleShowMarkChange} value={showMark}>
-            <Radio value={true}>Y</Radio>
-            <Radio value={false}>N</Radio>
-          </Radio.Group>
-        </Col>
-      </Row>
-      <Row justify="end">
-        <Col>Show name :</Col>
-        <Col offset={1}>
-          <Radio.Group onChange={handleShowNameChange} value={showName}>
-            <Radio value={true}>Y</Radio>
-            <Radio value={false}>N</Radio>
-          </Radio.Group>
-        </Col>
-      </Row>
+      {!wishlistMode && (
+        <>
+          <Row justify="end">
+            <Col>Show marked :</Col>
+            <Col offset={1}>
+              <Radio.Group onChange={handleShowMarkChange} value={showMark}>
+                <Radio value={true}>Y</Radio>
+                <Radio value={false}>N</Radio>
+              </Radio.Group>
+            </Col>
+          </Row>
+          <Row justify="end">
+            <Col>Show name :</Col>
+            <Col offset={1}>
+              <Radio.Group onChange={handleShowNameChange} value={showName}>
+                <Radio value={true}>Y</Radio>
+                <Radio value={false}>N</Radio>
+              </Radio.Group>
+            </Col>
+          </Row>
+        </>
+      )}
 
       <Container span={24}>
         {sortedSections.map(({ name, content }) => {
@@ -115,9 +161,11 @@ export default function Era() {
                       key={card.id}
                       card={card}
                       isCrossed={crossed.has(card.id)}
+                      isWishlist={wishlists.has(card.id)}
                       onDoubleTap={handleDoubleTap}
                       chunk={chunkSize}
-                      showName={showName}
+                      showName={!wishlistMode && showName}
+                      wishlistMode={wishlistMode}
                     />
                   ))}
                 </CardRow>
@@ -167,10 +215,24 @@ function CardRow({ children, chunk }) {
   )
 }
 
-function Card({ card, isCrossed, onDoubleTap, chunk = 3, showName }) {
+function Card({
+  card,
+  isCrossed,
+  isWishlist = false,
+  onDoubleTap,
+  chunk = 3,
+  showName,
+  wishlistMode,
+}) {
   const bindDoubleTap = useDoubleTap((e) => {
-    return onDoubleTap(e?.target?.id)
+    return onDoubleTap(
+      e?.target?.id,
+      e?.target?.getAttribute('data-url'),
+      e?.target?.getAttribute('data-rounded') === 'true'
+    )
   }, 800)
+
+  const isOpaque = wishlistMode ? !isWishlist : isCrossed
 
   return (
     <Col span={24 / chunk} key={card.id} style={{ marginBottom: '1em' }}>
@@ -191,11 +253,13 @@ function Card({ card, isCrossed, onDoubleTap, chunk = 3, showName }) {
           minWidth: 0,
           cursor: 'pointer',
           borderRadius: card.rounded && `${2.4 / chunk}em`,
-          opacity: isCrossed && '0.3',
+          opacity: isOpaque && '0.3',
           boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
         }}
         src={card.img}
         alt={card.name}
+        data-url={card.img}
+        data-rounded={card.rounded}
         {...bindDoubleTap}
       />
     </Col>

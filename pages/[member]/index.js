@@ -24,9 +24,14 @@ export default function Member() {
             ]}
           />
 
+          <Divider
+            orientation="center"
+            style={{ fontWeight: '600', fontSize: '1.2em' }}
+          >
+            Select Era
+          </Divider>
           <Row>
             <Col>
-              <Divider />
               {chunkedContents.map((chunk, idx) => (
                 <Row
                   gutter={{ xs: 16, md: 24 }}
