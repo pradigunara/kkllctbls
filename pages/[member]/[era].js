@@ -148,7 +148,7 @@ export default function Era() {
       <Container span={24}>
         {sortedSections.map(({ name, content }) => {
           const contentChunks = _.chain(content ?? [])
-            .filter((c) => (showMark ? true : !crossed.has(c.id)))
+            .filter((c) => ((wishlistMode || showMark) ? true : !crossed.has(c.id)))
             .chunk(chunkSize)
             .value()
 
