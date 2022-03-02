@@ -12,23 +12,25 @@ import db from 'data/db.json'
 const CROSSED_STORAGE_KEY = 'crossedIds'
 const WISHLIST_STORAGE_KEY = 'wishlists'
 
-const win = typeof window === 'undefined' ? {} : window
+const storageMock = { getItem: _.noop, setItem: _.noop }
+const localStorage = typeof window === 'undefined' ? storageMock : window.localStorage
+const sessionStorage = typeof window === 'undefined' ? storageMock : window.sessionStorage
 
 function storeIDs(ids) {
-  win?.localStorage?.setItem(CROSSED_STORAGE_KEY, JSON.stringify(ids))
+  localStorage.setItem(CROSSED_STORAGE_KEY, JSON.stringify(ids))
 }
 
 function getIDs() {
-  return new Set(JSON.parse(win?.localStorage?.getItem(CROSSED_STORAGE_KEY)))
+  return new Set(JSON.parse(localStorage.getItem(CROSSED_STORAGE_KEY)))
 }
 
 function storeWishlist(wishlist) {
-  win?.localStorage?.setItem(WISHLIST_STORAGE_KEY, JSON.stringify(wishlist))
+  localStorage.setItem(WISHLIST_STORAGE_KEY, JSON.stringify(wishlist))
 }
 
 function getWishlist() {
   const wishlist = JSON.parse(
-    win?.localStorage?.getItem(WISHLIST_STORAGE_KEY) || '[]'
+    localStorage.getItem(WISHLIST_STORAGE_KEY) || '[]'
   )
 
   return new Map(wishlist.map(({ id, url, rounded }) => [id, { url, rounded }]))
@@ -64,7 +66,7 @@ export default function Era() {
   const handleShowNameChange = ({ target }) => setShowName(target?.value)
 
   const handleWishlistMode = () => {
-    !win.sessionStorage?.getItem('wlguide') &&
+    !sessionStorage.getItem('wlguide') &&
       !wishlistMode &&
       Modal.info({
         title: 'Wishlist Mode',
@@ -80,7 +82,7 @@ export default function Era() {
           </div>
         ),
         onOk() {
-          win?.sessionStorage?.setItem('wlguide', '1')
+          sessionStorage.setItem('wlguide', '1')
         },
       })
 
