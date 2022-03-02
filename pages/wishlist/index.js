@@ -54,7 +54,7 @@ export default function Wishlist() {
   }
 
   const handleRight = (index) => {
-    if (index + 1 > wishlists.length) return
+    if (index + 1 >= wishlists.length) return
 
     doSwap(index, 1)
   }
