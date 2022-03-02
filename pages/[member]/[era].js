@@ -21,7 +21,7 @@ function storeIDs(ids) {
 }
 
 function getIDs() {
-  return new Set(JSON.parse(localStorage.getItem(CROSSED_STORAGE_KEY)))
+  return new Set(JSON.parse(localStorage.getItem(CROSSED_STORAGE_KEY) || '[]'))
 }
 
 function storeWishlist(wishlist) {
