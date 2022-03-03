@@ -12,7 +12,7 @@ class MyDocument extends Document {
           <script
             defer
             src="https://static.cloudflareinsights.com/beacon.min.js"
-            data-cf-beacon='{"token": "8bc2e878d8ba48e089930ca242448b29"}'
+            data-cf-beacon='{"token": "a0b2ad60e02f41be93de262eeb3012bd"}'
           />
         </body>
       </Html>
