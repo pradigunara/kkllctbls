@@ -11,7 +11,11 @@ const CHUNK_SIZE = 3
 
 export default function Member() {
   const router = useRouter()
-  const chunkedContents = _.chunk(db?.eras ?? [], CHUNK_SIZE)
+  const eras =
+    router.query?.member === 'jgr'
+      ? _.reject(db?.eras, { code: 'td' })
+      : db?.eras
+  const chunkedContents = _.chunk(eras ?? [], CHUNK_SIZE)
 
   return (
     <>
@@ -53,7 +57,8 @@ export default function Member() {
                               maxHeight: '50vh',
                               width: '100%',
                               minWidth: 0,
-                              boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)'
+                              boxShadow:
+                                '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
                             }}
                             src={era.img}
                             alt={era.name}
