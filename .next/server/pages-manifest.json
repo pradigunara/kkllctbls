@@ -1,0 +1,12 @@
+{
+  "/[member]/[era]": "pages/[member]/[era].html",
+  "/[member]": "pages/[member].html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/api/input": "pages/api/input.js",
+  "/": "pages/index.html",
+  "/input": "pages/input.html",
+  "/wishlist": "pages/wishlist.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
