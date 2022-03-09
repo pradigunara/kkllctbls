@@ -616,6 +616,9 @@
           },
           "Universal Music Japan 2": {
             "rounded": false
+          },
+          "Withfans": {
+            "rounded": true
           }
         }
       }
@@ -886,6 +889,16 @@
             "sectionCode": "pob",
             "img": "/card/lng-mg-pob-weverse.jpg",
             "rounded": false
+          },
+          {
+            "id": "vP4hJzZT4vyOspDn5HDv-",
+            "code": "withfans",
+            "name": "Withfans",
+            "memberCode": "lng",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/lng-mg-pob-withfans.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -2252,6 +2265,16 @@
             "sectionCode": "pob",
             "img": "/card/lsr-mg-pob-weverse.jpg",
             "rounded": false
+          },
+          {
+            "id": "jlzZaRD7S6u2ORbVR6czR",
+            "code": "withfans",
+            "name": "Withfans",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/lsr-mg-pob-withfans.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -3618,6 +3641,16 @@
             "sectionCode": "pob",
             "img": "/card/shy-mg-pob-weverse.jpg",
             "rounded": false
+          },
+          {
+            "id": "jdjWhnvzTdAJFOYDg1hDd",
+            "code": "withfans",
+            "name": "Withfans",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/shy-mg-pob-withfans.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -4984,6 +5017,16 @@
             "sectionCode": "pob",
             "img": "/card/jgr-mg-pob-weverse.jpg",
             "rounded": false
+          },
+          {
+            "id": "W0S7I2tkclmbICr9I4ylo",
+            "code": "withfans",
+            "name": "Withfans",
+            "memberCode": "jgr",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/jgr-mg-pob-withfans.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -6214,6 +6257,16 @@
             "sectionCode": "pob",
             "img": "/card/rjs-mg-pob-weverse.jpg",
             "rounded": false
+          },
+          {
+            "id": "HdlD8uSfGyO_Nw8NuAgbc",
+            "code": "withfans",
+            "name": "Withfans",
+            "memberCode": "rjs",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/rjs-mg-pob-withfans.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -7580,6 +7633,16 @@
             "sectionCode": "pob",
             "img": "/card/pjw-mg-pob-weverse.jpg",
             "rounded": false
+          },
+          {
+            "id": "Btng7yW1uigC8ewUDLN8F",
+            "code": "withfans",
+            "name": "Withfans",
+            "memberCode": "pjw",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/pjw-mg-pob-withfans.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -8946,6 +9009,16 @@
             "sectionCode": "pob",
             "img": "/card/lsy-mg-pob-weverse.jpg",
             "rounded": false
+          },
+          {
+            "id": "8BbRpMYXLBFkYpghRSIeM",
+            "code": "withfans",
+            "name": "Withfans",
+            "memberCode": "lsy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/lsy-mg-pob-withfans.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -10312,6 +10385,16 @@
             "sectionCode": "pob",
             "img": "/card/lcy-mg-pob-weverse.jpg",
             "rounded": false
+          },
+          {
+            "id": "XL3kStEmMiREtUgZAd4-K",
+            "code": "withfans",
+            "name": "Withfans",
+            "memberCode": "lcy",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/lcy-mg-pob-withfans.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -11678,6 +11761,16 @@
             "sectionCode": "pob",
             "img": "/card/bjh-mg-pob-weverse.jpg",
             "rounded": false
+          },
+          {
+            "id": "AZrgHdFC_ly6aNPlxIpSm",
+            "code": "withfans",
+            "name": "Withfans",
+            "memberCode": "bjh",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/bjh-mg-pob-withfans.jpg",
+            "rounded": true
           }
         ],
         "other": [
