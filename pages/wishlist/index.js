@@ -244,7 +244,7 @@ function MoveButton({ children, onClick }) {
     <Button
       shape="circle"
       size="small"
-      style={{ marginTop: '-60%', marginLeft: '-15%', marginRight: '-15%' }}
+      style={{ marginTop: '-60%', marginLeft: '-15%', marginRight: '-15%', zIndex: '500' }}
       onClick={onClick}
     >
       {children}
