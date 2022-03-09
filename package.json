@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "localbuild": "echo '!.next' >> .gitignore && next build && git add .next .gitignore",
+    "localbuild": "echo '!.next' >> .gitignore && next build && git add .next .gitignore && git commit -m 'build'",
     "start": "next start"
   },
   "dependencies": {
