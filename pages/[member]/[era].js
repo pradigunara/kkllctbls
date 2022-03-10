@@ -1,7 +1,6 @@
 import _ from 'lodash'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useDoubleTap } from 'use-double-tap'
-import { useRouter } from 'next/router'
 import { Row, Col, Divider, Radio, Button, Modal } from 'antd'
 import { StarOutlined, StarFilled } from '@ant-design/icons'
 import Header from 'components/header'
@@ -152,12 +151,10 @@ export default function Era({ member, era, sortedSections }) {
 
       <Container span={24}>
         {sortedSections.map(({ name, content }) => {
-          const contentChunks = _.chain(content ?? [])
-            .filter((c) =>
-              wishlistMode || showMark ? true : !crossed.has(c.id)
-            )
-            .chunk(chunkSize)
-            .value()
+          const filteredContent = _.filter(content ?? [], (c) =>
+            wishlistMode || showMark ? true : !crossed.has(c.id)
+          )
+          const contentChunks = _.chunk(filteredContent, chunkSize)
 
           return (
             <Section name={name} key={name}>

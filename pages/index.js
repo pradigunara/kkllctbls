@@ -7,8 +7,8 @@ import _ from 'lodash'
 
 const CHUNK_SIZE = 3
 
-export default function Home() {
-  const chunkedContents = _.chunk(db?.members ?? [], CHUNK_SIZE)
+export default function Home({ members }) {
+  const chunkedContents = _.chunk(members ?? [], CHUNK_SIZE)
 
   return (
     <>
@@ -71,4 +71,10 @@ export default function Home() {
       </Row>
     </>
   )
+}
+
+export async function getStaticProps() {
+  return {
+    props: { members: db?.members },
+  }
 }
