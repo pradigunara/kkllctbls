@@ -1,6 +1,5 @@
 import _ from 'lodash'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 import { Row, Col, Divider } from 'antd'
 import Header from 'components/header'
 import Footer from 'components/footer'
@@ -9,12 +8,7 @@ import db from 'data/db.json'
 
 const CHUNK_SIZE = 3
 
-export default function Member() {
-  const router = useRouter()
-  const eras =
-    router.query?.member === 'jgr'
-      ? _.reject(db?.eras, { code: 'td' })
-      : db?.eras
+export default function Member({ eras, memberCode, memberName }) {
   const chunkedContents = _.chunk(eras ?? [], CHUNK_SIZE)
 
   return (
@@ -22,11 +16,7 @@ export default function Member() {
       <Row justify="center">
         <Col span={22}>
           <Header />
-          <Breadcrumbs
-            crumbs={[
-              [_.find(db.members, { code: router.query?.member })?.name],
-            ]}
-          />
+          <Breadcrumbs crumbs={[[memberName]]} />
 
           <Divider
             orientation="center"
@@ -49,7 +39,7 @@ export default function Member() {
                       key={era.code}
                       style={{ marginBottom: '1em' }}
                     >
-                      <Link href={`${router.query?.member}/${era.code}`}>
+                      <Link href={`${memberCode}/${era.code}`}>
                         <a style={{ color: 'inherit' }}>
                           <span>{era.name}</span>
                           <img
@@ -76,4 +66,23 @@ export default function Member() {
       </Row>
     </>
   )
+}
+
+export async function getStaticPaths() {
+  _.map(db.members, (m) => ({ params: { member: m.code } }))
+
+  return {
+    paths: _.map(db.members, (m) => ({ params: { member: m.code } })),
+    fallback: false,
+  }
+}
+
+export async function getStaticProps({ params }) {
+  const code = params?.member
+  const eras = code === 'jgr' ? _.reject(db?.eras, { code: 'td' }) : db?.eras
+  const memberName = _.find(db?.members, { code })?.name
+
+  return {
+    props: { eras, memberName, memberCode: code },
+  }
 }

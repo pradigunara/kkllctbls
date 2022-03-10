@@ -21,7 +21,7 @@ export default function Breadcrumbs({ crumbs = [] }) {
             const [content, link] = _.castArray(crumb)
 
             return (
-              <>
+              <span key={idx}>
                 {idx > 0 && <Breadcrumb.Separator>{'>'}</Breadcrumb.Separator>}
                 <Breadcrumb.Item>
                   {link ? (
@@ -32,7 +32,7 @@ export default function Breadcrumbs({ crumbs = [] }) {
                     content
                   )}
                 </Breadcrumb.Item>
-              </>
+              </span>
             )
           })}
         </Breadcrumb>

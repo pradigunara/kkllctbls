@@ -13,8 +13,10 @@ const CROSSED_STORAGE_KEY = 'crossedIds'
 const WISHLIST_STORAGE_KEY = 'wishlists'
 
 const storageMock = { getItem: _.noop, setItem: _.noop }
-const localStorage = typeof window === 'undefined' ? storageMock : window.localStorage
-const sessionStorage = typeof window === 'undefined' ? storageMock : window.sessionStorage
+const localStorage =
+  typeof window === 'undefined' ? storageMock : window.localStorage
+const sessionStorage =
+  typeof window === 'undefined' ? storageMock : window.sessionStorage
 
 function storeIDs(ids) {
   localStorage.setItem(CROSSED_STORAGE_KEY, JSON.stringify(ids))
@@ -36,30 +38,13 @@ function getWishlist() {
   return new Map(wishlist.map(({ id, url, rounded }) => [id, { url, rounded }]))
 }
 
-export default function Era() {
-  const router = useRouter()
-  const { member, era } = router.query
-  const foundMember = _.find(db.members, { code: router.query?.member })
-  const foundEra = _.find(db.eras, { code: router.query?.era })
-
-  const [chunkSize, setChunkSize] = useState(3)
-  useEffect(() => {
-    // era can be delayed
-    setChunkSize(foundEra?.photosPerRow)
-  }, [foundEra])
-
+export default function Era({ member, era, sortedSections }) {
+  const [chunkSize, setChunkSize] = useState(era?.photosPerRow)
   const [wishlistMode, setWishlistMode] = useState(false)
   const [showMark, setShowMark] = useState(true)
   const [showName, setShowName] = useState(true)
   const [crossed, setCrossed] = useState(getIDs())
   const [wishlists, setWishlists] = useState(getWishlist())
-
-  const eraSections = db.cards?.[member]?.[era] ?? []
-  const sectionList = db.sections?.[era] ?? []
-  const sortedSections = sectionList.map((section) => ({
-    name: section.name,
-    content: eraSections[section.code],
-  }))
 
   const handleChunkChange = ({ target }) => setChunkSize(target?.value)
   const handleShowMarkChange = ({ target }) => setShowMark(target?.value)
@@ -129,12 +114,7 @@ export default function Era() {
           />
         }
       />
-      <Breadcrumbs
-        crumbs={[
-          [foundMember?.name, `/${router.query?.member}`],
-          [foundEra?.name],
-        ]}
-      />
+      <Breadcrumbs crumbs={[[member.name, `/${member.code}`], [era.name]]} />
 
       <h3>Double tap to {wishlistMode ? 'add wishlist' : 'mark photos'}!</h3>
 
@@ -291,4 +271,39 @@ function Card({
       />
     </Col>
   )
+}
+
+export async function getStaticPaths() {
+  const paths = []
+  for (const member of db.members) {
+    for (const era of db.eras) {
+      if (member.code === 'jgr' && era.code === 'td') {
+        continue
+      }
+
+      paths.push({ params: { member: member.code, era: era.code } })
+    }
+  }
+
+  return {
+    paths,
+    fallback: false,
+  }
+}
+
+export async function getStaticProps({ params }) {
+  const foundMember = _.find(db.members, { code: params?.member })
+  const foundEra = _.find(db.eras, { code: params?.era })
+
+  const eraSections = db.cards?.[params?.member]?.[params?.era] ?? []
+  const sectionList = db.sections?.[params?.era] ?? []
+
+  const sortedSections = sectionList.map((section) => ({
+    name: section.name,
+    content: eraSections[section.code],
+  }))
+
+  return {
+    props: { member: foundMember, era: foundEra, sortedSections },
+  }
 }

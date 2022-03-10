@@ -172,15 +172,14 @@ function Card({
   return (
     <Col span={24 / chunk} key={card?.id} style={{ marginBottom: '1em' }}>
       {priority && (
-        <span style={{ display: 'flex', justifyContent: 'end' }}>
+        <span style={{ display: 'flex', justifyContent: 'start' }}>
           <CrownFilled
             style={{
               fontSize: `${8 / chunk}em`,
-              textAlign: 'right',
               color: 'goldenrod',
-              transform: 'rotate(35deg)',
+              transform: 'rotate(-35deg)',
               marginBottom: '-0.5em',
-              marginRight: '-0.2em'
+              marginLeft: '-0.2em'
             }}
           />
         </span>
