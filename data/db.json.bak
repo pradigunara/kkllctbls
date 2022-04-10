@@ -506,6 +506,12 @@
           "Naver Live Jewel": {
             "rounded": true
           },
+          "Mwave 1": {
+            "rounded": true
+          },
+          "Mwave 2": {
+            "rounded": true
+          },
           "Weverse Print": {
             "rounded": false
           },
@@ -991,6 +997,26 @@
             "sectionCode": "other",
             "img": "/card/lng-mg-other-weverse-print.jpg",
             "rounded": false
+          },
+          {
+            "id": "wyND9xra7lWgkdmhjVNKH",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "lng",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lng-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "8fLjYJq_gnU27OKmisxgs",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "lng",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lng-mg-other-mwave-2.jpg",
+            "rounded": true
           }
         ],
         "fs": [
@@ -2367,6 +2393,26 @@
             "sectionCode": "other",
             "img": "/card/lsr-mg-other-weverse-print.jpg",
             "rounded": false
+          },
+          {
+            "id": "N8SkrEBgC6tCD1xEX6pj2",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lsr-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "bPegD8Zv_MdSFwOkQvgKi",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lsr-mg-other-mwave-2.jpg",
+            "rounded": true
           }
         ],
         "fs": [
@@ -3743,6 +3789,26 @@
             "sectionCode": "other",
             "img": "/card/shy-mg-other-weverse-print.jpg",
             "rounded": false
+          },
+          {
+            "id": "uuY5y7pGl_qhAb4ZeK4uu",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/shy-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "YmM0wsEb1wonczzP6ZtpG",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/shy-mg-other-mwave-2.jpg",
+            "rounded": true
           }
         ],
         "fs": [
@@ -5119,6 +5185,26 @@
             "sectionCode": "other",
             "img": "/card/jgr-mg-other-weverse-print.jpg",
             "rounded": false
+          },
+          {
+            "id": "9aoJBUrGFl26ATdujGDBg",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "jgr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/jgr-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "kTeRwAtUzsDQqZmWgCC6c",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "jgr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/jgr-mg-other-mwave-2.jpg",
+            "rounded": true
           }
         ],
         "fs": [
@@ -6359,6 +6445,26 @@
             "sectionCode": "other",
             "img": "/card/rjs-mg-other-weverse-print.jpg",
             "rounded": false
+          },
+          {
+            "id": "qhu62cE5cCGDZ6fMZ3-w6",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "rjs",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/rjs-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "qFdjIAvwOiQn-6CoNvumY",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "rjs",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/rjs-mg-other-mwave-2.jpg",
+            "rounded": true
           }
         ],
         "fs": [
@@ -7735,6 +7841,26 @@
             "sectionCode": "other",
             "img": "/card/pjw-mg-other-weverse-print.jpg",
             "rounded": false
+          },
+          {
+            "id": "7-Lwh8PAMwkPePErnQYEp",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "pjw",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/pjw-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "aeKsqO6OoqZOZbLKs22jG",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "pjw",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/pjw-mg-other-mwave-2.jpg",
+            "rounded": true
           }
         ],
         "fs": [
@@ -9111,6 +9237,26 @@
             "sectionCode": "other",
             "img": "/card/lsy-mg-other-weverse-print.jpg",
             "rounded": false
+          },
+          {
+            "id": "A2VGFZ_y_arnNQ9bzGQ2Q",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "lsy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lsy-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "7_3FA1jDVGtEbWax-NfDG",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "lsy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lsy-mg-other-mwave-2.jpg",
+            "rounded": true
           }
         ],
         "fs": [
@@ -10487,6 +10633,26 @@
             "sectionCode": "other",
             "img": "/card/lcy-mg-other-weverse-print.jpg",
             "rounded": false
+          },
+          {
+            "id": "m3Y0yJ3s81jiRCThS5ooT",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "lcy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lcy-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "X_3m31xShWvyqB3QOV3y1",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "lcy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lcy-mg-other-mwave-2.jpg",
+            "rounded": true
           }
         ],
         "fs": [
@@ -11761,6 +11927,16 @@
             "sectionCode": "pob",
             "img": "/card/bjh-mg-pob-weverse.jpg",
             "rounded": false
+          },
+          {
+            "id": "AZrgHdFC_ly6aNPlxIpSm",
+            "code": "withfans",
+            "name": "Withfans",
+            "memberCode": "bjh",
+            "eraCode": "mg",
+            "sectionCode": "pob",
+            "img": "/card/bjh-mg-pob-withfans.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -11853,6 +12029,16 @@
             "sectionCode": "other",
             "img": "/card/bjh-mg-other-weverse-print.jpg",
             "rounded": false
+          },
+          {
+            "id": "ofMx2C7vnEYaqhay1bs5W",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "bjh",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/bjh-mg-other-mwave-1.jpg",
+            "rounded": true
           }
         ],
         "fs": [

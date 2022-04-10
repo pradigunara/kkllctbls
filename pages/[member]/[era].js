@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useDoubleTap } from 'use-double-tap'
 import { Row, Col, Divider, Radio, Button, Modal } from 'antd'
 import { StarOutlined, StarFilled } from '@ant-design/icons'
@@ -42,8 +42,11 @@ export default function Era({ member, era, sortedSections }) {
   const [wishlistMode, setWishlistMode] = useState(false)
   const [showMark, setShowMark] = useState(true)
   const [showName, setShowName] = useState(true)
-  const [crossed, setCrossed] = useState(getIDs())
+  const [crossed, setCrossed] = useState(new Set())
   const [wishlists, setWishlists] = useState(getWishlist())
+
+  // fix hydration error (no localstorage on server)
+  useEffect(() => setCrossed(getIDs()), [])
 
   const handleChunkChange = ({ target }) => setChunkSize(target?.value)
   const handleShowMarkChange = ({ target }) => setShowMark(target?.value)
