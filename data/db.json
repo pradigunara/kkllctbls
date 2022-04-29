@@ -493,6 +493,9 @@
           },
           "Beatroad": {
             "rounded": true
+          },
+          "Withfans 1": {
+            "rounded": true
           }
         }
       },
@@ -1118,6 +1121,16 @@
             "eraCode": "mg",
             "sectionCode": "fs",
             "img": "/card/lng-mg-fs-beatroad.jpg",
+            "rounded": true
+          },
+          {
+            "id": "famXGAd1T0RhIWuw8FbMG",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "lng",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/lng-mg-fs-withfans-1.jpg",
             "rounded": true
           }
         ]
@@ -2515,6 +2528,16 @@
             "sectionCode": "fs",
             "img": "/card/lsr-mg-fs-beatroad.jpg",
             "rounded": true
+          },
+          {
+            "id": "IrGzn0tXzkyVsqC4vdNnH",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/lsr-mg-fs-withfans-1.jpg",
+            "rounded": true
           }
         ]
       },
@@ -3910,6 +3933,16 @@
             "eraCode": "mg",
             "sectionCode": "fs",
             "img": "/card/shy-mg-fs-beatroad.jpg",
+            "rounded": true
+          },
+          {
+            "id": "ptKIqOkQtyjTB5O5cg00U",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/shy-mg-fs-withfans-1.jpg",
             "rounded": true
           }
         ]
@@ -5307,6 +5340,16 @@
             "sectionCode": "fs",
             "img": "/card/jgr-mg-fs-beatroad.jpg",
             "rounded": true
+          },
+          {
+            "id": "hg6pjQ1nagNVoIsLvSmhg",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "jgr",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/jgr-mg-fs-withfans-1.jpg",
+            "rounded": true
           }
         ]
       },
@@ -6566,6 +6609,16 @@
             "eraCode": "mg",
             "sectionCode": "fs",
             "img": "/card/rjs-mg-fs-beatroad.jpg",
+            "rounded": true
+          },
+          {
+            "id": "0xZ2tYfpBRhSbYe-oj7yX",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "rjs",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/rjs-mg-fs-withfans-1.jpg",
             "rounded": true
           }
         ]
@@ -7963,6 +8016,16 @@
             "sectionCode": "fs",
             "img": "/card/pjw-mg-fs-beatroad.jpg",
             "rounded": true
+          },
+          {
+            "id": "USHbL1kXhae2nH_1sBwtK",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "pjw",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/pjw-mg-fs-withfans-1.jpg",
+            "rounded": true
           }
         ]
       },
@@ -9358,6 +9421,16 @@
             "eraCode": "mg",
             "sectionCode": "fs",
             "img": "/card/lsy-mg-fs-beatroad.jpg",
+            "rounded": true
+          },
+          {
+            "id": "oaUZJmc0QWsfDjTB9A5hf",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "lsy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/lsy-mg-fs-withfans-1.jpg",
             "rounded": true
           }
         ]
@@ -10755,6 +10828,16 @@
             "sectionCode": "fs",
             "img": "/card/lcy-mg-fs-beatroad.jpg",
             "rounded": true
+          },
+          {
+            "id": "uX92LpRlinAkeYabX4Knq",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "lcy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/lcy-mg-fs-withfans-1.jpg",
+            "rounded": true
           }
         ]
       },
@@ -12150,6 +12233,16 @@
             "eraCode": "mg",
             "sectionCode": "fs",
             "img": "/card/bjh-mg-fs-beatroad.jpg",
+            "rounded": true
+          },
+          {
+            "id": "0_b5OaUdFchQa2Dhw97px",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "bjh",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/bjh-mg-fs-withfans-1.jpg",
             "rounded": true
           }
         ]

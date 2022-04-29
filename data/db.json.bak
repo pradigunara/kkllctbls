@@ -493,6 +493,9 @@
           },
           "Beatroad": {
             "rounded": true
+          },
+          "Withfans 1": {
+            "rounded": true
           }
         }
       },
@@ -929,6 +932,26 @@
             "rounded": true
           },
           {
+            "id": "wyND9xra7lWgkdmhjVNKH",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "lng",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lng-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "8fLjYJq_gnU27OKmisxgs",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "lng",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lng-mg-other-mwave-2.jpg",
+            "rounded": true
+          },
+          {
             "id": "1h5KjQpH8btOR570ZlO6F",
             "code": "ld-soundwave-r-1",
             "name": "LD Soundwave R1",
@@ -997,26 +1020,6 @@
             "sectionCode": "other",
             "img": "/card/lng-mg-other-weverse-print.jpg",
             "rounded": false
-          },
-          {
-            "id": "wyND9xra7lWgkdmhjVNKH",
-            "code": "mwave-1",
-            "name": "Mwave 1",
-            "memberCode": "lng",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/lng-mg-other-mwave-1.jpg",
-            "rounded": true
-          },
-          {
-            "id": "8fLjYJq_gnU27OKmisxgs",
-            "code": "mwave-2",
-            "name": "Mwave 2",
-            "memberCode": "lng",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/lng-mg-other-mwave-2.jpg",
-            "rounded": true
           }
         ],
         "fs": [
@@ -1118,6 +1121,16 @@
             "eraCode": "mg",
             "sectionCode": "fs",
             "img": "/card/lng-mg-fs-beatroad.jpg",
+            "rounded": true
+          },
+          {
+            "id": "famXGAd1T0RhIWuw8FbMG",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "lng",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/lng-mg-fs-withfans-1.jpg",
             "rounded": true
           }
         ]
@@ -2325,6 +2338,26 @@
             "rounded": true
           },
           {
+            "id": "N8SkrEBgC6tCD1xEX6pj2",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lsr-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "bPegD8Zv_MdSFwOkQvgKi",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lsr-mg-other-mwave-2.jpg",
+            "rounded": true
+          },
+          {
             "id": "klNwF2belSwJU5jZjFd2L",
             "code": "ld-soundwave-r-1",
             "name": "LD Soundwave R1",
@@ -2393,26 +2426,6 @@
             "sectionCode": "other",
             "img": "/card/lsr-mg-other-weverse-print.jpg",
             "rounded": false
-          },
-          {
-            "id": "N8SkrEBgC6tCD1xEX6pj2",
-            "code": "mwave-1",
-            "name": "Mwave 1",
-            "memberCode": "lsr",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/lsr-mg-other-mwave-1.jpg",
-            "rounded": true
-          },
-          {
-            "id": "bPegD8Zv_MdSFwOkQvgKi",
-            "code": "mwave-2",
-            "name": "Mwave 2",
-            "memberCode": "lsr",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/lsr-mg-other-mwave-2.jpg",
-            "rounded": true
           }
         ],
         "fs": [
@@ -2514,6 +2527,16 @@
             "eraCode": "mg",
             "sectionCode": "fs",
             "img": "/card/lsr-mg-fs-beatroad.jpg",
+            "rounded": true
+          },
+          {
+            "id": "IrGzn0tXzkyVsqC4vdNnH",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "lsr",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/lsr-mg-fs-withfans-1.jpg",
             "rounded": true
           }
         ]
@@ -3721,6 +3744,26 @@
             "rounded": true
           },
           {
+            "id": "uuY5y7pGl_qhAb4ZeK4uu",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/shy-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "YmM0wsEb1wonczzP6ZtpG",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/shy-mg-other-mwave-2.jpg",
+            "rounded": true
+          },
+          {
             "id": "fgyg-DHDmMUhArWs-td_l",
             "code": "ld-soundwave-r-1",
             "name": "LD Soundwave R1",
@@ -3789,26 +3832,6 @@
             "sectionCode": "other",
             "img": "/card/shy-mg-other-weverse-print.jpg",
             "rounded": false
-          },
-          {
-            "id": "uuY5y7pGl_qhAb4ZeK4uu",
-            "code": "mwave-1",
-            "name": "Mwave 1",
-            "memberCode": "shy",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/shy-mg-other-mwave-1.jpg",
-            "rounded": true
-          },
-          {
-            "id": "YmM0wsEb1wonczzP6ZtpG",
-            "code": "mwave-2",
-            "name": "Mwave 2",
-            "memberCode": "shy",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/shy-mg-other-mwave-2.jpg",
-            "rounded": true
           }
         ],
         "fs": [
@@ -3910,6 +3933,16 @@
             "eraCode": "mg",
             "sectionCode": "fs",
             "img": "/card/shy-mg-fs-beatroad.jpg",
+            "rounded": true
+          },
+          {
+            "id": "ptKIqOkQtyjTB5O5cg00U",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "shy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/shy-mg-fs-withfans-1.jpg",
             "rounded": true
           }
         ]
@@ -5117,6 +5150,26 @@
             "rounded": true
           },
           {
+            "id": "9aoJBUrGFl26ATdujGDBg",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "jgr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/jgr-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "kTeRwAtUzsDQqZmWgCC6c",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "jgr",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/jgr-mg-other-mwave-2.jpg",
+            "rounded": true
+          },
+          {
             "id": "ZHyyu8gP-53LmIjtjJGUS",
             "code": "ld-soundwave-r-1",
             "name": "LD Soundwave R1",
@@ -5185,26 +5238,6 @@
             "sectionCode": "other",
             "img": "/card/jgr-mg-other-weverse-print.jpg",
             "rounded": false
-          },
-          {
-            "id": "9aoJBUrGFl26ATdujGDBg",
-            "code": "mwave-1",
-            "name": "Mwave 1",
-            "memberCode": "jgr",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/jgr-mg-other-mwave-1.jpg",
-            "rounded": true
-          },
-          {
-            "id": "kTeRwAtUzsDQqZmWgCC6c",
-            "code": "mwave-2",
-            "name": "Mwave 2",
-            "memberCode": "jgr",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/jgr-mg-other-mwave-2.jpg",
-            "rounded": true
           }
         ],
         "fs": [
@@ -5306,6 +5339,16 @@
             "eraCode": "mg",
             "sectionCode": "fs",
             "img": "/card/jgr-mg-fs-beatroad.jpg",
+            "rounded": true
+          },
+          {
+            "id": "hg6pjQ1nagNVoIsLvSmhg",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "jgr",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/jgr-mg-fs-withfans-1.jpg",
             "rounded": true
           }
         ]
@@ -6377,6 +6420,26 @@
             "rounded": true
           },
           {
+            "id": "qhu62cE5cCGDZ6fMZ3-w6",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "rjs",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/rjs-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "qFdjIAvwOiQn-6CoNvumY",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "rjs",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/rjs-mg-other-mwave-2.jpg",
+            "rounded": true
+          },
+          {
             "id": "ad2LDvu1MMmZy618rbpye",
             "code": "ld-soundwave-r-1",
             "name": "LD Soundwave R1",
@@ -6445,26 +6508,6 @@
             "sectionCode": "other",
             "img": "/card/rjs-mg-other-weverse-print.jpg",
             "rounded": false
-          },
-          {
-            "id": "qhu62cE5cCGDZ6fMZ3-w6",
-            "code": "mwave-1",
-            "name": "Mwave 1",
-            "memberCode": "rjs",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/rjs-mg-other-mwave-1.jpg",
-            "rounded": true
-          },
-          {
-            "id": "qFdjIAvwOiQn-6CoNvumY",
-            "code": "mwave-2",
-            "name": "Mwave 2",
-            "memberCode": "rjs",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/rjs-mg-other-mwave-2.jpg",
-            "rounded": true
           }
         ],
         "fs": [
@@ -6566,6 +6609,16 @@
             "eraCode": "mg",
             "sectionCode": "fs",
             "img": "/card/rjs-mg-fs-beatroad.jpg",
+            "rounded": true
+          },
+          {
+            "id": "0xZ2tYfpBRhSbYe-oj7yX",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "rjs",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/rjs-mg-fs-withfans-1.jpg",
             "rounded": true
           }
         ]
@@ -7773,6 +7826,26 @@
             "rounded": true
           },
           {
+            "id": "7-Lwh8PAMwkPePErnQYEp",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "pjw",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/pjw-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "aeKsqO6OoqZOZbLKs22jG",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "pjw",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/pjw-mg-other-mwave-2.jpg",
+            "rounded": true
+          },
+          {
             "id": "5QwdzClxBp5vlg0VKiurY",
             "code": "ld-soundwave-r-1",
             "name": "LD Soundwave R1",
@@ -7841,26 +7914,6 @@
             "sectionCode": "other",
             "img": "/card/pjw-mg-other-weverse-print.jpg",
             "rounded": false
-          },
-          {
-            "id": "7-Lwh8PAMwkPePErnQYEp",
-            "code": "mwave-1",
-            "name": "Mwave 1",
-            "memberCode": "pjw",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/pjw-mg-other-mwave-1.jpg",
-            "rounded": true
-          },
-          {
-            "id": "aeKsqO6OoqZOZbLKs22jG",
-            "code": "mwave-2",
-            "name": "Mwave 2",
-            "memberCode": "pjw",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/pjw-mg-other-mwave-2.jpg",
-            "rounded": true
           }
         ],
         "fs": [
@@ -7962,6 +8015,16 @@
             "eraCode": "mg",
             "sectionCode": "fs",
             "img": "/card/pjw-mg-fs-beatroad.jpg",
+            "rounded": true
+          },
+          {
+            "id": "USHbL1kXhae2nH_1sBwtK",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "pjw",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/pjw-mg-fs-withfans-1.jpg",
             "rounded": true
           }
         ]
@@ -9169,6 +9232,26 @@
             "rounded": true
           },
           {
+            "id": "A2VGFZ_y_arnNQ9bzGQ2Q",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "lsy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lsy-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "7_3FA1jDVGtEbWax-NfDG",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "lsy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lsy-mg-other-mwave-2.jpg",
+            "rounded": true
+          },
+          {
             "id": "_01fzijZRLrhfBvVcV11F",
             "code": "ld-soundwave-r-1",
             "name": "LD Soundwave R1",
@@ -9237,26 +9320,6 @@
             "sectionCode": "other",
             "img": "/card/lsy-mg-other-weverse-print.jpg",
             "rounded": false
-          },
-          {
-            "id": "A2VGFZ_y_arnNQ9bzGQ2Q",
-            "code": "mwave-1",
-            "name": "Mwave 1",
-            "memberCode": "lsy",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/lsy-mg-other-mwave-1.jpg",
-            "rounded": true
-          },
-          {
-            "id": "7_3FA1jDVGtEbWax-NfDG",
-            "code": "mwave-2",
-            "name": "Mwave 2",
-            "memberCode": "lsy",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/lsy-mg-other-mwave-2.jpg",
-            "rounded": true
           }
         ],
         "fs": [
@@ -9358,6 +9421,16 @@
             "eraCode": "mg",
             "sectionCode": "fs",
             "img": "/card/lsy-mg-fs-beatroad.jpg",
+            "rounded": true
+          },
+          {
+            "id": "oaUZJmc0QWsfDjTB9A5hf",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "lsy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/lsy-mg-fs-withfans-1.jpg",
             "rounded": true
           }
         ]
@@ -10565,6 +10638,26 @@
             "rounded": true
           },
           {
+            "id": "m3Y0yJ3s81jiRCThS5ooT",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "lcy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lcy-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "X_3m31xShWvyqB3QOV3y1",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "lcy",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/lcy-mg-other-mwave-2.jpg",
+            "rounded": true
+          },
+          {
             "id": "6fknxKNLoUI3QqABU6pGa",
             "code": "ld-soundwave-r-1",
             "name": "LD Soundwave R1",
@@ -10633,26 +10726,6 @@
             "sectionCode": "other",
             "img": "/card/lcy-mg-other-weverse-print.jpg",
             "rounded": false
-          },
-          {
-            "id": "m3Y0yJ3s81jiRCThS5ooT",
-            "code": "mwave-1",
-            "name": "Mwave 1",
-            "memberCode": "lcy",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/lcy-mg-other-mwave-1.jpg",
-            "rounded": true
-          },
-          {
-            "id": "X_3m31xShWvyqB3QOV3y1",
-            "code": "mwave-2",
-            "name": "Mwave 2",
-            "memberCode": "lcy",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/lcy-mg-other-mwave-2.jpg",
-            "rounded": true
           }
         ],
         "fs": [
@@ -10754,6 +10827,16 @@
             "eraCode": "mg",
             "sectionCode": "fs",
             "img": "/card/lcy-mg-fs-beatroad.jpg",
+            "rounded": true
+          },
+          {
+            "id": "uX92LpRlinAkeYabX4Knq",
+            "code": "withfans-1",
+            "name": "Withfans 1",
+            "memberCode": "lcy",
+            "eraCode": "mg",
+            "sectionCode": "fs",
+            "img": "/card/lcy-mg-fs-withfans-1.jpg",
             "rounded": true
           }
         ]
@@ -11961,6 +12044,26 @@
             "rounded": true
           },
           {
+            "id": "ofMx2C7vnEYaqhay1bs5W",
+            "code": "mwave-1",
+            "name": "Mwave 1",
+            "memberCode": "bjh",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/bjh-mg-other-mwave-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "bFN0zjj8_PU9Pqi82kf7o",
+            "code": "mwave-2",
+            "name": "Mwave 2",
+            "memberCode": "bjh",
+            "eraCode": "mg",
+            "sectionCode": "other",
+            "img": "/card/bjh-mg-other-mwave-2.jpg",
+            "rounded": true
+          },
+          {
             "id": "6_Ouw_r-To2Gibxpgz5Xy",
             "code": "ld-soundwave-r-1",
             "name": "LD Soundwave R1",
@@ -12029,16 +12132,6 @@
             "sectionCode": "other",
             "img": "/card/bjh-mg-other-weverse-print.jpg",
             "rounded": false
-          },
-          {
-            "id": "ofMx2C7vnEYaqhay1bs5W",
-            "code": "mwave-1",
-            "name": "Mwave 1",
-            "memberCode": "bjh",
-            "eraCode": "mg",
-            "sectionCode": "other",
-            "img": "/card/bjh-mg-other-mwave-1.jpg",
-            "rounded": true
           }
         ],
         "fs": [
