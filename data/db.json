@@ -94,6 +94,12 @@
       "name": "Midnight Guest",
       "img": "/era/mg.jpg",
       "photosPerRow": 4
+    },
+    {
+      "code": "fmb",
+      "name": "From Our Memento Box",
+      "img": "/era/fmb.jpg",
+      "photosPerRow": 4
     }
   ],
   "sections": {

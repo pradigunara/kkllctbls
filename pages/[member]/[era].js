@@ -38,6 +38,10 @@ function getWishlist() {
 }
 
 export default function Era({ member, era, sortedSections }) {
+  if (era?.code === 'fmb') {
+      return <Fmb member={member} era={era} />
+  }
+
   const [chunkSize, setChunkSize] = useState(era?.photosPerRow)
   const [wishlistMode, setWishlistMode] = useState(false)
   const [showMark, setShowMark] = useState(true)
@@ -306,4 +310,26 @@ export async function getStaticProps({ params }) {
   return {
     props: { member: foundMember, era: foundEra, sortedSections },
   }
+}
+
+function Fmb({ member, era }) {
+    return (
+        <Container span={22}>
+            <Header/>
+            <Breadcrumbs crumbs={[[member.name, `/${member.code}`], [era.name]]} />
+            <br />
+
+            <Container span={24}>
+                <Row justify="center">
+                    <Col>
+                        <video width="320" height="240" autoPlay muted loop src="/megan.webm" />
+                        <h1 style={{ textAlign: 'center' }}>BURU BURU AMAT</h1>
+                    </Col>
+                </Row>
+            </Container>
+            <br />
+            <Footer />
+
+        </Container>
+    )
 }
