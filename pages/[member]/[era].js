@@ -299,12 +299,12 @@ export async function getStaticProps({ params }) {
   const foundMember = _.find(db.members, { code: params?.member })
   const foundEra = _.find(db.eras, { code: params?.era })
 
-  const eraSections = db.cards?.[params?.member]?.[params?.era] ?? []
+  const eraSections = db.cards?.[params?.member]?.[params?.era] ?? {}
   const sectionList = db.sections?.[params?.era] ?? []
 
   const sortedSections = sectionList.map((section) => ({
     name: section.name,
-    content: eraSections[section.code],
+    content: eraSections[section.code] ?? null,
   }))
 
   return {

@@ -637,6 +637,74 @@
           }
         }
       }
+    ],
+    "fmb": [
+      {
+        "code": "album",
+        "name": "Album",
+        "variant": {
+          "Wish 1": {
+            "rounded": true
+          },
+          "Wish 2": {
+            "rounded": true
+          },
+          "Dream 1": {
+            "rounded": true
+          },
+          "Dream 2": {
+            "rounded": true
+          },
+          "Memory 1": {
+            "rounded": true
+          },
+          "Memory 2": {
+            "rounded": true
+          },
+          "Kihno Wish": {
+            "rounded": true
+          },
+          "Kihno Dream": {
+            "rounded": true
+          },
+          "Jewel": {
+            "rounded": true
+          },
+          "Weverse QR": {
+            "rounded": true
+          },
+          "Weverse 1": {
+            "rounded": true
+          },
+          "Weverse 2": {
+            "rounded": true
+          }
+        }
+      },
+      {
+        "code": "inclusion",
+        "name": "Inclusion",
+        "variant": {
+          "Ticket Wish": {
+            "rounded": false
+          },
+          "Ticket Dream": {
+            "rounded": false
+          },
+          "Ticket Memory": {
+            "rounded": false
+          },
+          "Jewel Booklet": {
+            "rounded": false
+          },
+          "Kihno Square Wish": {
+            "rounded": false
+          },
+          "Kihno Square Dream": {
+            "rounded": false
+          }
+        }
+      }
     ]
   },
   "cards": {
