@@ -5,7 +5,7 @@ import { Form, Select, Row, Col, Upload, Button } from 'antd'
 import db from 'data/db.json'
 
 const submitInput = (data) =>
-  fetch('http://localhost:3000/api/input', {
+  fetch('/api/input', {
     method: 'POST', // or 'PUT'
     headers: {
       'Content-Type': 'application/json',
