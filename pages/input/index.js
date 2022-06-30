@@ -12,11 +12,17 @@ const submitInput = (data) =>
     },
     body: JSON.stringify(data),
   })
-    .then((response) => response.json())
-    .then((data) => {
-      console.log('Success:', data)
+    .then(async (response) => {
+      const message = await response.json()
+
+      if (response?.status >= 400) {
+        return Promise.reject(JSON.stringify(message))
+      }
+
+      console.log('Success:', message)
+
+      return message
     })
-    .catch(console.error)
 
 export default function InputPage() {
   const [form] = Form.useForm()
@@ -35,7 +41,9 @@ export default function InputPage() {
       rounded,
     }
 
-    submitInput(payload).then(() => alert('OK'))
+    submitInput(payload)
+        .then(() => alert('OK'))
+        .catch(alert)
   }
 
   const createOptions = (opts = []) =>
