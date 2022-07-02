@@ -322,8 +322,8 @@ function Fmb({ member, era }) {
             <Container span={24}>
                 <Row justify="center">
                     <Col>
-                        <video width="320" height="240" autoPlay muted loop src="/megan.webm" />
-                        <h1 style={{ textAlign: 'center' }}>BURU BURU AMAT</h1>
+                        <video width="320" height="240" autoPlay muted loop src="/kko.mp4" />
+                        <h1 style={{ textAlign: 'center' }}>SABAR YAH</h1>
                     </Col>
                 </Row>
             </Container>
