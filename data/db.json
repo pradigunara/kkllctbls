@@ -3518,6 +3518,130 @@
             "rounded": false
           }
         ]
+      },
+      "fmb": {
+        "album": [
+          {
+            "id": "9wCWPi6x6FKwGSUuOMXB-",
+            "code": "wish-1",
+            "name": "Wish 1",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "album",
+            "img": "/card/lsr-fmb-album-wish-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "eM7itizlKIkpVBxoh7-iV",
+            "code": "wish-2",
+            "name": "Wish 2",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "album",
+            "img": "/card/lsr-fmb-album-wish-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "XrkeXlIt6UdUqAXmpiECI",
+            "code": "dream-1",
+            "name": "Dream 1",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "album",
+            "img": "/card/lsr-fmb-album-dream-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "ImmojOe4655os-YZzL56q",
+            "code": "dream-2",
+            "name": "Dream 2",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "album",
+            "img": "/card/lsr-fmb-album-dream-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "xydICJTjX6scCn4JHj5Hy",
+            "code": "memory-1",
+            "name": "Memory 1",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "album",
+            "img": "/card/lsr-fmb-album-memory-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "lDY9d3e4uBXiJ9e3RsxgI",
+            "code": "memory-2",
+            "name": "Memory 2",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "album",
+            "img": "/card/lsr-fmb-album-memory-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "-5ZwTHLpQFr53dSSMGK88",
+            "code": "kihno-wish",
+            "name": "Kihno Wish",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "album",
+            "img": "/card/lsr-fmb-album-kihno-wish.jpg",
+            "rounded": true
+          },
+          {
+            "id": "-7lvyExQmlLgBNrl-gC7W",
+            "code": "kihno-dream",
+            "name": "Kihno Dream",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "album",
+            "img": "/card/lsr-fmb-album-kihno-dream.jpg",
+            "rounded": true
+          },
+          {
+            "id": "Gg31R0Hgd_RbeE4bJ864c",
+            "code": "jewel",
+            "name": "Jewel",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "album",
+            "img": "/card/lsr-fmb-album-jewel.jpg",
+            "rounded": true
+          },
+          {
+            "id": "mhe7dCPvAOJ-VEK7iNdBs",
+            "code": "weverse-qr",
+            "name": "Weverse QR",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "album",
+            "img": "/card/lsr-fmb-album-weverse-qr.jpg",
+            "rounded": true
+          },
+          {
+            "id": "3cPIgAhNJATAUi6Qmal7D",
+            "code": "weverse-1",
+            "name": "Weverse 1",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "album",
+            "img": "/card/lsr-fmb-album-weverse-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "JMbvYQbsQyk1URMoUMTlI",
+            "code": "weverse-2",
+            "name": "Weverse 2",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "album",
+            "img": "/card/lsr-fmb-album-weverse-2.jpg",
+            "rounded": true
+          }
+        ]
       }
     },
     "shy": {
