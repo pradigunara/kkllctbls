@@ -35,16 +35,12 @@ export default function handler(req, res) {
   const cards = _.get(db, storagePath, [])
   const imgPath = `/card/${memberCode}-${eraCode}-${sectionCode}-${_.kebabCase(name)}.jpg`
 
-  console.log('cc', cards)
 
   const existing = _.find(cards, { name })
-  console.log('ex', existing)
   if (existing) {
-    console.log('asd')
    return res.status(400).json({ message: `${imgPath} already exist :(` })
   }
 
-  console.log('qwe')
 
   cards.push({
     id: nanoid(),
