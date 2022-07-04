@@ -1,8 +1,8 @@
 import _ from 'lodash'
 import { useEffect, useState } from 'react'
 import { useDoubleTap } from 'use-double-tap'
-import { Row, Col, Divider, Radio, Button, Modal } from 'antd'
-import { StarOutlined, StarFilled } from '@ant-design/icons'
+import { Row, Col, Divider, Radio, message } from 'antd'
+import { StarFilled } from '@ant-design/icons'
 import Header from 'components/header'
 import Footer from 'components/footer'
 import Breadcrumbs from 'components/breadcrumbs'
@@ -39,7 +39,6 @@ function getWishlist() {
 
 export default function Era({ member, era, sortedSections }) {
   const [chunkSize, setChunkSize] = useState(era?.photosPerRow)
-  const [wishlistMode, setWishlistMode] = useState(false)
   const [showMark, setShowMark] = useState(true)
   const [showName, setShowName] = useState(true)
   const [crossed, setCrossed] = useState(new Set())
@@ -52,34 +51,14 @@ export default function Era({ member, era, sortedSections }) {
   const handleShowMarkChange = ({ target }) => setShowMark(target?.value)
   const handleShowNameChange = ({ target }) => setShowName(target?.value)
 
-  const handleWishlistMode = () => {
-    !sessionStorage.getItem('wlguide') &&
-      !wishlistMode &&
-      Modal.info({
-        title: 'Wishlist Mode',
-        content: (
-          <div>
-            <p>
-              In this mode, double-tapping the item will add that item to your
-              wishlist.
-              <br />
-              You can access your wishlist from the bottom of homepage (below
-              member selection)
-            </p>
-          </div>
-        ),
-        onOk() {
-          sessionStorage.setItem('wlguide', '1')
-        },
-      })
-
-    setWishlistMode((wl) => !wl)
-  }
-
-  const handleToggleWishlist = (id, url, rounded) => {
-    wishlists.has(id)
-      ? wishlists.delete(id)
-      : wishlists.set(id, { url, rounded })
+  const handleDoubleTap = (id, url, rounded) => {
+    if (!wishlists.has(id)) {
+      wishlists.set(id, { url, rounded })
+      message.success({ content: 'Added to wishlist!', duration: 1 })
+    } else {
+      wishlists.delete(id)
+      message.info({ content: 'Removed from wishlist', duration: 1 })
+    }
 
     const updatedWishlists = _.map([...wishlists.entries()], ([k, v]) => ({
       id: k,
@@ -90,11 +69,7 @@ export default function Era({ member, era, sortedSections }) {
     return setWishlists(new Map([...wishlists.entries()]))
   }
 
-  const handleDoubleTap = (imgID, imgUrl, rounded) => {
-    if (wishlistMode) {
-      return handleToggleWishlist(imgID, imgUrl, rounded)
-    }
-
+  const handleSingleTap = (imgID, imgUrl, rounded) => {
     crossed.has(imgID) ? crossed.delete(imgID) : crossed.add(imgID)
 
     const updatedIDs = [...crossed]
@@ -105,20 +80,13 @@ export default function Era({ member, era, sortedSections }) {
 
   return (
     <Container span={22}>
-      <Header
-        slotRight={
-          <Button
-            type="primary"
-            shape="circle"
-            icon={wishlistMode ? <StarFilled /> : <StarOutlined />}
-            size="large"
-            onClick={handleWishlistMode}
-          />
-        }
-      />
+      <Header />
       <Breadcrumbs crumbs={[[member.name, `/${member.code}`], [era.name]]} />
-
-      <h3>Double tap to {wishlistMode ? 'add wishlist' : 'mark photos'}!</h3>
+      <h4>
+        <i>
+          <b>Tap items to cross out, Double tap to add wishlist!</b>
+        </i>
+      </h4>
 
       <Row justify="end">
         <Col>Photos per row :</Col>
@@ -129,33 +97,29 @@ export default function Era({ member, era, sortedSections }) {
           </Radio.Group>
         </Col>
       </Row>
-      {!wishlistMode && (
-        <>
-          <Row justify="end">
-            <Col>Show marked :</Col>
-            <Col offset={1}>
-              <Radio.Group onChange={handleShowMarkChange} value={showMark}>
-                <Radio value={true}>Y</Radio>
-                <Radio value={false}>N</Radio>
-              </Radio.Group>
-            </Col>
-          </Row>
-          <Row justify="end">
-            <Col>Show name :</Col>
-            <Col offset={1}>
-              <Radio.Group onChange={handleShowNameChange} value={showName}>
-                <Radio value={true}>Y</Radio>
-                <Radio value={false}>N</Radio>
-              </Radio.Group>
-            </Col>
-          </Row>
-        </>
-      )}
+      <Row justify="end">
+        <Col>Show marked :</Col>
+        <Col offset={1}>
+          <Radio.Group onChange={handleShowMarkChange} value={showMark}>
+            <Radio value={true}>Y</Radio>
+            <Radio value={false}>N</Radio>
+          </Radio.Group>
+        </Col>
+      </Row>
+      <Row justify="end">
+        <Col>Show name :</Col>
+        <Col offset={1}>
+          <Radio.Group onChange={handleShowNameChange} value={showName}>
+            <Radio value={true}>Y</Radio>
+            <Radio value={false}>N</Radio>
+          </Radio.Group>
+        </Col>
+      </Row>
 
       <Container span={24}>
         {sortedSections.map(({ name, content }) => {
           const filteredContent = _.filter(content ?? [], (c) =>
-            wishlistMode || showMark ? true : !crossed.has(c.id)
+            showMark ? true : !crossed.has(c.id)
           )
           const contentChunks = _.chunk(filteredContent, chunkSize)
 
@@ -170,9 +134,9 @@ export default function Era({ member, era, sortedSections }) {
                       isCrossed={crossed.has(card.id)}
                       isWishlist={wishlists.has(card.id)}
                       onDoubleTap={handleDoubleTap}
+                      onSingleTap={handleSingleTap}
                       chunk={chunkSize}
-                      showName={!wishlistMode && showName}
-                      wishlistMode={wishlistMode}
+                      showName={showName}
                     />
                   ))}
                 </CardRow>
@@ -227,19 +191,22 @@ function Card({
   isCrossed,
   isWishlist = false,
   onDoubleTap,
+  onSingleTap,
   chunk = 3,
   showName,
-  wishlistMode,
 }) {
-  const bindDoubleTap = useDoubleTap((e) => {
-    return onDoubleTap(
-      e?.target?.id,
-      e?.target?.getAttribute('data-url'),
-      e?.target?.getAttribute('data-rounded') === 'true'
-    )
-  }, 800)
-
-  const isOpaque = wishlistMode ? !isWishlist : isCrossed
+  const bindDoubleTap = useDoubleTap(
+    (e) =>
+      onDoubleTap(
+        e?.target?.id,
+        e?.target?.getAttribute('data-url'),
+        e?.target?.getAttribute('data-rounded') === 'true'
+      ),
+    400,
+    {
+      onSingleTap: (e) => onSingleTap(e?.target?.id),
+    }
+  )
 
   return (
     <Col span={24 / chunk} key={card.id} style={{ marginBottom: '1em' }}>
@@ -252,6 +219,18 @@ function Card({
       >
         {card.name}
       </span>
+      {isWishlist && (
+        <span style={{ display: 'flex', justifyContent: 'start' }}>
+          <StarFilled
+            style={{
+              fontSize: `${6 / chunk}em`,
+              color: 'goldenrod',
+              marginBottom: '-1em',
+              zIndex: 500,
+            }}
+          />
+        </span>
+      )}
       <img
         id={card.id}
         style={{
@@ -260,7 +239,7 @@ function Card({
           minWidth: 0,
           cursor: 'pointer',
           borderRadius: card.rounded && `${2.4 / chunk}em`,
-          opacity: isOpaque && '0.3',
+          opacity: isCrossed && '0.3',
           boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
         }}
         src={card.img}
