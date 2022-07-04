@@ -62,10 +62,13 @@ export default function Home({ members }) {
 
           <br />
 
-          ... or go to{' '}
-          <Link href="/wishlist">
-            <a>wishlist</a>
-          </Link>
+          <a
+            target="_blank"
+            href="https://twitter.com/bucinakko/status/1544081335593365506"
+            rel="noreferrer"
+          >
+            looking for wishlist?
+          </a>
         </Col>
         <Footer />
       </Row>
