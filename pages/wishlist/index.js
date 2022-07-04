@@ -91,7 +91,18 @@ export default function Wishlist() {
         <Col span={22}>
           <Header />
           <Breadcrumbs crumbs={[['Wishlist']]} />
-          <h2>Double tap to edit wishlist!</h2>
+          <h3>
+            <b>
+              <i>Double tap to edit wishlist!</i>
+            </b>
+          </h3>
+          <a
+            target="_blank"
+            href="https://twitter.com/bucinakko/status/1544085455377154048"
+            rel="noreferrer"
+          >
+            How to add wishlist items?
+          </a>
 
           <Row justify="end">
             <Col>
@@ -179,7 +190,7 @@ function Card({
               color: 'goldenrod',
               transform: 'rotate(-35deg)',
               marginBottom: '-0.5em',
-              marginLeft: '-0.2em'
+              marginLeft: '-0.2em',
             }}
           />
         </span>
@@ -243,7 +254,12 @@ function MoveButton({ children, onClick }) {
     <Button
       shape="circle"
       size="small"
-      style={{ marginTop: '-60%', marginLeft: '-15%', marginRight: '-15%', zIndex: '500' }}
+      style={{
+        marginTop: '-60%',
+        marginLeft: '-15%',
+        marginRight: '-15%',
+        zIndex: '500',
+      }}
       onClick={onClick}
     >
       {children}
