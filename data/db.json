@@ -640,6 +640,57 @@
     ],
     "fmb": [
       {
+        "code": "jpob",
+        "name": "Jewel PO Benefit",
+        "variant": {
+          "Weverse": {
+            "rounded": true
+          },
+          "Aladin": {
+            "rounded": false
+          },
+          "Interpark": {
+            "rounded": true
+          },
+          "Music Korea": {
+            "rounded": false
+          },
+          "Music Plant": {
+            "rounded": true
+          },
+          "Yes24": {
+            "rounded": false
+          }
+        }
+      },
+      {
+        "code": "apob",
+        "name": "Album PO Benefit",
+        "variant": {
+          "Weverse": {
+            "rounded": true
+          },
+          "Aladin": {
+            "rounded": true
+          },
+          "Interpark": {
+            "rounded": true
+          },
+          "Music Korea": {
+            "rounded": false
+          },
+          "Music Plant": {
+            "rounded": true
+          },
+          "Synnara": {
+            "rounded": true
+          },
+          "Yes24": {
+            "rounded": true
+          }
+        }
+      },
+      {
         "code": "album",
         "name": "Album",
         "variant": {
