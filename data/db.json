@@ -16,14 +16,14 @@
       "img": "/member/jgr-fmb.jpg"
     },
     {
-      "code": "rjs",
-      "name": "Roh Jisun",
-      "img": "/member/rjs-fmb.jpg"
-    },
-    {
       "code": "pjw",
       "name": "Park Jiwon",
       "img": "/member/pjw-fmb.jpg"
+    },
+    {
+      "code": "rjs",
+      "name": "Roh Jisun",
+      "img": "/member/rjs-fmb.jpg"
     },
     {
       "code": "lsy",
