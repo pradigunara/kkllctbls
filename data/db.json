@@ -4390,6 +4390,16 @@
             "rounded": true
           },
           {
+            "id": "5cZQ6oZEp4Xj6Z_bRBHcd",
+            "code": "broadcast-2",
+            "name": "Broadcast 2",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/lsr-fmb-fsb-broadcast-2.jpg",
+            "rounded": true
+          },
+          {
             "id": "J_0y9ZMvRV62sSf3cC1GW",
             "code": "weverse-online",
             "name": "Weverse Online",
@@ -4417,16 +4427,6 @@
             "eraCode": "fmb",
             "sectionCode": "fsb",
             "img": "/card/lsr-fmb-fsb-music-korea.jpg",
-            "rounded": true
-          },
-          {
-            "id": "5cZQ6oZEp4Xj6Z_bRBHcd",
-            "code": "broadcast-2",
-            "name": "Broadcast 2",
-            "memberCode": "lsr",
-            "eraCode": "fmb",
-            "sectionCode": "fsb",
-            "img": "/card/lsr-fmb-fsb-broadcast-2.jpg",
             "rounded": true
           },
           {
