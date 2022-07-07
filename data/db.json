@@ -640,6 +640,51 @@
     ],
     "fmb": [
       {
+        "code": "fsb",
+        "name": "Fansign & Broadcast",
+        "variant": {
+          "Showcase": {
+            "rounded": false
+          },
+          "Broadcast 1": {
+            "rounded": true
+          },
+          "Broadcast 2": {
+            "rounded": true
+          },
+          "Weverse Online": {
+            "rounded": true
+          },
+          "Weverse Offline": {
+            "rounded": true
+          },
+          "Music Korea": {
+            "rounded": true
+          },
+          "Soundwave": {
+            "rounded": true
+          }
+        }
+      },
+      {
+        "code": "other",
+        "name": "Other Benefit",
+        "variant": {
+          "Hybe Insight": {
+            "rounded": true
+          },
+          "LD Soundwave": {
+            "rounded": true
+          },
+          "LD Powerstation": {
+            "rounded": true
+          },
+          "LD M2U": {
+            "rounded": true
+          }
+        }
+      },
+      {
         "code": "apob",
         "name": "Album PO Benefit",
         "variant": {
