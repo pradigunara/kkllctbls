@@ -182,6 +182,7 @@ function CardRow({ children, chunk }) {
       align="bottom"
     >
       {children}
+      <Col span={(24 / chunk) * (chunk - children.length)} />
     </Row>
   )
 }

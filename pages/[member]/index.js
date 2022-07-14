@@ -57,6 +57,7 @@ export default function Member({ eras, memberCode, memberName }) {
                       </Link>
                     </Col>
                   ))}
+                  <Col span={8 * (CHUNK_SIZE - chunk.length)} />
                 </Row>
               ))}
             </Col>

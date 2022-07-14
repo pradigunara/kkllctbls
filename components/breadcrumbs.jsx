@@ -1,7 +1,7 @@
 import { Breadcrumb, Col, Row } from 'antd'
 import Link from 'next/link'
 import _ from 'lodash'
-import db from '../data/db.json'
+import { Fragment } from 'react'
 
 /**
  * crumbs element is an array of [(text), (link)] tuple
@@ -19,20 +19,17 @@ export default function Breadcrumbs({ crumbs = [] }) {
           <Breadcrumb.Separator>:</Breadcrumb.Separator>
           {crumbs.map((crumb, idx) => {
             const [content, link] = _.castArray(crumb)
+            const item = !link ? content : (
+              <Link href={link}>
+                <a>{content}</a>
+              </Link>
+            )
 
             return (
-              <span key={idx}>
+              <Fragment key={idx}>
                 {idx > 0 && <Breadcrumb.Separator>{'>'}</Breadcrumb.Separator>}
-                <Breadcrumb.Item>
-                  {link ? (
-                    <Link href={link}>
-                      <a>{content}</a>
-                    </Link>
-                  ) : (
-                    content
-                  )}
-                </Breadcrumb.Item>
-              </span>
+                <Breadcrumb.Item>{item}</Breadcrumb.Item>
+              </Fragment>
             )
           })}
         </Breadcrumb>
