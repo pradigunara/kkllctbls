@@ -47,6 +47,7 @@ export default function Home({ members }) {
                               borderRadius: '0.8em',
                               boxShadow:
                                 '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
+                              ...member.code === 'jgr' ? { filter: 'saturate(30%)' } : {}
                             }}
                             src={member.img}
                             alt={member.name}
