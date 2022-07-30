@@ -38,7 +38,7 @@ export default function Home({ members }) {
                     >
                       <Link href={`/${member.code}`}>
                         <a style={{ color: 'inherit' }}>
-                          <span>{member.name}</span>
+                          <span style={{ fontSize: '0.9em' }}>{member.name}</span>
                           <img
                             style={{
                               maxHeight: '50vh',
