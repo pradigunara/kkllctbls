@@ -46,8 +46,7 @@ export default function Home({ members }) {
                               minWidth: 0,
                               borderRadius: '0.8em',
                               boxShadow:
-                                '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
-                              ...member.code === 'jgr' ? { filter: 'saturate(30%)' } : {}
+                                '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)'
                             }}
                             src={member.img}
                             alt={member.name}
@@ -60,16 +59,6 @@ export default function Home({ members }) {
               ))}
             </Col>
           </Row>
-
-          <br />
-
-          <a
-            target="_blank"
-            href="https://twitter.com/bucinakko/status/1544081335593365506"
-            rel="noreferrer"
-          >
-            looking for wishlist?
-          </a>
         </Col>
         <Footer />
       </Row>
