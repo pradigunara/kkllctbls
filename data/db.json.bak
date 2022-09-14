@@ -3,47 +3,47 @@
     {
       "code": "lsr",
       "name": "Lee Saerom",
-      "img": "/member/lsr-fmb.jpg"
+      "img": "/member/lsr-ks.jpg"
     },
     {
       "code": "shy",
       "name": "Song Hayoung",
-      "img": "/member/shy-fmb.jpg"
+      "img": "/member/shy-ks.jpg"
     },
     {
       "code": "jgr",
       "name": "Jang Gyuri",
-      "img": "/member/jgr-fmb.jpg"
+      "img": "/member/jgr-ks.jpg"
     },
     {
       "code": "pjw",
       "name": "Park Jiwon",
-      "img": "/member/pjw-fmb.jpg"
+      "img": "/member/pjw-ks.jpg"
     },
     {
       "code": "rjs",
       "name": "Roh Jisun",
-      "img": "/member/rjs-fmb.jpg"
+      "img": "/member/rjs-ks.jpg"
     },
     {
       "code": "lsy",
       "name": "Lee Seoyeon",
-      "img": "/member/lsy-fmb.jpg"
+      "img": "/member/lsy-ks.jpg"
     },
     {
       "code": "lcy",
       "name": "Lee Chaeyoung",
-      "img": "/member/lcy-fmb.jpg"
+      "img": "/member/lcy-ks.jpg"
     },
     {
       "code": "lng",
       "name": "Lee Nagyung",
-      "img": "/member/lng-fmb.jpg"
+      "img": "/member/lng-ks.jpg"
     },
     {
       "code": "bjh",
       "name": "Baek Jiheon",
-      "img": "/member/bjh-fmb.jpg"
+      "img": "/member/bjh-ks.jpg"
     }
   ],
   "eras": [
@@ -663,6 +663,9 @@
           },
           "Soundwave": {
             "rounded": true
+          },
+          "Joeun": {
+            "rounded": true
           }
         }
       },
@@ -680,6 +683,12 @@
             "rounded": true
           },
           "LD M2U": {
+            "rounded": true
+          },
+          "Live Album": {
+            "rounded": true
+          },
+          "Live Jewel": {
             "rounded": true
           }
         }
@@ -2598,6 +2607,16 @@
             "sectionCode": "fsb",
             "img": "/card/lng-fmb-fsb-soundwave.jpg",
             "rounded": true
+          },
+          {
+            "id": "QC6OTAnxw7B1CI0Gnwju0",
+            "code": "joeun",
+            "name": "Joeun",
+            "memberCode": "lng",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/lng-fmb-fsb-joeun.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -2639,6 +2658,26 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/lng-fmb-other-ld-m-2-u.jpg",
+            "rounded": true
+          },
+          {
+            "id": "2dD1wp5kEZmEHkZHE3ILA",
+            "code": "live-album",
+            "name": "Live Album",
+            "memberCode": "lng",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/lng-fmb-other-live-album.jpg",
+            "rounded": true
+          },
+          {
+            "id": "sL12x3llgoK7NydO6fX22",
+            "code": "live-jewel",
+            "name": "Live Jewel",
+            "memberCode": "lng",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/lng-fmb-other-live-jewel.jpg",
             "rounded": true
           }
         ]
@@ -4390,6 +4429,16 @@
             "rounded": true
           },
           {
+            "id": "5cZQ6oZEp4Xj6Z_bRBHcd",
+            "code": "broadcast-2",
+            "name": "Broadcast 2",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/lsr-fmb-fsb-broadcast-2.jpg",
+            "rounded": true
+          },
+          {
             "id": "J_0y9ZMvRV62sSf3cC1GW",
             "code": "weverse-online",
             "name": "Weverse Online",
@@ -4420,16 +4469,6 @@
             "rounded": true
           },
           {
-            "id": "5cZQ6oZEp4Xj6Z_bRBHcd",
-            "code": "broadcast-2",
-            "name": "Broadcast 2",
-            "memberCode": "lsr",
-            "eraCode": "fmb",
-            "sectionCode": "fsb",
-            "img": "/card/lsr-fmb-fsb-broadcast-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "6CYdxfIvQksFEwCLHjlov",
             "code": "soundwave",
             "name": "Soundwave",
@@ -4437,6 +4476,16 @@
             "eraCode": "fmb",
             "sectionCode": "fsb",
             "img": "/card/lsr-fmb-fsb-soundwave.jpg",
+            "rounded": true
+          },
+          {
+            "id": "RZotUV6o-s1jwWSO2WBGN",
+            "code": "joeun",
+            "name": "Joeun",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/lsr-fmb-fsb-joeun.jpg",
             "rounded": true
           }
         ],
@@ -4479,6 +4528,26 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/lsr-fmb-other-ld-m-2-u.jpg",
+            "rounded": true
+          },
+          {
+            "id": "LU7KpOrSAna1iU8FySUAn",
+            "code": "live-album",
+            "name": "Live Album",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/lsr-fmb-other-live-album.jpg",
+            "rounded": true
+          },
+          {
+            "id": "nhWf-iYtzb6FI9kFiSWa3",
+            "code": "live-jewel",
+            "name": "Live Jewel",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/lsr-fmb-other-live-jewel.jpg",
             "rounded": true
           }
         ]
@@ -6278,6 +6347,16 @@
             "sectionCode": "fsb",
             "img": "/card/shy-fmb-fsb-soundwave.jpg",
             "rounded": true
+          },
+          {
+            "id": "FTpBa_axv1Xx2J2cBF3Gq",
+            "code": "joeun",
+            "name": "Joeun",
+            "memberCode": "shy",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/shy-fmb-fsb-joeun.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -6319,6 +6398,26 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/shy-fmb-other-ld-m-2-u.jpg",
+            "rounded": true
+          },
+          {
+            "id": "6qLsQype9Q8NFnPppVgxl",
+            "code": "live-album",
+            "name": "Live Album",
+            "memberCode": "shy",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/shy-fmb-other-live-album.jpg",
+            "rounded": true
+          },
+          {
+            "id": "qWD0O_QNrxI7r9JvnQKmu",
+            "code": "live-jewel",
+            "name": "Live Jewel",
+            "memberCode": "shy",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/shy-fmb-other-live-jewel.jpg",
             "rounded": true
           }
         ]
@@ -7982,6 +8081,16 @@
             "sectionCode": "fsb",
             "img": "/card/jgr-fmb-fsb-soundwave.jpg",
             "rounded": true
+          },
+          {
+            "id": "SLArnsmCtazd3azvWaSSi",
+            "code": "joeun",
+            "name": "Joeun",
+            "memberCode": "jgr",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/jgr-fmb-fsb-joeun.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -8023,6 +8132,26 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/jgr-fmb-other-ld-m-2-u.jpg",
+            "rounded": true
+          },
+          {
+            "id": "-bCSwkA8IzTyAWXKOBWEq",
+            "code": "live-album",
+            "name": "Live Album",
+            "memberCode": "jgr",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/jgr-fmb-other-live-album.jpg",
+            "rounded": true
+          },
+          {
+            "id": "QGHZkP_aNRkz49ssYr9xF",
+            "code": "live-jewel",
+            "name": "Live Jewel",
+            "memberCode": "jgr",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/jgr-fmb-other-live-jewel.jpg",
             "rounded": true
           }
         ]
@@ -9822,6 +9951,16 @@
             "sectionCode": "fsb",
             "img": "/card/rjs-fmb-fsb-soundwave.jpg",
             "rounded": true
+          },
+          {
+            "id": "tQWjbi4x6bBWMZI1BhMkp",
+            "code": "joeun",
+            "name": "Joeun",
+            "memberCode": "rjs",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/rjs-fmb-fsb-joeun.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -9863,6 +10002,26 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/rjs-fmb-other-ld-m-2-u.jpg",
+            "rounded": true
+          },
+          {
+            "id": "HXXRgde4xbuMV90Pgkui2",
+            "code": "live-album",
+            "name": "Live Album",
+            "memberCode": "rjs",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/rjs-fmb-other-live-album.jpg",
+            "rounded": true
+          },
+          {
+            "id": "ZlV-XF4oGO_JTqzMIAari",
+            "code": "live-jewel",
+            "name": "Live Jewel",
+            "memberCode": "rjs",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/rjs-fmb-other-live-jewel.jpg",
             "rounded": true
           }
         ]
@@ -11662,6 +11821,16 @@
             "sectionCode": "fsb",
             "img": "/card/pjw-fmb-fsb-soundwave.jpg",
             "rounded": true
+          },
+          {
+            "id": "2lBz3314ROggppjsfpdZL",
+            "code": "joeun",
+            "name": "Joeun",
+            "memberCode": "pjw",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/pjw-fmb-fsb-joeun.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -11703,6 +11872,26 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/pjw-fmb-other-ld-m-2-u.jpg",
+            "rounded": true
+          },
+          {
+            "id": "ePgWVSH3LaBzz-Y-z5jKq",
+            "code": "live-album",
+            "name": "Live Album",
+            "memberCode": "pjw",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/pjw-fmb-other-live-album.jpg",
+            "rounded": true
+          },
+          {
+            "id": "bF7J-OHyUpIgXqgHIMvrS",
+            "code": "live-jewel",
+            "name": "Live Jewel",
+            "memberCode": "pjw",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/pjw-fmb-other-live-jewel.jpg",
             "rounded": true
           }
         ]
@@ -13502,6 +13691,16 @@
             "sectionCode": "fsb",
             "img": "/card/lsy-fmb-fsb-soundwave.jpg",
             "rounded": true
+          },
+          {
+            "id": "YHeXIjnDhdUBri6KqkZJI",
+            "code": "joeun",
+            "name": "Joeun",
+            "memberCode": "lsy",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/lsy-fmb-fsb-joeun.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -13543,6 +13742,26 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/lsy-fmb-other-ld-m-2-u.jpg",
+            "rounded": true
+          },
+          {
+            "id": "EcVUcsH4PdcelKb0nE_kG",
+            "code": "live-album",
+            "name": "Live Album",
+            "memberCode": "lsy",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/lsy-fmb-other-live-album.jpg",
+            "rounded": true
+          },
+          {
+            "id": "FJ8QjVRnMXFAGolQ9w1ma",
+            "code": "live-jewel",
+            "name": "Live Jewel",
+            "memberCode": "lsy",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/lsy-fmb-other-live-jewel.jpg",
             "rounded": true
           }
         ]
@@ -15342,6 +15561,16 @@
             "sectionCode": "fsb",
             "img": "/card/lcy-fmb-fsb-soundwave.jpg",
             "rounded": true
+          },
+          {
+            "id": "pqFTRiV2Bn3gtjsyln0tu",
+            "code": "joeun",
+            "name": "Joeun",
+            "memberCode": "lcy",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/lcy-fmb-fsb-joeun.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -15383,6 +15612,26 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/lcy-fmb-other-ld-m-2-u.jpg",
+            "rounded": true
+          },
+          {
+            "id": "_rny6GJ664ZQUI338lSgB",
+            "code": "live-album",
+            "name": "Live Album",
+            "memberCode": "lcy",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/lcy-fmb-other-live-album.jpg",
+            "rounded": true
+          },
+          {
+            "id": "8CCbTHnYFy9MpQjP8zSin",
+            "code": "live-jewel",
+            "name": "Live Jewel",
+            "memberCode": "lcy",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/lcy-fmb-other-live-jewel.jpg",
             "rounded": true
           }
         ]
@@ -17213,6 +17462,36 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/bjh-fmb-other-ld-powerstation.jpg",
+            "rounded": true
+          },
+          {
+            "id": "n6vScFWD7ahB69qduzkMg",
+            "code": "ld-m-2-u",
+            "name": "LD M2U",
+            "memberCode": "bjh",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/bjh-fmb-other-ld-m-2-u.jpg",
+            "rounded": true
+          },
+          {
+            "id": "bVmRiWx7avALW2cnIbXv0",
+            "code": "live-album",
+            "name": "Live Album",
+            "memberCode": "bjh",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/bjh-fmb-other-live-album.jpg",
+            "rounded": true
+          },
+          {
+            "id": "NwPUKHSfrhuK7yb__8wAZ",
+            "code": "live-jewel",
+            "name": "Live Jewel",
+            "memberCode": "bjh",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/bjh-fmb-other-live-jewel.jpg",
             "rounded": true
           }
         ]
