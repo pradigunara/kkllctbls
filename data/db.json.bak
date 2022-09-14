@@ -666,6 +666,9 @@
           },
           "Joeun": {
             "rounded": true
+          },
+          "Ktown": {
+            "rounded": true
           }
         }
       },
@@ -673,7 +676,16 @@
         "code": "other",
         "name": "Other Benefit",
         "variant": {
+          "Mwave": {
+            "rounded": true
+          },
           "Hybe Insight": {
+            "rounded": true
+          },
+          "Live Album": {
+            "rounded": true
+          },
+          "Live Jewel": {
             "rounded": true
           },
           "LD Soundwave": {
@@ -683,12 +695,6 @@
             "rounded": true
           },
           "LD M2U": {
-            "rounded": true
-          },
-          "Live Album": {
-            "rounded": true
-          },
-          "Live Jewel": {
             "rounded": true
           }
         }
@@ -2617,6 +2623,16 @@
             "sectionCode": "fsb",
             "img": "/card/lng-fmb-fsb-joeun.jpg",
             "rounded": true
+          },
+          {
+            "id": "V3nueY0jWq9EkYCfcCRco",
+            "code": "ktown",
+            "name": "Ktown",
+            "memberCode": "lng",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/lng-fmb-fsb-ktown.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -2678,6 +2694,16 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/lng-fmb-other-live-jewel.jpg",
+            "rounded": true
+          },
+          {
+            "id": "G_INcA9_xdJZ-3APPVSsA",
+            "code": "mwave",
+            "name": "Mwave",
+            "memberCode": "lng",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/lng-fmb-other-mwave.jpg",
             "rounded": true
           }
         ]
@@ -4487,6 +4513,16 @@
             "sectionCode": "fsb",
             "img": "/card/lsr-fmb-fsb-joeun.jpg",
             "rounded": true
+          },
+          {
+            "id": "NVrYq286F4eXW-t2VA9TR",
+            "code": "ktown",
+            "name": "Ktown",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/lsr-fmb-fsb-ktown.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -4548,6 +4584,16 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/lsr-fmb-other-live-jewel.jpg",
+            "rounded": true
+          },
+          {
+            "id": "-1cy2GaxvWayk-SE5AfEu",
+            "code": "mwave",
+            "name": "Mwave",
+            "memberCode": "lsr",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/lsr-fmb-other-mwave.jpg",
             "rounded": true
           }
         ]
@@ -6357,6 +6403,16 @@
             "sectionCode": "fsb",
             "img": "/card/shy-fmb-fsb-joeun.jpg",
             "rounded": true
+          },
+          {
+            "id": "TfC_30vOImePWOFPgy_FC",
+            "code": "ktown",
+            "name": "Ktown",
+            "memberCode": "shy",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/shy-fmb-fsb-ktown.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -6418,6 +6474,16 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/shy-fmb-other-live-jewel.jpg",
+            "rounded": true
+          },
+          {
+            "id": "YHbg9sNMwQVYRG5mdnJA4",
+            "code": "mwave",
+            "name": "Mwave",
+            "memberCode": "shy",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/shy-fmb-other-mwave.jpg",
             "rounded": true
           }
         ]
@@ -8091,6 +8157,16 @@
             "sectionCode": "fsb",
             "img": "/card/jgr-fmb-fsb-joeun.jpg",
             "rounded": true
+          },
+          {
+            "id": "fn6bdlO_fEY4Rl2hSSn9v",
+            "code": "ktown",
+            "name": "Ktown",
+            "memberCode": "jgr",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/jgr-fmb-fsb-ktown.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -8152,6 +8228,16 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/jgr-fmb-other-live-jewel.jpg",
+            "rounded": true
+          },
+          {
+            "id": "oetzezscfumJsdWo4Sqei",
+            "code": "mwave",
+            "name": "Mwave",
+            "memberCode": "jgr",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/jgr-fmb-other-mwave.jpg",
             "rounded": true
           }
         ]
@@ -9961,6 +10047,16 @@
             "sectionCode": "fsb",
             "img": "/card/rjs-fmb-fsb-joeun.jpg",
             "rounded": true
+          },
+          {
+            "id": "44t56I5W9FsXHDKtdm0SN",
+            "code": "ktown",
+            "name": "Ktown",
+            "memberCode": "rjs",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/rjs-fmb-fsb-ktown.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -10022,6 +10118,16 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/rjs-fmb-other-live-jewel.jpg",
+            "rounded": true
+          },
+          {
+            "id": "_XmvMmrNTxdreCZczASqG",
+            "code": "mwave",
+            "name": "Mwave",
+            "memberCode": "rjs",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/rjs-fmb-other-mwave.jpg",
             "rounded": true
           }
         ]
@@ -11831,6 +11937,16 @@
             "sectionCode": "fsb",
             "img": "/card/pjw-fmb-fsb-joeun.jpg",
             "rounded": true
+          },
+          {
+            "id": "IElT9QBJ3KMsefnT7YL2d",
+            "code": "ktown",
+            "name": "Ktown",
+            "memberCode": "pjw",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/pjw-fmb-fsb-ktown.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -11892,6 +12008,16 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/pjw-fmb-other-live-jewel.jpg",
+            "rounded": true
+          },
+          {
+            "id": "p7_LxXuFkOEONGmowW4Ha",
+            "code": "mwave",
+            "name": "Mwave",
+            "memberCode": "pjw",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/pjw-fmb-other-mwave.jpg",
             "rounded": true
           }
         ]
@@ -13701,6 +13827,16 @@
             "sectionCode": "fsb",
             "img": "/card/lsy-fmb-fsb-joeun.jpg",
             "rounded": true
+          },
+          {
+            "id": "GZIPeD6fFZw2W556LB5EB",
+            "code": "ktown",
+            "name": "Ktown",
+            "memberCode": "lsy",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/lsy-fmb-fsb-ktown.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -13762,6 +13898,16 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/lsy-fmb-other-live-jewel.jpg",
+            "rounded": true
+          },
+          {
+            "id": "MDZAiZxU3JNxAQGxG4Qhg",
+            "code": "mwave",
+            "name": "Mwave",
+            "memberCode": "lsy",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/lsy-fmb-other-mwave.jpg",
             "rounded": true
           }
         ]
@@ -15571,6 +15717,16 @@
             "sectionCode": "fsb",
             "img": "/card/lcy-fmb-fsb-joeun.jpg",
             "rounded": true
+          },
+          {
+            "id": "oS04uBHS9xE2D1STS8Xo3",
+            "code": "ktown",
+            "name": "Ktown",
+            "memberCode": "lcy",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/lcy-fmb-fsb-ktown.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -15632,6 +15788,16 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/lcy-fmb-other-live-jewel.jpg",
+            "rounded": true
+          },
+          {
+            "id": "PJypdV1iZ8EL_QzyzD7Lt",
+            "code": "mwave",
+            "name": "Mwave",
+            "memberCode": "lcy",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/lcy-fmb-other-mwave.jpg",
             "rounded": true
           }
         ]
@@ -17431,6 +17597,16 @@
             "sectionCode": "fsb",
             "img": "/card/bjh-fmb-fsb-soundwave.jpg",
             "rounded": true
+          },
+          {
+            "id": "c4eB8SeethY10r19H6NaE",
+            "code": "joeun",
+            "name": "Joeun",
+            "memberCode": "bjh",
+            "eraCode": "fmb",
+            "sectionCode": "fsb",
+            "img": "/card/bjh-fmb-fsb-joeun.jpg",
+            "rounded": true
           }
         ],
         "other": [
@@ -17492,6 +17668,16 @@
             "eraCode": "fmb",
             "sectionCode": "other",
             "img": "/card/bjh-fmb-other-live-jewel.jpg",
+            "rounded": true
+          },
+          {
+            "id": "idWgijmnZml5eiGhPdryj",
+            "code": "mwave",
+            "name": "Mwave",
+            "memberCode": "bjh",
+            "eraCode": "fmb",
+            "sectionCode": "other",
+            "img": "/card/bjh-fmb-other-mwave.jpg",
             "rounded": true
           }
         ]
