@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import 'antd/dist/reset.css';
 import { Row, Col } from 'antd';
 import { GROUP, PRIMARY_COLOR } from 'data/constants';
 import { ConfigProvider } from 'antd'
