@@ -16,8 +16,6 @@ const VERSION_KEY = 'version'
 const storageMock = { getItem: _.noop, setItem: _.noop }
 const localStorage =
   typeof window === 'undefined' ? storageMock : window.localStorage
-const sessionStorage =
-  typeof window === 'undefined' ? storageMock : window.sessionStorage
 
 function storeIDs(ids) {
   localStorage.setItem(CROSSED_STORAGE_KEY, JSON.stringify(ids))
@@ -72,7 +70,7 @@ export default function Era({ group, member, era, sortedSections }) {
     return setWishlists(new Map([...wishlists.entries()]))
   }
 
-  const handleSingleTap = (imgID, imgUrl, rounded) => {
+  const handleSingleTap = (imgID) => {
     crossed.has(imgID) ? crossed.delete(imgID) : crossed.add(imgID)
 
     const updatedIDs = [...crossed]

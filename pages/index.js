@@ -7,7 +7,7 @@ import { GROUP, MEMBER_CHUNK } from 'data/constants'
 import _ from 'lodash'
 
 export default function Home({ members, group }) {
-  const CHUNK_SIZE = MEMBER_CHUNK[group];
+  const CHUNK_SIZE = MEMBER_CHUNK[group]
   const chunkedContents = _.chunk(members ?? [], CHUNK_SIZE)
 
   return (

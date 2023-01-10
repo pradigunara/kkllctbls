@@ -7,6 +7,7 @@ import Breadcrumbs from 'components/breadcrumbs'
 import { useDoubleTap } from 'use-double-tap'
 import { CrownFilled } from '@ant-design/icons'
 import { useLocalStorageValue } from '@mantine/hooks'
+import { GROUP } from 'data/constants'
 
 const VERSION_KEY = 'version'
 const WISHLIST_STORAGE_KEY = 'wishlists'

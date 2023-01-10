@@ -1,13 +1,13 @@
 import { Button, Col, Row } from 'antd'
 import Link from 'next/link'
-import { StarFilled, StarOutlined } from '@ant-design/icons'
+import { StarFilled } from '@ant-design/icons'
 import { GROUP } from 'data/constants'
 
 export default function Header({ group = GROUP.fromis }) {
   const [title, ...subtitle] = {
     [GROUP.fromis]: 'kkollectibles.nakko.fans',
     [GROUP.newjeans]: 'kkollektiv.newjeans.fans'
-  }[group]?.split('.')
+  }[group]?.split('.') ?? []
 
   return (
     <Row justify="space-between" align="middle">

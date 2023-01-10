@@ -1,15 +1,13 @@
 import Head from 'next/head'
-import { Row, Col } from 'antd';
-import { GROUP, PRIMARY_COLOR, BACKGROUND } from 'data/constants';
+import { Row, Col } from 'antd'
+import { PRIMARY_COLOR, SITE_TITLE } from 'data/constants'
 import { ConfigProvider } from 'antd'
-import 'antd/dist/reset.css';
+import 'antd/dist/reset.css'
 import './index.css'
 
 export default function MyApp({ Component, pageProps }) {
   const group = process.env.NEXT_PUBLIC_GROUP
-  const title = group === GROUP.fromis
-    ? 'kkollectibles'
-    : 'kkollektiv'
+  const title = SITE_TITLE[group] 
 
   return (
     <>

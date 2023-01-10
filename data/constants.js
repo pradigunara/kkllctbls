@@ -10,7 +10,12 @@ export const MEMBER_CHUNK = {
 
 export const CF_TOKEN = {
   [GROUP.fromis]: 'a0b2ad60e02f41be93de262eeb3012bd',
-  [GROUP.newjeans]: '',
+  [GROUP.newjeans]: '66db740da01344cbb61ed9def50fb85d',
+}
+
+export const SITE_TITLE = {
+  [GROUP.fromis]: 'kkollectibles',
+  [GROUP.newjeans]: 'kkollektiv',
 }
 
 export const BACKGROUND = {
