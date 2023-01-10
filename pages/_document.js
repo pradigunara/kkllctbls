@@ -52,6 +52,21 @@ class MyDocument extends Document {
             src="https://static.cloudflareinsights.com/beacon.min.js"
             data-cf-beacon={`{"token": "${CF_TOKEN[group]}"}`}
           />
+          <script>
+            {
+              function(){
+                if (typeof window === 'undefined') return
+
+                document.onreadystatechange = function() {
+                  if (document.readyState !== "complete") {
+                    document.querySelector("body").style.visibility = "hidden"
+                  } else {
+                    document.querySelector("body").style.visibility = "visible"
+                  }
+                }
+              }()
+            }
+          </script>
         </body>
       </Html>
     )
