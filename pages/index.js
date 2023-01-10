@@ -3,11 +3,11 @@ import { Row, Col, Divider } from 'antd'
 import Header from 'components/header'
 import Footer from 'components/footer'
 import { getDB } from 'data/db'
-import { GROUP, MEMBER_CHUNK } from 'data/constants'
+import { GROUP } from 'data/constants'
 import _ from 'lodash'
 
 export default function Home({ members, group }) {
-  const CHUNK_SIZE = MEMBER_CHUNK[group]
+  const CHUNK_SIZE = 3
   const chunkedContents = _.chunk(members ?? [], CHUNK_SIZE)
 
   return (
@@ -25,8 +25,8 @@ export default function Home({ members, group }) {
             <Col>
               {chunkedContents.map((chunk, idx) => (
                 <Row
-                  gutter={{ xs: 48 / CHUNK_SIZE, md: 72 / CHUNK_SIZE }}
-                  justify="space-around"
+                  gutter={{ xs: 24, md: 36 }}
+                  justify="center"
                   align="bottom"
                   key={idx}
                 >
@@ -34,7 +34,7 @@ export default function Home({ members, group }) {
                     <Col
                       span={24 / CHUNK_SIZE}
                       key={member.code}
-                      style={{ marginBottom: '1em' }}
+                      style={{ marginBottom: '1.5em' }}
                     >
                       <Link href={`/${member.code}`}>
                         <a style={{ color: 'inherit' }}>
