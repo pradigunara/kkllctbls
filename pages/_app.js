@@ -2,13 +2,18 @@ import Head from 'next/head'
 import 'antd/dist/antd.css';
 import './index.css'
 import { Row, Col } from 'antd';
-import previewImage from "../public/preview.jpg";
+import { GROUP } from 'data/constants';
 
 export default function MyApp({ Component, pageProps }) {
+  const group = process.env.NEXT_PUBLIC_GROUP
+  const title = group === GROUP.fromis
+    ? 'kkollectibles'
+    : 'kkollektiv'
+
   return (
     <>
       <Head>
-        <title>kkollektiv</title>
+        <title>{title}</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
@@ -19,13 +24,13 @@ export default function MyApp({ Component, pageProps }) {
           content="gotta kkollect 'em all!"
           key="desc"
         />
-        <meta property="og:image" content={previewImage} key="ogimage" />
+        <meta property="og:image" content="preview.jpg" key="ogimage" />
         <meta
           property="og:site_name"
-          content="kkollektiv"
+          content={title}
           key="ogsitename"
         />
-        <meta property="og:title" content="kkollektiv" key="ogtitle" />
+        <meta property="og:title" content={title} key="ogtitle" />
         <meta
           property="og:description"
           content="gotta kkollect 'em all!"
@@ -33,13 +38,11 @@ export default function MyApp({ Component, pageProps }) {
         />
       </Head>
       <Row
-        justify="center"
-        style={{
-          fontFamily: 'Architects Daughter, cursive',
-          margin: '1em'
-        }}>
-        <Col xs={24} md={10}>
-          <Component {...pageProps} />
+        justify="center" style={{
+          fontFamily: 'Architects Daughter, cursive', margin: '1em'
+        }}
+      >
+        <Col xs={24} md={10}> <Component {...pageProps} />
         </Col>
       </Row>
     </>

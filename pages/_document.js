@@ -1,7 +1,10 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import { CF_TOKEN } from 'data/constants'
 
 class MyDocument extends Document {
   render() {
+    const group = process.env.GROUP
+
     return (
       <Html>
         <Head>
@@ -13,19 +16,19 @@ class MyDocument extends Document {
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/apple-touch-icon.png"
+            href={`/${group}/apple-touch-icon.png`}
           />
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/favicon-32x32.png"
+            href={`/${group}/favicon-32x32.png`}
           />
           <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/favicon-16x16.png"
+            href={`/${group}/favicon-16x16.png`}
           />
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
@@ -39,7 +42,7 @@ class MyDocument extends Document {
           <script
             defer
             src="https://static.cloudflareinsights.com/beacon.min.js"
-            data-cf-beacon='{"token": "a0b2ad60e02f41be93de262eeb3012bd"}'
+            data-cf-beacon={`{"token": "${CF_TOKEN[group]}"}`}
           />
         </body>
       </Html>
