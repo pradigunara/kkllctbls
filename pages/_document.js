@@ -4,6 +4,7 @@ import { CF_TOKEN, BACKGROUND } from 'data/constants'
 class MyDocument extends Document {
   render() {
     const group = process.env.GROUP
+    const bgImage = BACKGROUND[group]
 
     return (
       <Html>
@@ -37,8 +38,10 @@ class MyDocument extends Document {
         </Head>
         <body 
           style={{ 
-            backgroundImage: BACKGROUND[group], 
+            backgroundImage: bgImage,
             backgroundSize: 'cover',
+            minWidth: '100vw',
+            minHeight: '100vh'
           }}
         >
           <Main />

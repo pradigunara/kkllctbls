@@ -15,7 +15,7 @@ export const CF_TOKEN = {
 
 export const BACKGROUND = {
   [GROUP.fromis]: null,
-  [GROUP.newjeans]: `url('newjeans/bg.svg')`,
+  [GROUP.newjeans]: `url('/newjeans/bg.svg')`,
 }
 
 export const PRIMARY_COLOR = {

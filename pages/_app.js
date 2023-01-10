@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import 'antd/dist/reset.css';
 import { Row, Col } from 'antd';
-import { GROUP, PRIMARY_COLOR } from 'data/constants';
+import { GROUP, PRIMARY_COLOR, BACKGROUND } from 'data/constants';
 import { ConfigProvider } from 'antd'
+import 'antd/dist/reset.css';
 import './index.css'
 
 export default function MyApp({ Component, pageProps }) {
@@ -46,14 +46,14 @@ export default function MyApp({ Component, pageProps }) {
             colorLink: PRIMARY_COLOR[group],
             colorLinkActive: PRIMARY_COLOR[group],
             colorLinkHover: PRIMARY_COLOR[group],
-            fontFamily: 'Architects Daughter, cursive'
+            fontFamily: 'Architects Daughter, cursive',
           },
         }}
       >
-      <Row justify="center" style={{ margin: '1em' }}>
-        <Col xs={24} md={10}> <Component {...pageProps} />
-        </Col>
-      </Row>
+          <Row justify="center" style={{ margin: '1em' }}>
+            <Col xs={24} md={10}> <Component {...pageProps} />
+            </Col>
+          </Row>
       </ConfigProvider>
     </>
   )
