@@ -11,6 +11,7 @@ import { GROUP } from 'data/constants'
 
 const CROSSED_STORAGE_KEY = 'crossedIds'
 const WISHLIST_STORAGE_KEY = 'wishlists'
+const VERSION_KEY = 'version'
 
 const storageMock = { getItem: _.noop, setItem: _.noop }
 const localStorage =
@@ -27,6 +28,7 @@ function getIDs() {
 }
 
 function storeWishlist(wishlist) {
+  localStorage.setItem(VERSION_KEY, '2')
   localStorage.setItem(WISHLIST_STORAGE_KEY, JSON.stringify(wishlist))
 }
 
