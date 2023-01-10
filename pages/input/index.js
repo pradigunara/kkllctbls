@@ -2,7 +2,7 @@ import _ from 'lodash'
 import imageCompression from 'browser-image-compression'
 import { useState } from 'react'
 import { Form, Select, Row, Col, Upload, Button } from 'antd'
-import db from 'data/db.json'
+import { getDB } from 'data/db'
 
 const submitInput = (data) =>
   fetch('/api/input', {
@@ -25,6 +25,7 @@ const submitInput = (data) =>
     })
 
 export default function InputPage() {
+  const db = getDB()
   const [form] = Form.useForm()
   const [selectedEra, setSelectedEra] = useState()
   const [selectedSection, setSelectedSection] = useState()
@@ -42,8 +43,8 @@ export default function InputPage() {
     }
 
     submitInput(payload)
-        .then(() => alert('OK'))
-        .catch(alert)
+      .then(() => alert('OK'))
+      .catch(alert)
   }
 
   const createOptions = (opts = []) =>

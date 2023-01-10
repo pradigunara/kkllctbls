@@ -3,14 +3,15 @@ import path from 'path'
 import _ from 'lodash'
 import { nanoid } from 'nanoid'
 
+const group = process.env.GROUP
 const pt = (...p) => path.join(process.cwd(), ...p)
-const dbPath = pt('/data/db.json')
+const dbPath = pt(`/data/${group}/db.json'`)
 
 const load = () => JSON.parse(fs.readFileSync(dbPath).toString())
 const write = (db) => fs.writeFileSync(dbPath, JSON.stringify(db, null, 2))
 const writeImg = (base64image, imgPath) => {
   const buffer = new Buffer(base64image, 'base64')
-  fs.writeFileSync(pt('/public', imgPath), buffer)
+  fs.writeFileSync(pt(`/public/${group}`, imgPath), buffer)
 }
 
 export default function handler(req, res) {
@@ -28,17 +29,17 @@ export default function handler(req, res) {
     rounded
   } = req.body
 
-  fs.copyFileSync(dbPath, pt('/data/db.json.bak'))
+  fs.copyFileSync(dbPath, pt(`/data/${group}/db.json.bak`))
 
   const db = load()
-  const storagePath = ['cards', memberCode, eraCode, sectionCode]
+  const storagePath = []
   const cards = _.get(db, storagePath, [])
   const imgPath = `/card/${memberCode}-${eraCode}-${sectionCode}-${_.kebabCase(name)}.jpg`
 
 
   const existing = _.find(cards, { name })
   if (existing) {
-   return res.status(400).json({ message: `${imgPath} already exist :(` })
+    return res.status(400).json({ message: `${imgPath} already exist :(` })
   }
 
 
