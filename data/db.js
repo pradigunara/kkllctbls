@@ -6,5 +6,5 @@ export function getDB() {
   return {
     [GROUP.fromis]: fromisDB,
     [GROUP.newjeans]: newjeansDB
-  }[process.env.GROUP]
+  }[process.env.NEXT_PUBLIC_GROUP]
 }

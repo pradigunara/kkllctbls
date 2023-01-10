@@ -5,7 +5,7 @@ import { nanoid } from 'nanoid'
 
 const group = process.env.GROUP
 const pt = (...p) => path.join(process.cwd(), ...p)
-const dbPath = pt(`/data/${group}/db.json'`)
+const dbPath = pt(`/data/${group}/db.json`)
 
 const load = () => JSON.parse(fs.readFileSync(dbPath).toString())
 const write = (db) => fs.writeFileSync(dbPath, JSON.stringify(db, null, 2))
@@ -32,16 +32,14 @@ export default function handler(req, res) {
   fs.copyFileSync(dbPath, pt(`/data/${group}/db.json.bak`))
 
   const db = load()
-  const storagePath = []
+  const storagePath = ['cards', memberCode, eraCode, sectionCode]
   const cards = _.get(db, storagePath, [])
   const imgPath = `/card/${memberCode}-${eraCode}-${sectionCode}-${_.kebabCase(name)}.jpg`
-
 
   const existing = _.find(cards, { name })
   if (existing) {
     return res.status(400).json({ message: `${imgPath} already exist :(` })
   }
-
 
   cards.push({
     id: nanoid(),

@@ -157,45 +157,6 @@
             "rounded": true
           }
         }
-      },
-      {
-        "code": "pob",
-        "name": "PO Benefit",
-        "variant": {
-          "Weverse": {
-            "rounded": true
-          },
-          "Music Korea": {
-            "rounded": true
-          },
-          "Yes24": {
-            "rounded": true
-          },
-          "Aladin": {
-            "rounded": true
-          },
-          "UMS": {
-            "rounded": false
-          },
-          "Weverse JP": {
-            "rounded": false
-          }
-        }
-      },
-      {
-        "code": "others",
-        "name": "Others",
-        "variant": {
-          "UMS LD": {
-            "rounded": false
-          },
-          "Weverse JP LD": {
-            "rounded": false
-          },
-          "SBS Gayo": {
-            "rounded": false
-          }
-        }
       }
     ]
   },
@@ -251,16 +212,6 @@
             "eraCode": "nj",
             "sectionCode": "bb",
             "img": "/card/han-nj-bb-var-5.jpg",
-            "rounded": true
-          },
-          {
-            "id": "Sdwkp7rJCvDWFHTHA61rO",
-            "code": "nj-ver",
-            "name": "NJ Ver.",
-            "memberCode": "han",
-            "eraCode": "nj",
-            "sectionCode": "bb",
-            "img": "/card/han-nj-bb-nj-ver.jpg",
             "rounded": true
           }
         ],
