@@ -23,7 +23,7 @@ export default function MyApp({ Component, pageProps }) {
           content="gotta kkollect 'em all!"
           key="desc"
         />
-        <meta property="og:image" content="preview.jpg" key="ogimage" />
+        <meta property="og:image" content={`/${group}/preview.jpg`} key="ogimage" />
         <meta
           property="og:site_name"
           content={title}
