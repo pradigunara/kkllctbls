@@ -8,6 +8,7 @@ import { useDoubleTap } from 'use-double-tap'
 import { CrownFilled } from '@ant-design/icons'
 import { useLocalStorageValue } from '@mantine/hooks'
 
+const VERSION_KEY = 'version'
 const WISHLIST_STORAGE_KEY = 'wishlists'
 const PRIO_STORAGE_KEY = 'wlprio'
 
@@ -21,7 +22,30 @@ function storeWishlist(wishlist) {
 }
 
 function getWishlist() {
-  return JSON.parse(localStorage.getItem(WISHLIST_STORAGE_KEY) || '[]')
+  const version = localStorage.getItem(VERSION_KEY)
+  const wlStorage = localStorage.getItem(WISHLIST_STORAGE_KEY)
+
+  if (!wlStorage && !version) {
+    localStorage.setItem(VERSION_KEY, '2')
+
+    return []
+  }
+
+  // migration v2
+  if (!version && wlStorage) {
+    const oldWl = JSON.parse(wlStorage || '[]')
+    const newWl = _.map(oldWl, w => ({
+      ...w,
+      url: `/fromis${w.url}`
+    }))
+
+    localStorage.setItem(VERSION_KEY, '2')
+    localStorage.setItem(WISHLIST_STORAGE_KEY, JSON.stringify(newWl))
+
+    return newWl
+  }
+
+  return JSON.parse(wlStorage || '[]')
 }
 
 const chunkSizeSelection = [2, 3, 4, 6]

@@ -8,7 +8,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Kkollectibles</title>
+        <title>kkollektiv</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
@@ -22,10 +22,10 @@ export default function MyApp({ Component, pageProps }) {
         <meta property="og:image" content={previewImage} key="ogimage" />
         <meta
           property="og:site_name"
-          content="Kkollectibles"
+          content="kkollektiv"
           key="ogsitename"
         />
-        <meta property="og:title" content="Kkollectibles" key="ogtitle" />
+        <meta property="og:title" content="kkollektiv" key="ogtitle" />
         <meta
           property="og:description"
           content="gotta kkollect 'em all!"

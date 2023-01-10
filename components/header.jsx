@@ -1,8 +1,14 @@
 import { Button, Col, Row } from 'antd'
 import Link from 'next/link'
 import { StarFilled, StarOutlined } from '@ant-design/icons'
+import { GROUP } from 'data/constants'
 
-export default function Header() {
+export default function Header({ group = GROUP.fromis }) {
+  const [title, ...subtitle] = {
+    [GROUP.fromis]: 'kkollectibles.nakko.fans',
+    [GROUP.newjeans]: 'kkollektiv.newjeans.fans'
+  }[group]?.split('.')
+
   return (
     <Row justify="space-between" align="middle">
       <Col>
@@ -16,8 +22,8 @@ export default function Header() {
                 marginBottom: '1em',
               }}
             >
-              <h1>Kkollectibles</h1>
-              <h5>.nakko.fans</h5>
+              <h1>{title}</h1>
+              <h5>{`.${subtitle.join('.')}`}</h5>
             </div>
           </a>
         </Link>

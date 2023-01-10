@@ -2,19 +2,20 @@ import Link from 'next/link'
 import { Row, Col, Divider } from 'antd'
 import Header from 'components/header'
 import Footer from 'components/footer'
-import db from 'data/db.json'
+import { getDB } from 'data/db'
+import { GROUP } from 'data/constants'
 import _ from 'lodash'
 
 const CHUNK_SIZE = 3
 
-export default function Home({ members }) {
+export default function Home({ members, group }) {
   const chunkedContents = _.chunk(members ?? [], CHUNK_SIZE)
 
   return (
     <>
       <Row justify="center">
         <Col span={22}>
-          <Header />
+          <Header group={group} />
           <Divider
             orientation="center"
             style={{ fontWeight: '600', fontSize: '1.2em' }}
@@ -48,7 +49,7 @@ export default function Home({ members }) {
                               boxShadow:
                                 '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)'
                             }}
-                            src={member.img}
+                            src={`/${group}/${member.img}`}
                             alt={member.name}
                           />
                         </a>
@@ -60,7 +61,7 @@ export default function Home({ members }) {
             </Col>
           </Row>
         </Col>
-        <Footer />
+        <Footer group={group} />
       </Row>
     </>
   )
@@ -68,6 +69,9 @@ export default function Home({ members }) {
 
 export async function getStaticProps() {
   return {
-    props: { members: db?.members },
+    props: {
+      members: getDB()?.members,
+      group: process.env.GROUP || GROUP.fromis
+    },
   }
 }

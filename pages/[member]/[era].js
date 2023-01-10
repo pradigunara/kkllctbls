@@ -6,7 +6,8 @@ import { StarFilled } from '@ant-design/icons'
 import Header from 'components/header'
 import Footer from 'components/footer'
 import Breadcrumbs from 'components/breadcrumbs'
-import db from 'data/db.json'
+import { getDB } from 'data/db'
+import { GROUP } from 'data/constants'
 
 const CROSSED_STORAGE_KEY = 'crossedIds'
 const WISHLIST_STORAGE_KEY = 'wishlists'
@@ -37,7 +38,7 @@ function getWishlist() {
   return new Map(wishlist.map(({ id, url, rounded }) => [id, { url, rounded }]))
 }
 
-export default function Era({ member, era, sortedSections }) {
+export default function Era({ group, member, era, sortedSections }) {
   const [chunkSize, setChunkSize] = useState(era?.photosPerRow)
   const [showMark, setShowMark] = useState(true)
   const [showName, setShowName] = useState(true)
@@ -80,7 +81,7 @@ export default function Era({ member, era, sortedSections }) {
 
   return (
     <Container span={22}>
-      <Header />
+      <Header group={group} />
       <Breadcrumbs crumbs={[[member.name, `/${member.code}`], [era.name]]} />
       <h4>
         <i>
@@ -129,6 +130,7 @@ export default function Era({ member, era, sortedSections }) {
                 <CardRow key={`${name}-${idx}`} chunk={chunkSize}>
                   {cardChunk.map((card) => (
                     <Card
+                      group={group}
                       key={card.id}
                       card={card}
                       isCrossed={crossed.has(card.id)}
@@ -145,7 +147,7 @@ export default function Era({ member, era, sortedSections }) {
           )
         })}
       </Container>
-      <Footer />
+      <Footer group={group} />
     </Container>
   )
 }
@@ -188,6 +190,7 @@ function CardRow({ children, chunk }) {
 }
 
 function Card({
+  group,
   card,
   isCrossed,
   isWishlist = false,
@@ -243,9 +246,9 @@ function Card({
           opacity: isCrossed && '0.3',
           boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
         }}
-        src={card.img}
+        src={`/${group}/${card.img}`}
         alt={card.name}
-        data-url={card.img}
+        data-url={`/${group}/${card.img}`}
         data-rounded={card.rounded}
         {...bindDoubleTap}
       />
@@ -255,9 +258,16 @@ function Card({
 
 export async function getStaticPaths() {
   const paths = []
+  const group = process.env.GROUP || GROUP.fromis
+  const db = getDB()
+
+  const skipPath = new Set([
+    `fromis-jgr-td`
+  ])
+
   for (const member of db.members) {
     for (const era of db.eras) {
-      if (member.code === 'jgr' && era.code === 'td') {
+      if (skipPath.has(`${group}-${member.code}-${era.code}`)) {
         continue
       }
 
@@ -272,6 +282,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
+  const db = getDB()
   const foundMember = _.find(db.members, { code: params?.member })
   const foundEra = _.find(db.eras, { code: params?.era })
 
@@ -284,6 +295,11 @@ export async function getStaticProps({ params }) {
   }))
 
   return {
-    props: { member: foundMember, era: foundEra, sortedSections },
+    props: {
+      group: process.env.GROUP || GROUP.fromis,
+      member: foundMember,
+      era: foundEra,
+      sortedSections
+    },
   }
 }

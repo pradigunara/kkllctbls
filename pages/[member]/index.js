@@ -4,18 +4,19 @@ import { Row, Col, Divider } from 'antd'
 import Header from 'components/header'
 import Footer from 'components/footer'
 import Breadcrumbs from 'components/breadcrumbs'
-import db from 'data/db.json'
+import { getDB } from 'data/db'
+import { GROUP } from 'data/constants'
 
 const CHUNK_SIZE = 3
 
-export default function Member({ eras, memberCode, memberName }) {
+export default function Member({ group, eras, memberCode, memberName }) {
   const chunkedContents = _.chunk(eras ?? [], CHUNK_SIZE)
 
   return (
     <>
       <Row justify="center">
         <Col span={22}>
-          <Header />
+          <Header group={group} />
           <Breadcrumbs crumbs={[[memberName]]} />
 
           <Divider
@@ -50,7 +51,7 @@ export default function Member({ eras, memberCode, memberName }) {
                               boxShadow:
                                 '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
                             }}
-                            src={era.img}
+                            src={`/${group}/${era.img}`}
                             alt={era.name}
                           />
                         </a>
@@ -63,27 +64,41 @@ export default function Member({ eras, memberCode, memberName }) {
             </Col>
           </Row>
         </Col>
-        <Footer />
+        <Footer group={group} />
       </Row>
     </>
   )
 }
 
 export async function getStaticPaths() {
-  _.map(db.members, (m) => ({ params: { member: m.code } }))
+  const paths = _.map(getDB()?.members, (m) => ({ params: { member: m.code } }))
 
   return {
-    paths: _.map(db.members, (m) => ({ params: { member: m.code } })),
+    paths,
     fallback: false,
   }
 }
 
 export async function getStaticProps({ params }) {
+  const group = process.env.GROUP || GROUP.fromis
+  const db = getDB()
+  const skipEra = {
+    'fromis-jgr': new Set(['td'])
+  }
+
   const code = params?.member
-  const eras = code === 'jgr' ? _.reject(db?.eras, { code: 'td' }) : db?.eras
+  const eras = _.reject(db?.eras, era => {
+    return skipEra[`${group}-${code}`]?.has(era?.code)
+  })
+
   const memberName = _.find(db?.members, { code })?.name
 
   return {
-    props: { eras, memberName, memberCode: code },
+    props: {
+      eras,
+      memberName,
+      memberCode: code,
+      group
+    },
   }
 }
