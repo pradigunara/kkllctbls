@@ -2,7 +2,7 @@ import { Row, Col } from 'antd'
 import { GROUP } from 'data/constants'
 
 export default function Footer({ group = GROUP.fromis }) {
-  let footerText;
+  let footerText
 
   if (group === GROUP.fromis) {
     footerText =
