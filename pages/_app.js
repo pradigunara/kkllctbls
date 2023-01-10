@@ -1,8 +1,9 @@
 import Head from 'next/head'
-import 'antd/dist/antd.css';
-import './index.css'
+import 'antd/dist/reset.css';
 import { Row, Col } from 'antd';
-import { GROUP } from 'data/constants';
+import { GROUP, PRIMARY_COLOR } from 'data/constants';
+import { ConfigProvider } from 'antd'
+import './index.css'
 
 export default function MyApp({ Component, pageProps }) {
   const group = process.env.NEXT_PUBLIC_GROUP
@@ -37,14 +38,23 @@ export default function MyApp({ Component, pageProps }) {
           key="ogdesc"
         />
       </Head>
-      <Row
-        justify="center" style={{
-          fontFamily: 'Architects Daughter, cursive', margin: '1em'
+
+      <ConfigProvider
+        theme={{
+          token: {
+            colorPrimary: PRIMARY_COLOR[group],
+            colorLink: PRIMARY_COLOR[group],
+            colorLinkActive: PRIMARY_COLOR[group],
+            colorLinkHover: PRIMARY_COLOR[group],
+            fontFamily: 'Architects Daughter, cursive'
+          },
         }}
       >
+      <Row justify="center" style={{ margin: '1em' }}>
         <Col xs={24} md={10}> <Component {...pageProps} />
         </Col>
       </Row>
+      </ConfigProvider>
     </>
   )
 }

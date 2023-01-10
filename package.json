@@ -9,7 +9,7 @@
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@mantine/hooks": "^3.6.13",
-    "antd": "^4.18.7",
+    "antd": "^5.1.4",
     "browser-image-compression": "^1.0.17",
     "lodash": "^4.17.21",
     "nanoid": "^3.3.1",

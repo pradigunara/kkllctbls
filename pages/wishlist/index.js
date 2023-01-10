@@ -50,7 +50,7 @@ function getWishlist() {
 
 const chunkSizeSelection = [2, 3, 4, 6]
 
-export default function Wishlist() {
+export default function Wishlist({ group }) {
   const [chunkSizeIdx, setChunkSizeIdx] = useState(2)
   const [wishlists, setWishlists] = useState(getWishlist())
   const [prioIds, setPrioIds] = useLocalStorageValue({
@@ -113,7 +113,7 @@ export default function Wishlist() {
     <>
       <Row justify="center">
         <Col span={22}>
-          <Header />
+          <Header group={group} />
           <Breadcrumbs crumbs={[['Wishlist']]} />
           <h3>
             <b>
@@ -168,7 +168,7 @@ export default function Wishlist() {
             </CardRow>
           ))}
         </Col>
-        <Footer />
+        <Footer group={group} />
       </Row>
     </>
   )
@@ -289,4 +289,12 @@ function MoveButton({ children, onClick }) {
       {children}
     </Button>
   )
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      group: process.env.GROUP || GROUP.fromis
+    },
+  }
 }

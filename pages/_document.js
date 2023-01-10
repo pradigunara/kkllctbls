@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import { CF_TOKEN } from 'data/constants'
+import { CF_TOKEN, BACKGROUND } from 'data/constants'
 
 class MyDocument extends Document {
   render() {
@@ -35,7 +35,12 @@ class MyDocument extends Document {
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
         </Head>
-        <body>
+        <body 
+          style={{ 
+            backgroundImage: BACKGROUND[group], 
+            backgroundSize: 'cover',
+          }}
+        >
           <Main />
           <NextScript />
 
