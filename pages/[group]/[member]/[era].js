@@ -259,6 +259,10 @@ function Card({
 export async function getStaticPaths() {
   const paths = []
 
+  if (process.env.NODE_ENV === 'development') {
+    return { paths, fallback: 'blocking' }
+  }
+
   for (const group of GROUP_DATA) {
     for (const member of getDB(group.code).members) {
       for (const era of getDB(group.code).eras) {
