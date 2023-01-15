@@ -34,7 +34,7 @@ export default function InputPage() {
   const [selectedSection, setSelectedSection] = useState()
 
   const findVariant = (era, section) =>
-    _.find(db.sections?.[era], { code: section })?.variant ?? {}
+    _.find(db?.sections?.[era], { code: section })?.variant ?? {}
 
   const handleFinish = (form) => {
     const rounded =
@@ -55,7 +55,7 @@ export default function InputPage() {
     opts.map((o) => ({ label: o.name, value: o.code }))
 
   const nameVariant =
-    _.find(db.sections?.[selectedEra], { code: selectedSection })?.variant ?? {}
+    _.find(db?.sections?.[selectedEra], { code: selectedSection })?.variant ?? {}
   const nameOptions = _.keys(nameVariant).map((name) => ({
     label: name,
     value: name,
