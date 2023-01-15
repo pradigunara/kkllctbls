@@ -3,6 +3,16 @@ import imageCompression from 'browser-image-compression'
 import { useState } from 'react'
 import { Form, Select, Row, Col, Upload, Button, Popconfirm } from 'antd'
 import { getDB } from 'data/db'
+import { GROUP_DATA } from 'data/constants'
+
+export async function getStaticPaths() {
+  const paths = _.map(GROUP_DATA, g => ({ params: { group: g.code } }))
+
+  return {
+    paths,
+    fallback: false,
+  }
+}
 
 export async function getStaticProps({ params }) {
   return {
