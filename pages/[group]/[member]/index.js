@@ -6,6 +6,7 @@ import Footer from 'components/footer'
 import Breadcrumbs from 'components/breadcrumbs'
 import { getDB } from 'data/db'
 import { GROUP_DATA, GROUP_NAME } from 'data/constants'
+import Image from 'next/image'
 
 const CHUNK_SIZE = 3
 
@@ -41,18 +42,14 @@ export default function Member({ group, eras, memberCode, memberName }) {
                       style={{ marginBottom: '1em' }}
                     >
                       <Link href={`/${group}/${memberCode}/${era.code}`}>
-                        <a style={{ color: 'inherit' }}>
-                          <span>{era.name}</span>
-                          <img
-                            style={{
-                              maxHeight: '50vh',
-                              width: '100%',
-                              minWidth: 0,
-                              boxShadow:
-                                '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
-                            }}
+                        <a style={{ color: 'inherit' }} className="era-image">
+                          <div style={{ marginBottom: '0.2em' }}>{era.name}</div>
+                          <Image
+                            width={500}
+                            height={500}
                             src={`/${group}${era.img}`}
                             alt={era.name}
+                            objectFit="cover"
                           />
                         </a>
                       </Link>

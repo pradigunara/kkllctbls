@@ -1,31 +1,31 @@
 ---
 members:
 - code: lsr
-  name: Lee Saerom
+  name: Saerom
   img: "/member/lsr-ks.jpg"
 - code: shy
-  name: Song Hayoung
+  name: Hayoung
   img: "/member/shy-ks.jpg"
 - code: jgr
-  name: Jang Gyuri
+  name: Gyuri
   img: "/member/jgr-ks.jpg"
 - code: pjw
-  name: Park Jiwon
+  name: Jiwon
   img: "/member/pjw-ks.jpg"
 - code: rjs
-  name: Roh Jisun
+  name: Jisun
   img: "/member/rjs-ks.jpg"
 - code: lsy
-  name: Lee Seoyeon
+  name: Seoyeon
   img: "/member/lsy-ks.jpg"
 - code: lcy
-  name: Lee Chaeyoung
+  name: Chaeyoung
   img: "/member/lcy-ks.jpg"
 - code: lng
-  name: Lee Nagyung
+  name: Nagyung
   img: "/member/lng-ks.jpg"
 - code: bjh
-  name: Baek Jiheon
+  name: Jiheon
   img: "/member/bjh-ks.jpg"
 eras:
 - code: th
