@@ -1,11 +1,12 @@
 const _ = require('lodash')
 const fs = require('fs')
 const path = require('path')
+const YAML = require('yaml')
 
 const pt = (...p) => path.join(process.cwd(), ...p)
-const dbPath = pt('db.json')
-const load = () => JSON.parse(fs.readFileSync(dbPath).toString())
-const write = (db) => fs.writeFileSync(dbPath, JSON.stringify(db, null, 2))
+const dbPath = pt('db.yaml')
+const load = () => YAML.parse(fs.readFileSync(dbPath).toString())
+const write = (db) => fs.writeFileSync(dbPath, YAML.stringify(db, null, 2))
 
 function sortCards() {
     const db = load()

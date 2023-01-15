@@ -1,9 +1,17 @@
 import _ from 'components/lodash'
 import imageCompression from 'browser-image-compression'
 import { useState } from 'react'
-import { Form, Select, Row, Col, Upload, Button } from 'antd'
+import { Form, Select, Row, Col, Upload, Button, Popconfirm } from 'antd'
 import { getDB } from 'data/db'
-import { useRouter } from 'next/router'
+
+export async function getServerSideProps({ params }) {
+  return {
+    props: {
+      db: getDB(params?.group),
+      group: params?.group
+    }
+  }
+}
 
 const submitInput = (data) =>
   fetch('/api/input', {
@@ -14,10 +22,11 @@ const submitInput = (data) =>
     body: JSON.stringify(data),
   })
     .then(async (response) => {
-      const message = await response.json()
+      const resJson = await response.json()
+      const message = JSON.stringify(resJson)
 
       if (response?.status >= 400) {
-        return Promise.reject(JSON.stringify(message))
+        return Promise.reject(message)
       }
 
       console.log('Success:', message)
@@ -25,10 +34,28 @@ const submitInput = (data) =>
       return message
     })
 
-export default function InputPage() {
-  const router = useRouter()
-  const group = router?.query?.group
-  const db = getDB(group) 
+const deleteExisting = (data) => 
+  fetch('/api/input', {
+    method: 'DELETE',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data),
+  })
+    .then(async (response) => {
+      const resJson = await response.json()
+      const message = JSON.stringify(resJson)
+
+      if (response?.status >= 400) {
+        return Promise.reject(message)
+      }
+
+      console.log('Deleted:', message)
+
+      return message 
+    })
+
+export default function InputPage({ db, group }) {
   const [form] = Form.useForm()
   const [selectedEra, setSelectedEra] = useState()
   const [selectedSection, setSelectedSection] = useState()
@@ -47,7 +74,18 @@ export default function InputPage() {
     }
 
     submitInput(payload)
-      .then(() => alert('OK'))
+      .then(alert)
+      .catch(alert)
+  }
+
+  const handleDelete = (form) => {
+    const payload = {
+      ...form,
+      group
+    }
+
+    deleteExisting(payload)
+      .then(alert)
       .catch(alert)
   }
 
@@ -102,6 +140,20 @@ export default function InputPage() {
             <Button type="primary" htmlType="submit" block>
               Submit
             </Button>
+          </Form.Item>
+          <Form.Item>
+            <Popconfirm
+              title="Delete existing item"
+              description="Are you sure to delete this item?"
+              onConfirm={() => handleDelete(form.getFieldsValue())}
+              onCancel={_.noop}
+              okText="Yes"
+              cancelText="No"
+            >
+              <Button danger type="text" block> 
+                Delete Existing Item
+              </Button>
+            </Popconfirm>
           </Form.Item>
         </Form>
       </Col>
