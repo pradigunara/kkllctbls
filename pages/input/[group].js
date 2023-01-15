@@ -28,7 +28,7 @@ const submitInput = (data) =>
 export default function InputPage() {
   const router = useRouter()
   const group = router?.query?.group
-  const db = getDB(group)
+  const db = getDB(group) 
   const [form] = Form.useForm()
   const [selectedEra, setSelectedEra] = useState()
   const [selectedSection, setSelectedSection] = useState()
@@ -67,14 +67,14 @@ export default function InputPage() {
         <Form layout="vertical" form={form} onFinish={handleFinish}>
           <Form.Item label="Member" name="memberCode">
             <Select
-              options={createOptions(db.members)}
+              options={createOptions(db?.members)}
               placeholder="Select Member"
               showSearch
             />
           </Form.Item>
           <Form.Item label="Era" name="eraCode">
             <Select
-              options={createOptions(db.eras)}
+              options={createOptions(db?.eras)}
               placeholder="Select Era"
               showSearch
               onSelect={setSelectedEra}
@@ -82,7 +82,7 @@ export default function InputPage() {
           </Form.Item>
           <Form.Item label="Section" name="sectionCode">
             <Select
-              options={createOptions(db.sections?.[selectedEra])}
+              options={createOptions(db?.sections?.[selectedEra])}
               placeholder="Select Section"
               showSearch
               onSelect={setSelectedSection}
