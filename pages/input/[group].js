@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Form, Select, Row, Col, Upload, Button, Popconfirm } from 'antd'
 import { getDB } from 'data/db'
 
-export async function getServerSideProps({ params }) {
+export async function getStaticProps({ params }) {
   return {
     props: {
       db: getDB(params?.group),
