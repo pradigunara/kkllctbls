@@ -51,7 +51,7 @@ export default function Member({ group, eras, memberCode, memberName }) {
                               boxShadow:
                                 '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
                             }}
-                            src={`/${group}/${era.img}`}
+                            src={`/${group}${era.img}`}
                             alt={era.name}
                           />
                         </a>

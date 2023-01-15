@@ -4,6 +4,7 @@ import Header from 'components/header'
 import Footer from 'components/footer'
 import { GROUP_DATA } from 'data/constants'
 import _ from 'components/lodash'
+import Image from 'next/image'
 
 export default function Home({ groups }) {
   const CHUNK_SIZE = 2
@@ -36,19 +37,14 @@ export default function Home({ groups }) {
                       style={{ marginBottom: '1.5em' }}
                     >
                       <Link href={`/${group.code}`}>
-                        <a style={{ color: 'inherit' }}>
-                          <span style={{ fontSize: '0.9em' }}>{group.name}</span>
-                          <img
-                            style={{
-                              maxHeight: '50vh',
-                              width: '100%',
-                              minWidth: 0,
-                              borderRadius: '0.8em',
-                              boxShadow:
-                                '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)'
-                            }}
+                        <a style={{ color: 'inherit' }} className="group-member-image">
+                          <div style={{ fontSize: '1.2em', marginBottom: '0.2em' }}>{group.name}</div>
+                          <Image 
                             src={`/${group.code}/group.jpg`}
                             alt={group.name}
+                            width={500}
+                            height={500}
+                            objectFit="cover"
                           />
                         </a>
                       </Link>

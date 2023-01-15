@@ -246,9 +246,9 @@ function Card({
           opacity: isCrossed && '0.3',
           boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
         }}
-        src={`/${group}/${card.img}`}
+        src={`/${group}${card.img}`}
         alt={card.name}
-        data-url={`/${group}/${card.img}`}
+        data-url={`/${group}${card.img}`}
         data-rounded={card.rounded}
         {...bindDoubleTap}
       />
