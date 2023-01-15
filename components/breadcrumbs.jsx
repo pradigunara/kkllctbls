@@ -1,6 +1,6 @@
 import { Breadcrumb, Col, Row } from 'antd'
 import Link from 'next/link'
-import _ from 'lodash'
+import _ from 'components/lodash'
 import { Fragment } from 'react'
 
 /**

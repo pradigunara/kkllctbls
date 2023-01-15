@@ -1,4 +1,4 @@
-import _ from 'lodash'
+import _ from 'components/lodash'
 import { useState } from 'react'
 import { Button, Col, Divider, Row } from 'antd'
 import Header from 'components/header'

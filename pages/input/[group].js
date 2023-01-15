@@ -1,4 +1,4 @@
-import _ from 'lodash'
+import _ from 'components/lodash'
 import imageCompression from 'browser-image-compression'
 import { useState } from 'react'
 import { Form, Select, Row, Col, Upload, Button } from 'antd'

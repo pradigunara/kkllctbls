@@ -1,4 +1,4 @@
-import _ from 'lodash'
+import _ from 'components/lodash'
 import { useEffect, useState } from 'react'
 import { useDoubleTap } from 'use-double-tap'
 import { Row, Col, Divider, Radio, message } from 'antd'

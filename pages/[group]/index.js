@@ -3,7 +3,7 @@ import { Row, Col, Divider } from 'antd'
 import Header from 'components/header'
 import Footer from 'components/footer'
 import { getDB } from 'data/db'
-import _ from 'lodash'
+import _ from 'components/lodash'
 import { GROUP_DATA, GROUP_NAME } from 'data/constants'
 import Breadcrumbs from 'components/breadcrumbs'
 

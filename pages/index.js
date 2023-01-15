@@ -3,7 +3,7 @@ import { Row, Col, Divider } from 'antd'
 import Header from 'components/header'
 import Footer from 'components/footer'
 import { GROUP_DATA } from 'data/constants'
-import _ from 'lodash'
+import _ from 'components/lodash'
 
 export default function Home({ groups }) {
   const CHUNK_SIZE = 2

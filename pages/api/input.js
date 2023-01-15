@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import _ from 'lodash'
+import _ from 'components/lodash'
 import { nanoid } from 'nanoid'
 
 const pt = (...p) => path.join(process.cwd(), ...p)

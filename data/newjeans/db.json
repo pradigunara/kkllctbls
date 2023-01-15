@@ -73,16 +73,16 @@
           "A Ver. #1": {
             "rounded": true
           },
-          "A Ver. #2": {
-            "rounded": true
-          },
           "B Ver. #1": {
             "rounded": true
           },
-          "B Ver. #2": {
+          "C Ver. #1": {
             "rounded": true
           },
-          "C Ver. #1": {
+          "A Ver. #2": {
+            "rounded": true
+          },
+          "B Ver. #2": {
             "rounded": true
           },
           "C Ver. #2": {
@@ -141,16 +141,16 @@
           "A Ver. #1": {
             "rounded": true
           },
-          "A Ver. #2": {
-            "rounded": true
-          },
           "B Ver. #1": {
             "rounded": true
           },
-          "B Ver. #2": {
+          "C Ver. #1": {
             "rounded": true
           },
-          "C Ver. #1": {
+          "A Ver. #2": {
+            "rounded": true
+          },
+          "B Ver. #2": {
             "rounded": true
           },
           "C Ver. #2": {
@@ -276,16 +276,6 @@
             "rounded": true
           },
           {
-            "id": "ZuWSRVg8yl43tb3tRHI0i",
-            "code": "a-ver-2",
-            "name": "A Ver. #2",
-            "memberCode": "han",
-            "eraCode": "nj",
-            "sectionCode": "wv",
-            "img": "/card/han-nj-wv-a-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "Dn39vazk8ddjrBo8LZnxv",
             "code": "b-ver-1",
             "name": "B Ver. #1",
@@ -296,16 +286,6 @@
             "rounded": true
           },
           {
-            "id": "-i8UzOa6Mp_JX1KE2-0Z4",
-            "code": "b-ver-2",
-            "name": "B Ver. #2",
-            "memberCode": "han",
-            "eraCode": "nj",
-            "sectionCode": "wv",
-            "img": "/card/han-nj-wv-b-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "fwpz7fVuqbDq7THeMMsee",
             "code": "c-ver-1",
             "name": "C Ver. #1",
@@ -313,6 +293,26 @@
             "eraCode": "nj",
             "sectionCode": "wv",
             "img": "/card/han-nj-wv-c-ver-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "ZuWSRVg8yl43tb3tRHI0i",
+            "code": "a-ver-2",
+            "name": "A Ver. #2",
+            "memberCode": "han",
+            "eraCode": "nj",
+            "sectionCode": "wv",
+            "img": "/card/han-nj-wv-a-ver-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "-i8UzOa6Mp_JX1KE2-0Z4",
+            "code": "b-ver-2",
+            "name": "B Ver. #2",
+            "memberCode": "han",
+            "eraCode": "nj",
+            "sectionCode": "wv",
+            "img": "/card/han-nj-wv-b-ver-2.jpg",
             "rounded": true
           },
           {
@@ -444,16 +444,6 @@
             "rounded": true
           },
           {
-            "id": "kSESG6-cvWc_byrRwRBVj",
-            "code": "a-ver-2",
-            "name": "A Ver. #2",
-            "memberCode": "han",
-            "eraCode": "omg",
-            "sectionCode": "wv",
-            "img": "/card/han-omg-wv-a-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "oydn92GBRxQGk8_KL2WXO",
             "code": "b-ver-1",
             "name": "B Ver. #1",
@@ -464,16 +454,6 @@
             "rounded": true
           },
           {
-            "id": "zR1mEtq9dQpaoA4pGkVq-",
-            "code": "b-ver-2",
-            "name": "B Ver. #2",
-            "memberCode": "han",
-            "eraCode": "omg",
-            "sectionCode": "wv",
-            "img": "/card/han-omg-wv-b-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "ajBnwWd_ZSj1wo6hkVKFQ",
             "code": "c-ver-1",
             "name": "C Ver. #1",
@@ -481,6 +461,26 @@
             "eraCode": "omg",
             "sectionCode": "wv",
             "img": "/card/han-omg-wv-c-ver-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "kSESG6-cvWc_byrRwRBVj",
+            "code": "a-ver-2",
+            "name": "A Ver. #2",
+            "memberCode": "han",
+            "eraCode": "omg",
+            "sectionCode": "wv",
+            "img": "/card/han-omg-wv-a-ver-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "zR1mEtq9dQpaoA4pGkVq-",
+            "code": "b-ver-2",
+            "name": "B Ver. #2",
+            "memberCode": "han",
+            "eraCode": "omg",
+            "sectionCode": "wv",
+            "img": "/card/han-omg-wv-b-ver-2.jpg",
             "rounded": true
           },
           {
@@ -666,16 +666,6 @@
             "rounded": true
           },
           {
-            "id": "2Y9OL6kkGHBdZatAelrGN",
-            "code": "a-ver-2",
-            "name": "A Ver. #2",
-            "memberCode": "hae",
-            "eraCode": "omg",
-            "sectionCode": "wv",
-            "img": "/card/hae-omg-wv-a-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "Gbit-EcZz9uLnrKfYlhLU",
             "code": "b-ver-1",
             "name": "B Ver. #1",
@@ -686,16 +676,6 @@
             "rounded": true
           },
           {
-            "id": "y_hbXE-sBEoAV23SCIZFB",
-            "code": "b-ver-2",
-            "name": "B Ver. #2",
-            "memberCode": "hae",
-            "eraCode": "omg",
-            "sectionCode": "wv",
-            "img": "/card/hae-omg-wv-b-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "EueHnWBh71kPSCN0MEWRC",
             "code": "c-ver-1",
             "name": "C Ver. #1",
@@ -703,6 +683,26 @@
             "eraCode": "omg",
             "sectionCode": "wv",
             "img": "/card/hae-omg-wv-c-ver-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "2Y9OL6kkGHBdZatAelrGN",
+            "code": "a-ver-2",
+            "name": "A Ver. #2",
+            "memberCode": "hae",
+            "eraCode": "omg",
+            "sectionCode": "wv",
+            "img": "/card/hae-omg-wv-a-ver-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "y_hbXE-sBEoAV23SCIZFB",
+            "code": "b-ver-2",
+            "name": "B Ver. #2",
+            "memberCode": "hae",
+            "eraCode": "omg",
+            "sectionCode": "wv",
+            "img": "/card/hae-omg-wv-b-ver-2.jpg",
             "rounded": true
           },
           {
@@ -886,16 +886,6 @@
             "rounded": true
           },
           {
-            "id": "vzJ5ybDzl_1PmHLAgJzQf",
-            "code": "a-ver-2",
-            "name": "A Ver. #2",
-            "memberCode": "hae",
-            "eraCode": "nj",
-            "sectionCode": "wv",
-            "img": "/card/hae-nj-wv-a-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "c1eLdYPrKFSlmq8gMPFjm",
             "code": "b-ver-1",
             "name": "B Ver. #1",
@@ -906,16 +896,6 @@
             "rounded": true
           },
           {
-            "id": "cCFrItA72ShtqFuWugIJ4",
-            "code": "b-ver-2",
-            "name": "B Ver. #2",
-            "memberCode": "hae",
-            "eraCode": "nj",
-            "sectionCode": "wv",
-            "img": "/card/hae-nj-wv-b-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "1cWNywmnlkSCQKMYNzran",
             "code": "c-ver-1",
             "name": "C Ver. #1",
@@ -923,6 +903,26 @@
             "eraCode": "nj",
             "sectionCode": "wv",
             "img": "/card/hae-nj-wv-c-ver-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "vzJ5ybDzl_1PmHLAgJzQf",
+            "code": "a-ver-2",
+            "name": "A Ver. #2",
+            "memberCode": "hae",
+            "eraCode": "nj",
+            "sectionCode": "wv",
+            "img": "/card/hae-nj-wv-a-ver-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "cCFrItA72ShtqFuWugIJ4",
+            "code": "b-ver-2",
+            "name": "B Ver. #2",
+            "memberCode": "hae",
+            "eraCode": "nj",
+            "sectionCode": "wv",
+            "img": "/card/hae-nj-wv-b-ver-2.jpg",
             "rounded": true
           },
           {
@@ -1056,16 +1056,6 @@
             "rounded": true
           },
           {
-            "id": "NV7ijHpSzyKyXlXQ9c8x2",
-            "code": "a-ver-2",
-            "name": "A Ver. #2",
-            "memberCode": "min",
-            "eraCode": "nj",
-            "sectionCode": "wv",
-            "img": "/card/min-nj-wv-a-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "s-UyzACAP_OtpnS49nskm",
             "code": "b-ver-1",
             "name": "B Ver. #1",
@@ -1076,16 +1066,6 @@
             "rounded": true
           },
           {
-            "id": "WoEKgIt3Y8kZAedd7W7Me",
-            "code": "b-ver-2",
-            "name": "B Ver. #2",
-            "memberCode": "min",
-            "eraCode": "nj",
-            "sectionCode": "wv",
-            "img": "/card/min-nj-wv-b-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "PE_xXDHuag3Hp3xW_5NTp",
             "code": "c-ver-1",
             "name": "C Ver. #1",
@@ -1093,6 +1073,26 @@
             "eraCode": "nj",
             "sectionCode": "wv",
             "img": "/card/min-nj-wv-c-ver-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "NV7ijHpSzyKyXlXQ9c8x2",
+            "code": "a-ver-2",
+            "name": "A Ver. #2",
+            "memberCode": "min",
+            "eraCode": "nj",
+            "sectionCode": "wv",
+            "img": "/card/min-nj-wv-a-ver-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "WoEKgIt3Y8kZAedd7W7Me",
+            "code": "b-ver-2",
+            "name": "B Ver. #2",
+            "memberCode": "min",
+            "eraCode": "nj",
+            "sectionCode": "wv",
+            "img": "/card/min-nj-wv-b-ver-2.jpg",
             "rounded": true
           },
           {
@@ -1224,16 +1224,6 @@
             "rounded": true
           },
           {
-            "id": "IaAeWJQyE6YArml_YT6BX",
-            "code": "a-ver-2",
-            "name": "A Ver. #2",
-            "memberCode": "min",
-            "eraCode": "omg",
-            "sectionCode": "wv",
-            "img": "/card/min-omg-wv-a-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "hh9KFb_oSnVGKH_BsIYxd",
             "code": "b-ver-1",
             "name": "B Ver. #1",
@@ -1244,16 +1234,6 @@
             "rounded": true
           },
           {
-            "id": "2M0X49P9ktNL3W0-7NQMj",
-            "code": "b-ver-2",
-            "name": "B Ver. #2",
-            "memberCode": "min",
-            "eraCode": "omg",
-            "sectionCode": "wv",
-            "img": "/card/min-omg-wv-b-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "8zAy4-_ahaOovQXK-Puvg",
             "code": "c-ver-1",
             "name": "C Ver. #1",
@@ -1261,6 +1241,26 @@
             "eraCode": "omg",
             "sectionCode": "wv",
             "img": "/card/min-omg-wv-c-ver-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "IaAeWJQyE6YArml_YT6BX",
+            "code": "a-ver-2",
+            "name": "A Ver. #2",
+            "memberCode": "min",
+            "eraCode": "omg",
+            "sectionCode": "wv",
+            "img": "/card/min-omg-wv-a-ver-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "2M0X49P9ktNL3W0-7NQMj",
+            "code": "b-ver-2",
+            "name": "B Ver. #2",
+            "memberCode": "min",
+            "eraCode": "omg",
+            "sectionCode": "wv",
+            "img": "/card/min-omg-wv-b-ver-2.jpg",
             "rounded": true
           },
           {
@@ -1446,16 +1446,6 @@
             "rounded": true
           },
           {
-            "id": "4YMUalAX6OTX8HVBQ-XT6",
-            "code": "a-ver-2",
-            "name": "A Ver. #2",
-            "memberCode": "dan",
-            "eraCode": "nj",
-            "sectionCode": "wv",
-            "img": "/card/dan-nj-wv-a-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "ECKz23qoKdZrG18msHjgj",
             "code": "b-ver-1",
             "name": "B Ver. #1",
@@ -1466,16 +1456,6 @@
             "rounded": true
           },
           {
-            "id": "hXqgpfonxpU0L3wKI6BwM",
-            "code": "b-ver-2",
-            "name": "B Ver. #2",
-            "memberCode": "dan",
-            "eraCode": "nj",
-            "sectionCode": "wv",
-            "img": "/card/dan-nj-wv-b-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "kj2xP_A0fpWO_LJkC5eX8",
             "code": "c-ver-1",
             "name": "C Ver. #1",
@@ -1483,6 +1463,26 @@
             "eraCode": "nj",
             "sectionCode": "wv",
             "img": "/card/dan-nj-wv-c-ver-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "4YMUalAX6OTX8HVBQ-XT6",
+            "code": "a-ver-2",
+            "name": "A Ver. #2",
+            "memberCode": "dan",
+            "eraCode": "nj",
+            "sectionCode": "wv",
+            "img": "/card/dan-nj-wv-a-ver-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "hXqgpfonxpU0L3wKI6BwM",
+            "code": "b-ver-2",
+            "name": "B Ver. #2",
+            "memberCode": "dan",
+            "eraCode": "nj",
+            "sectionCode": "wv",
+            "img": "/card/dan-nj-wv-b-ver-2.jpg",
             "rounded": true
           },
           {
@@ -1614,16 +1614,6 @@
             "rounded": true
           },
           {
-            "id": "OBkTsfO214AFtXzlF_yFL",
-            "code": "a-ver-2",
-            "name": "A Ver. #2",
-            "memberCode": "dan",
-            "eraCode": "omg",
-            "sectionCode": "wv",
-            "img": "/card/dan-omg-wv-a-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "t4F-vZN3SJE37ehufS8XF",
             "code": "b-ver-1",
             "name": "B Ver. #1",
@@ -1634,16 +1624,6 @@
             "rounded": true
           },
           {
-            "id": "RMVb8WSbgDoen1j2osvbT",
-            "code": "b-ver-2",
-            "name": "B Ver. #2",
-            "memberCode": "dan",
-            "eraCode": "omg",
-            "sectionCode": "wv",
-            "img": "/card/dan-omg-wv-b-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "_GfVJTufV_DUJ6MatF-fB",
             "code": "c-ver-1",
             "name": "C Ver. #1",
@@ -1651,6 +1631,26 @@
             "eraCode": "omg",
             "sectionCode": "wv",
             "img": "/card/dan-omg-wv-c-ver-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "OBkTsfO214AFtXzlF_yFL",
+            "code": "a-ver-2",
+            "name": "A Ver. #2",
+            "memberCode": "dan",
+            "eraCode": "omg",
+            "sectionCode": "wv",
+            "img": "/card/dan-omg-wv-a-ver-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "RMVb8WSbgDoen1j2osvbT",
+            "code": "b-ver-2",
+            "name": "B Ver. #2",
+            "memberCode": "dan",
+            "eraCode": "omg",
+            "sectionCode": "wv",
+            "img": "/card/dan-omg-wv-b-ver-2.jpg",
             "rounded": true
           },
           {
@@ -1836,16 +1836,6 @@
             "rounded": true
           },
           {
-            "id": "-K1EJrZ6w-4xPr0JITyLq",
-            "code": "a-ver-2",
-            "name": "A Ver. #2",
-            "memberCode": "hye",
-            "eraCode": "nj",
-            "sectionCode": "wv",
-            "img": "/card/hye-nj-wv-a-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "8vK9LakBlwOylTT8tB9nw",
             "code": "b-ver-1",
             "name": "B Ver. #1",
@@ -1856,16 +1846,6 @@
             "rounded": true
           },
           {
-            "id": "Oh_AIRJhCSK9n3_hy0qQS",
-            "code": "b-ver-2",
-            "name": "B Ver. #2",
-            "memberCode": "hye",
-            "eraCode": "nj",
-            "sectionCode": "wv",
-            "img": "/card/hye-nj-wv-b-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "k70UhxmPzX8h6nfsX_m1o",
             "code": "c-ver-1",
             "name": "C Ver. #1",
@@ -1873,6 +1853,26 @@
             "eraCode": "nj",
             "sectionCode": "wv",
             "img": "/card/hye-nj-wv-c-ver-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "-K1EJrZ6w-4xPr0JITyLq",
+            "code": "a-ver-2",
+            "name": "A Ver. #2",
+            "memberCode": "hye",
+            "eraCode": "nj",
+            "sectionCode": "wv",
+            "img": "/card/hye-nj-wv-a-ver-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "Oh_AIRJhCSK9n3_hy0qQS",
+            "code": "b-ver-2",
+            "name": "B Ver. #2",
+            "memberCode": "hye",
+            "eraCode": "nj",
+            "sectionCode": "wv",
+            "img": "/card/hye-nj-wv-b-ver-2.jpg",
             "rounded": true
           },
           {
@@ -2004,16 +2004,6 @@
             "rounded": true
           },
           {
-            "id": "8N5DFDasIgeoNG37nehyX",
-            "code": "a-ver-2",
-            "name": "A Ver. #2",
-            "memberCode": "hye",
-            "eraCode": "omg",
-            "sectionCode": "wv",
-            "img": "/card/hye-omg-wv-a-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "dGu4B9VK8hdQqLRZK-EvX",
             "code": "b-ver-1",
             "name": "B Ver. #1",
@@ -2024,16 +2014,6 @@
             "rounded": true
           },
           {
-            "id": "aNbPN1NFEJ0U3cClXoRWO",
-            "code": "b-ver-2",
-            "name": "B Ver. #2",
-            "memberCode": "hye",
-            "eraCode": "omg",
-            "sectionCode": "wv",
-            "img": "/card/hye-omg-wv-b-ver-2.jpg",
-            "rounded": true
-          },
-          {
             "id": "u5cSR04ibCfE5dj35o-6w",
             "code": "c-ver-1",
             "name": "C Ver. #1",
@@ -2041,6 +2021,26 @@
             "eraCode": "omg",
             "sectionCode": "wv",
             "img": "/card/hye-omg-wv-c-ver-1.jpg",
+            "rounded": true
+          },
+          {
+            "id": "8N5DFDasIgeoNG37nehyX",
+            "code": "a-ver-2",
+            "name": "A Ver. #2",
+            "memberCode": "hye",
+            "eraCode": "omg",
+            "sectionCode": "wv",
+            "img": "/card/hye-omg-wv-a-ver-2.jpg",
+            "rounded": true
+          },
+          {
+            "id": "aNbPN1NFEJ0U3cClXoRWO",
+            "code": "b-ver-2",
+            "name": "B Ver. #2",
+            "memberCode": "hye",
+            "eraCode": "omg",
+            "sectionCode": "wv",
+            "img": "/card/hye-omg-wv-b-ver-2.jpg",
             "rounded": true
           },
           {

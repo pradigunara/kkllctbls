@@ -1,4 +1,4 @@
-import _ from 'lodash'
+import _ from 'components/lodash'
 import Link from 'next/link'
 import { Row, Col, Divider } from 'antd'
 import Header from 'components/header'
