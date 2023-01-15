@@ -3,13 +3,12 @@ import path from 'path'
 import _ from 'lodash'
 import { nanoid } from 'nanoid'
 
-const group = process.env.GROUP
 const pt = (...p) => path.join(process.cwd(), ...p)
-const dbPath = pt(`/data/${group}/db.json`)
+const dbPath = (group) => pt(`/data/${group}/db.json`)
 
-const load = () => JSON.parse(fs.readFileSync(dbPath).toString())
-const write = (db) => fs.writeFileSync(dbPath, JSON.stringify(db, null, 2))
-const writeImg = (base64image, imgPath) => {
+const load = (group) => JSON.parse(fs.readFileSync(dbPath(group)).toString())
+const write = (db, group) => fs.writeFileSync(dbPath(group), JSON.stringify(db, null, 2))
+const writeImg = (base64image, imgPath, group) => {
   const buffer = new Buffer(base64image, 'base64')
   fs.writeFileSync(pt(`/public/${group}`, imgPath), buffer)
 }
@@ -26,12 +25,13 @@ export default function handler(req, res) {
     sectionCode,
     name,
     image,
-    rounded
+    rounded,
+    group
   } = req.body
 
-  fs.copyFileSync(dbPath, pt(`/data/${group}/db.json.bak`))
+  fs.copyFileSync(dbPath(group), dbPath(group)+".bak")
 
-  const db = load()
+  const db = load(group)
   const storagePath = ['cards', memberCode, eraCode, sectionCode]
   const cards = _.get(db, storagePath, [])
   const imgPath = `/card/${memberCode}-${eraCode}-${sectionCode}-${_.kebabCase(name)}.jpg`
@@ -53,8 +53,8 @@ export default function handler(req, res) {
   })
 
   _.set(db, storagePath, cards)
-  write(db)
-  writeImg(image, imgPath)
+  write(db, group)
+  writeImg(image, imgPath, group)
 
   res.status(200).json({ status: 'OK' })
 }

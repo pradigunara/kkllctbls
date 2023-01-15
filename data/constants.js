@@ -3,22 +3,24 @@ export const GROUP = {
   newjeans: 'newjeans'
 }
 
-export const CF_TOKEN = {
-  [GROUP.fromis]: 'a0b2ad60e02f41be93de262eeb3012bd',
-  [GROUP.newjeans]: '66db740da01344cbb61ed9def50fb85d',
+export const GROUP_NAME = {
+  [GROUP.fromis]: 'fromis_9',
+  [GROUP.newjeans]: 'NewJeans',
 }
 
-export const SITE_TITLE = {
-  [GROUP.fromis]: 'kkollectibles',
-  [GROUP.newjeans]: 'kkollektiv',
-}
-
-export const BACKGROUND = {
-  [GROUP.fromis]: null,
-  [GROUP.newjeans]: `url('/newjeans/bg.svg')`,
-}
+export const GROUP_DATA = [{
+    name: GROUP_NAME[GROUP.fromis],
+    code: GROUP.fromis
+}, {
+    name: GROUP_NAME[GROUP.newjeans],
+    code: GROUP.newjeans
+}]
 
 export const PRIMARY_COLOR = {
-  [GROUP.fromis]: '#36bef0',
-  [GROUP.newjeans]: 'hotpink',
+  [GROUP.fromis]: '#c08380',
+  [GROUP.newjeans]: '#1560bd',
+}
+
+export const getPrimaryColor = (group) => {
+  return PRIMARY_COLOR[group] ?? 'lightslategrey'
 }

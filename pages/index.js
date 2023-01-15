@@ -2,24 +2,23 @@ import Link from 'next/link'
 import { Row, Col, Divider } from 'antd'
 import Header from 'components/header'
 import Footer from 'components/footer'
-import { getDB } from 'data/db'
-import { GROUP } from 'data/constants'
+import { GROUP_DATA } from 'data/constants'
 import _ from 'lodash'
 
-export default function Home({ members, group }) {
-  const CHUNK_SIZE = 3
-  const chunkedContents = _.chunk(members ?? [], CHUNK_SIZE)
+export default function Home({ groups }) {
+  const CHUNK_SIZE = 2
+  const chunkedContents = _.chunk(groups ?? [], CHUNK_SIZE)
 
   return (
     <>
       <Row justify="center">
         <Col span={22}>
-          <Header group={group} />
+          <Header />
           <Divider
             orientation="center"
             style={{ fontWeight: '600', fontSize: '1.2em' }}
           >
-            Select Member
+            Groups
           </Divider>
           <Row>
             <Col>
@@ -30,15 +29,15 @@ export default function Home({ members, group }) {
                   align="bottom"
                   key={idx}
                 >
-                  {chunk.map((member) => (
+                  {chunk.map((group) => (
                     <Col
                       span={24 / CHUNK_SIZE}
-                      key={member.code}
+                      key={group.code}
                       style={{ marginBottom: '1.5em' }}
                     >
-                      <Link href={`/${member.code}`}>
+                      <Link href={`/${group.code}`}>
                         <a style={{ color: 'inherit' }}>
-                          <span style={{ fontSize: '0.9em' }}>{member.name}</span>
+                          <span style={{ fontSize: '0.9em' }}>{group.name}</span>
                           <img
                             style={{
                               maxHeight: '50vh',
@@ -48,8 +47,8 @@ export default function Home({ members, group }) {
                               boxShadow:
                                 '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)'
                             }}
-                            src={`/${group}/${member.img}`}
-                            alt={member.name}
+                            src={`/${group.code}/group.jpg`}
+                            alt={group.name}
                           />
                         </a>
                       </Link>
@@ -60,7 +59,7 @@ export default function Home({ members, group }) {
             </Col>
           </Row>
         </Col>
-        <Footer group={group} />
+        <Footer />
       </Row>
     </>
   )
@@ -69,8 +68,7 @@ export default function Home({ members, group }) {
 export async function getStaticProps() {
   return {
     props: {
-      members: getDB()?.members,
-      group: process.env.GROUP || GROUP.fromis
+      groups: GROUP_DATA
     },
   }
 }

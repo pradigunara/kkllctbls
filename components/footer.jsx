@@ -1,24 +1,13 @@
 import { Row, Col } from 'antd'
-import { GROUP } from 'data/constants'
+import Link from 'next/link'
 
-export default function Footer({ group = GROUP.fromis }) {
-  let footerText
-
-  if (group === GROUP.fromis) {
-    footerText =
-      <p style={{ textAlign: 'center' }}>
-        Made with ♡ for fromis_9 by <a href="https://twitter.com/bucinakko">@bucinakko</a>
-        <br />
-        Source template by <a href="https://twitter.com/kiombocore">@kiombocore</a>
-      </p>
-  } else if (group === GROUP.newjeans) {
-    footerText =
+export default function Footer() {
+  let footerText = 
       <p style={{ textAlign: 'center' }}>
         made with ♡ by 
         <br />
-        <a href="https://twitter.com/bucinakko">@bucinakko</a> & <a href="https://twitter.com/romsyeon_9">@romsyeon_9</a>
+        <a href="https://twitter.com/bucinakko">@bucinakko</a> & <Link href="/contrib">collaborators</Link>
       </p>
-  }
 
   return (
     <Row

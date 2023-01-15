@@ -7,7 +7,7 @@ import Header from 'components/header'
 import Footer from 'components/footer'
 import Breadcrumbs from 'components/breadcrumbs'
 import { getDB } from 'data/db'
-import { GROUP } from 'data/constants'
+import { GROUP_DATA, GROUP_NAME } from 'data/constants'
 
 const CROSSED_STORAGE_KEY = 'crossedIds'
 const WISHLIST_STORAGE_KEY = 'wishlists'
@@ -82,7 +82,7 @@ export default function Era({ group, member, era, sortedSections }) {
   return (
     <Container span={22}>
       <Header group={group} />
-      <Breadcrumbs crumbs={[[member.name, `/${member.code}`], [era.name]]} />
+      <Breadcrumbs crumbs={[[GROUP_NAME[group], `/${group}`], [member.name, `/${group}/${member.code}`], [era.name]]} />
       <h4>
         <i>
           <b>Tap items to cross out, Double tap to add wishlist!</b>
@@ -258,20 +258,12 @@ function Card({
 
 export async function getStaticPaths() {
   const paths = []
-  const group = process.env.GROUP || GROUP.fromis
-  const db = getDB()
 
-  const skipPath = new Set([
-    `fromis-jgr-td`
-  ])
-
-  for (const member of db.members) {
-    for (const era of db.eras) {
-      if (skipPath.has(`${group}-${member.code}-${era.code}`)) {
-        continue
+  for (const group of GROUP_DATA) {
+    for (const member of getDB(group.code).members) {
+      for (const era of getDB(group.code).eras) {
+        paths.push({ params: { group: group.code, member: member.code, era: era.code } })
       }
-
-      paths.push({ params: { member: member.code, era: era.code } })
     }
   }
 
@@ -282,7 +274,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const db = getDB()
+  const db = getDB(params.group)
   const foundMember = _.find(db.members, { code: params?.member })
   const foundEra = _.find(db.eras, { code: params?.era })
 
@@ -296,7 +288,7 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
-      group: process.env.GROUP || GROUP.fromis,
+      group: params.group,
       member: foundMember,
       era: foundEra,
       sortedSections

@@ -1,18 +1,19 @@
 import Head from 'next/head'
 import { Row, Col } from 'antd'
-import { PRIMARY_COLOR, SITE_TITLE } from 'data/constants'
+import { getPrimaryColor } from 'data/constants'
 import { ConfigProvider } from 'antd'
+import {useRouter} from 'next/router'
 import 'antd/dist/reset.css'
 import './index.css'
 
 export default function MyApp({ Component, pageProps }) {
-  const group = process.env.NEXT_PUBLIC_GROUP
-  const title = SITE_TITLE[group] 
+  const router = useRouter()
+  const group = router.query?.group
 
   return (
     <>
       <Head>
-        <title>{title}</title>
+        <title>kkollectibles</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
@@ -23,13 +24,13 @@ export default function MyApp({ Component, pageProps }) {
           content="gotta kkollect 'em all!"
           key="desc"
         />
-        <meta property="og:image" content={`/${group}/preview.jpg`} key="ogimage" />
+        <meta property="og:image" content="preview.jpg" key="ogimage" />
         <meta
           property="og:site_name"
-          content={title}
+          content="kkollectibles"
           key="ogsitename"
         />
-        <meta property="og:title" content={title} key="ogtitle" />
+        <meta property="og:title" content="kkollectibles" key="ogtitle" />
         <meta
           property="og:description"
           content="gotta kkollect 'em all!"
@@ -40,10 +41,10 @@ export default function MyApp({ Component, pageProps }) {
       <ConfigProvider
         theme={{
           token: {
-            colorPrimary: PRIMARY_COLOR[group],
-            colorLink: PRIMARY_COLOR[group],
-            colorLinkActive: PRIMARY_COLOR[group],
-            colorLinkHover: PRIMARY_COLOR[group],
+            colorPrimary: getPrimaryColor(group),
+            colorLink: getPrimaryColor(group),
+            colorLinkActive: getPrimaryColor(group),
+            colorLinkHover: getPrimaryColor(group),
             fontFamily: 'Architects Daughter, cursive',
           },
         }}

@@ -3,6 +3,7 @@ import imageCompression from 'browser-image-compression'
 import { useState } from 'react'
 import { Form, Select, Row, Col, Upload, Button } from 'antd'
 import { getDB } from 'data/db'
+import { useRouter } from 'next/router'
 
 const submitInput = (data) =>
   fetch('/api/input', {
@@ -25,7 +26,9 @@ const submitInput = (data) =>
     })
 
 export default function InputPage() {
-  const db = getDB()
+  const router = useRouter()
+  const group = router?.query?.group
+  const db = getDB(group)
   const [form] = Form.useForm()
   const [selectedEra, setSelectedEra] = useState()
   const [selectedSection, setSelectedSection] = useState()
@@ -39,6 +42,7 @@ export default function InputPage() {
 
     const payload = {
       ...form,
+      group,
       rounded,
     }
 

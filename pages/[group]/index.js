@@ -1,64 +1,62 @@
-import _ from 'lodash'
 import Link from 'next/link'
 import { Row, Col, Divider } from 'antd'
 import Header from 'components/header'
 import Footer from 'components/footer'
-import Breadcrumbs from 'components/breadcrumbs'
 import { getDB } from 'data/db'
-import { GROUP } from 'data/constants'
+import _ from 'lodash'
+import { GROUP_DATA, GROUP_NAME } from 'data/constants'
+import Breadcrumbs from 'components/breadcrumbs'
 
-const CHUNK_SIZE = 3
-
-export default function Member({ group, eras, memberCode, memberName }) {
-  const chunkedContents = _.chunk(eras ?? [], CHUNK_SIZE)
+export default function Home({ members, group }) {
+  const CHUNK_SIZE = 3
+  const chunkedContents = _.chunk(members ?? [], CHUNK_SIZE)
 
   return (
     <>
       <Row justify="center">
         <Col span={22}>
           <Header group={group} />
-          <Breadcrumbs crumbs={[[memberName]]} />
-
+          <Breadcrumbs crumbs={[[GROUP_NAME[group]]]} />
           <Divider
             orientation="center"
             style={{ fontWeight: '600', fontSize: '1.2em' }}
           >
-            Select Era
+            Select Member
           </Divider>
           <Row>
             <Col>
               {chunkedContents.map((chunk, idx) => (
                 <Row
-                  gutter={{ xs: 16, md: 24 }}
-                  justify="space-evenly"
+                  gutter={{ xs: 24, md: 36 }}
+                  justify="center"
                   align="bottom"
                   key={idx}
                 >
-                  {chunk.map((era) => (
+                  {chunk.map((member) => (
                     <Col
-                      span={8}
-                      key={era.code}
-                      style={{ marginBottom: '1em' }}
+                      span={24 / CHUNK_SIZE}
+                      key={member.code}
+                      style={{ marginBottom: '1.5em' }}
                     >
-                      <Link href={`${memberCode}/${era.code}`}>
+                      <Link href={`/${group}/${member.code}`}>
                         <a style={{ color: 'inherit' }}>
-                          <span>{era.name}</span>
+                          <span style={{ fontSize: '0.9em' }}>{member.name}</span>
                           <img
                             style={{
                               maxHeight: '50vh',
                               width: '100%',
                               minWidth: 0,
+                              borderRadius: '0.8em',
                               boxShadow:
-                                '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
+                                '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)'
                             }}
-                            src={`/${group}/${era.img}`}
-                            alt={era.name}
+                            src={`/${group}/${member.img}`}
+                            alt={member.name}
                           />
                         </a>
                       </Link>
                     </Col>
                   ))}
-                  <Col span={8 * (CHUNK_SIZE - chunk.length)} />
                 </Row>
               ))}
             </Col>
@@ -70,8 +68,9 @@ export default function Member({ group, eras, memberCode, memberName }) {
   )
 }
 
+
 export async function getStaticPaths() {
-  const paths = _.map(getDB()?.members, (m) => ({ params: { member: m.code } }))
+  const paths = _.map(GROUP_DATA, g => ({ params: { group: g.code } }))
 
   return {
     paths,
@@ -80,25 +79,10 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const group = process.env.GROUP || GROUP.fromis
-  const db = getDB()
-  const skipEra = {
-    'fromis-jgr': new Set(['td'])
-  }
-
-  const code = params?.member
-  const eras = _.reject(db?.eras, era => {
-    return skipEra[`${group}-${code}`]?.has(era?.code)
-  })
-
-  const memberName = _.find(db?.members, { code })?.name
-
   return {
     props: {
-      eras,
-      memberName,
-      memberCode: code,
-      group
+      members: getDB(params.group)?.members,
+      group: params.group
     },
   }
 }
