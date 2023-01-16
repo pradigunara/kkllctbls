@@ -7,7 +7,7 @@ import Header from 'components/header'
 import Footer from 'components/footer'
 import Breadcrumbs from 'components/breadcrumbs'
 import { getDB } from 'data/db'
-import { GROUP_DATA, GROUP_NAME } from 'data/constants'
+import { GROUP_DATA, GROUP_LINK, GROUP_NAME } from 'data/constants'
 
 const CROSSED_STORAGE_KEY = 'crossedIds'
 const WISHLIST_STORAGE_KEY = 'wishlists'
@@ -82,7 +82,7 @@ export default function Era({ group, member, era, sortedSections }) {
   return (
     <Container span={22}>
       <Header group={group} />
-      <Breadcrumbs crumbs={[[GROUP_NAME[group], `/${group}`], [member.name, `/${group}/${member.code}`], [era.name]]} />
+      <Breadcrumbs crumbs={[[GROUP_NAME[group], `/${GROUP_LINK[group]}`], [member.name, `/${group}/${member.code}`], [era.name]]} />
       <h4>
         <i>
           <b>Tap items to cross out, Double tap to add wishlist!</b>

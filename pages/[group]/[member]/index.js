@@ -5,7 +5,7 @@ import Header from 'components/header'
 import Footer from 'components/footer'
 import Breadcrumbs from 'components/breadcrumbs'
 import { getDB } from 'data/db'
-import { GROUP_DATA, GROUP_NAME } from 'data/constants'
+import { GROUP_DATA, GROUP_NAME, GROUP_LINK } from 'data/constants'
 import Image from 'next/image'
 
 const CHUNK_SIZE = 3
@@ -18,7 +18,7 @@ export default function Member({ group, eras, memberCode, memberName }) {
       <Row justify="center">
         <Col span={22}>
           <Header />
-          <Breadcrumbs crumbs={[[GROUP_NAME[group], `/${group}`], [memberName]]} />
+          <Breadcrumbs crumbs={[[GROUP_NAME[group], `/${GROUP_LINK[group]}`], [memberName]]} />
 
           <Divider
             orientation="center"
