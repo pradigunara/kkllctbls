@@ -36,7 +36,7 @@ export default function Home({ groups }) {
                       key={group.code}
                       style={{ marginBottom: '1.5em' }}
                     >
-                      <Link href={`/${group.code}`}>
+                      <Link href={group.link}>
                         <a style={{ color: 'inherit' }} className="group-member-image">
                           <div style={{ fontSize: '1.2em', marginBottom: '0.2em' }}>{group.name}</div>
                           <Image 

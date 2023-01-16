@@ -74,9 +74,9 @@ export async function getStaticPaths() {
     return { paths, fallback: 'blocking' }
   }
 
-  for (const group of GROUP_DATA) {
+  for (const group of _.filter(GROUP_DATA, { disabled: false })) {
     for (const member of getDB(group.code).members) {
-      paths.push({ params: { member: member.code, group: group.code } })     
+      paths.push({ params: { member: member.code, group: group.code } })
     }
   }
 

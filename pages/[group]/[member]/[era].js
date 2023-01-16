@@ -263,7 +263,7 @@ export async function getStaticPaths() {
     return { paths, fallback: 'blocking' }
   }
 
-  for (const group of GROUP_DATA) {
+  for (const group of _.filter(GROUP_DATA, { disabled: false })) {
     for (const member of getDB(group.code).members) {
       for (const era of getDB(group.code).eras) {
         paths.push({ params: { group: group.code, member: member.code, era: era.code } })

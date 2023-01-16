@@ -66,7 +66,8 @@ export default function Home({ members, group }) {
 
 
 export async function getStaticPaths() {
-  const paths = _.map(GROUP_DATA, g => ({ params: { group: g.code } }))
+  const groupData = _.filter(GROUP_DATA, { disabled: false })
+  const paths = _.map(groupData, g => ({ params: { group: g.code } }))
 
   return {
     paths,

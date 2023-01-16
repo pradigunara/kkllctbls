@@ -1,8 +1,6 @@
-
 import { Row, Col, Divider } from 'antd'
 import Header from 'components/header'
 import Footer from 'components/footer'
-import { GROUP_DATA } from 'data/constants'
 
 export default function Contrib() {
   return (
@@ -19,7 +17,8 @@ export default function Contrib() {
           <Row>
             <ul>
                 <li><a href="https://twitter.com/kiombocore">@kiombocore</a> (fromis_9 template source)</li>
-                <li><a href="https://twitter.com/romsyeon_9">@romsyeon_9</a> (content collaborator)</li>
+                <li><a href="https://twitter.com/romsyeon_9">@romsyeon_9</a> (newjeans content collaborator)</li>
+                <li><a href="https://twitter.com/kkotocola">@kkotocola</a> (jo yuri content collaborator)</li>
             </ul>
           </Row>
         </Col>
@@ -27,12 +26,4 @@ export default function Contrib() {
       </Row>
     </>
   )
-}
-
-export async function getStaticProps() {
-  return {
-    props: {
-      groups: GROUP_DATA
-    },
-  }
 }

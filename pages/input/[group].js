@@ -6,7 +6,8 @@ import { getDB } from 'data/db'
 import { GROUP_DATA } from 'data/constants'
 
 export async function getStaticPaths() {
-  const paths = _.map(GROUP_DATA, g => ({ params: { group: g.code } }))
+  const groupData = _.filter(GROUP_DATA, { disabled: false })
+  const paths = _.map(groupData, g => ({ params: { group: g.code } }))
 
   return {
     paths,
@@ -44,7 +45,7 @@ const submitInput = (data) =>
       return message
     })
 
-const deleteExisting = (data) => 
+const deleteExisting = (data) =>
   fetch('/api/input', {
     method: 'DELETE',
     headers: {
@@ -62,7 +63,7 @@ const deleteExisting = (data) =>
 
       console.log('Deleted:', message)
 
-      return message 
+      return message
     })
 
 export default function InputPage({ db, group }) {
@@ -160,7 +161,7 @@ export default function InputPage({ db, group }) {
               okText="Yes"
               cancelText="No"
             >
-              <Button danger type="text" block> 
+              <Button danger type="text" block>
                 Delete Existing Item
               </Button>
             </Popconfirm>

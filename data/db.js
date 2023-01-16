@@ -11,17 +11,20 @@ const load = (group) => YAML.parse(fs.readFileSync(dbPath(group)).toString())
 let initiated = false
 let fromisDB
 let newjeansDB
+let joyuriDB
 
 export function getDB(group) {
   if (!initiated) loadDB()
 
   return {
     [GROUP.fromis]: fromisDB,
-    [GROUP.newjeans]: newjeansDB
+    [GROUP.newjeans]: newjeansDB,
+    [GROUP.joyuri]: joyuriDB,
   }[group]
 }
 
 export function loadDB() {
   fromisDB = load(GROUP.fromis)
   newjeansDB = load(GROUP.newjeans)
+  joyuriDB = load(GROUP.joyuri)
 }
