@@ -456,6 +456,88 @@ cards:
           sectionCode: others
           img: /card/han-omg-others-sbs-gayo.jpg
           rounded: false
+    na:
+      sg23:
+        - id: U7XdKFbikeuUNX2AhAxpL
+          code: card-1
+          name: "Card #1"
+          memberCode: han
+          eraCode: na
+          sectionCode: sg23
+          img: /card/han-na-sg23-card-1.jpg
+          rounded: true
+        - id: cXOqwa9MvlaO9zDAYbYLK
+          code: card-2
+          name: "Card #2"
+          memberCode: han
+          eraCode: na
+          sectionCode: sg23
+          img: /card/han-na-sg23-card-2.jpg
+          rounded: true
+        - id: fTCzL-QPHPi6KweoCrrEc
+          code: card-3
+          name: "Card #3"
+          memberCode: han
+          eraCode: na
+          sectionCode: sg23
+          img: /card/han-na-sg23-card-3.jpg
+          rounded: true
+        - id: V7en8YMiPiuzIZrge_h8x
+          code: card-4
+          name: "Card #4"
+          memberCode: han
+          eraCode: na
+          sectionCode: sg23
+          img: /card/han-na-sg23-card-4.jpg
+          rounded: true
+        - id: X9urpkOuCSdehc6_k8DF2
+          code: card-5
+          name: "Card #5"
+          memberCode: han
+          eraCode: na
+          sectionCode: sg23
+          img: /card/han-na-sg23-card-5.jpg
+          rounded: true
+        - id: XXvOIo2cHacahwLDZUMcu
+          code: card-6
+          name: "Card #6"
+          memberCode: han
+          eraCode: na
+          sectionCode: sg23
+          img: /card/han-na-sg23-card-6.jpg
+          rounded: true
+        - id: 4KEJnZH8azzo_wuDz0g1e
+          code: card-7
+          name: "Card #7"
+          memberCode: han
+          eraCode: na
+          sectionCode: sg23
+          img: /card/han-na-sg23-card-7.jpg
+          rounded: true
+        - id: 09HgfeknuPfvaY37NtkKE
+          code: card-8
+          name: "Card #8"
+          memberCode: han
+          eraCode: na
+          sectionCode: sg23
+          img: /card/han-na-sg23-card-8.jpg
+          rounded: true
+        - id: JpvSt4UdLyx2bMHSk-Bbd
+          code: card-9
+          name: "Card #9"
+          memberCode: han
+          eraCode: na
+          sectionCode: sg23
+          img: /card/han-na-sg23-card-9.jpg
+          rounded: true
+        - id: UvLKdM8D5g0jie-BcKC7s
+          code: card-10
+          name: "Card #10"
+          memberCode: han
+          eraCode: na
+          sectionCode: sg23
+          img: /card/han-na-sg23-card-10.jpg
+          rounded: true
   hae:
     omg:
       msg:
@@ -762,6 +844,88 @@ cards:
           sectionCode: other
           img: /card/hae-nj-other-bc-inkigayo.jpg
           rounded: false
+    na:
+      sg23:
+        - id: kFeocSSPojUsnHTYtcvQo
+          code: card-1
+          name: "Card #1"
+          memberCode: hae
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hae-na-sg23-card-1.jpg
+          rounded: true
+        - id: gj-vGMiFkUGbCQsqoJrbm
+          code: card-2
+          name: "Card #2"
+          memberCode: hae
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hae-na-sg23-card-2.jpg
+          rounded: true
+        - id: U3WfGrDsh0Laa1dFpkWdu
+          code: card-3
+          name: "Card #3"
+          memberCode: hae
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hae-na-sg23-card-3.jpg
+          rounded: true
+        - id: Oatrl-bcrgdHn1hyRPc8e
+          code: card-4
+          name: "Card #4"
+          memberCode: hae
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hae-na-sg23-card-4.jpg
+          rounded: true
+        - id: 2CAjNymNITmIOJHXkXr4y
+          code: card-5
+          name: "Card #5"
+          memberCode: hae
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hae-na-sg23-card-5.jpg
+          rounded: true
+        - id: c266GdW_WaKi7IXnsHhIw
+          code: card-6
+          name: "Card #6"
+          memberCode: hae
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hae-na-sg23-card-6.jpg
+          rounded: true
+        - id: KP7Y87EdCMUEHJKizkbvA
+          code: card-7
+          name: "Card #7"
+          memberCode: hae
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hae-na-sg23-card-7.jpg
+          rounded: true
+        - id: cr6KWrYzx3qJkAIKO75JC
+          code: card-8
+          name: "Card #8"
+          memberCode: hae
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hae-na-sg23-card-8.jpg
+          rounded: true
+        - id: c6o1wuA0D4tHlIadeoN2d
+          code: card-9
+          name: "Card #9"
+          memberCode: hae
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hae-na-sg23-card-9.jpg
+          rounded: true
+        - id: vSJ3ykWqELXX8v28EuTua
+          code: card-10
+          name: "Card #10"
+          memberCode: hae
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hae-na-sg23-card-10.jpg
+          rounded: true
   min:
     nj:
       bb:
@@ -1068,6 +1232,88 @@ cards:
           sectionCode: others
           img: /card/min-omg-others-sbs-gayo.jpg
           rounded: false
+    na:
+      sg23:
+        - id: rLGtmLjelHUn1iHHT75x7
+          code: card-1
+          name: "Card #1"
+          memberCode: min
+          eraCode: na
+          sectionCode: sg23
+          img: /card/min-na-sg23-card-1.jpg
+          rounded: true
+        - id: 0Cmkq4AAEp2MZUuhDgJLo
+          code: card-2
+          name: "Card #2"
+          memberCode: min
+          eraCode: na
+          sectionCode: sg23
+          img: /card/min-na-sg23-card-2.jpg
+          rounded: true
+        - id: uzxHWDjBI8rcy-W2l1XMO
+          code: card-3
+          name: "Card #3"
+          memberCode: min
+          eraCode: na
+          sectionCode: sg23
+          img: /card/min-na-sg23-card-3.jpg
+          rounded: true
+        - id: JA27XiuT4xcPUIOYVhUFV
+          code: card-4
+          name: "Card #4"
+          memberCode: min
+          eraCode: na
+          sectionCode: sg23
+          img: /card/min-na-sg23-card-4.jpg
+          rounded: true
+        - id: HHzYDGGxTIysveIK5ALkC
+          code: card-5
+          name: "Card #5"
+          memberCode: min
+          eraCode: na
+          sectionCode: sg23
+          img: /card/min-na-sg23-card-5.jpg
+          rounded: true
+        - id: bcPHBiIRswCacnM8GSvbc
+          code: card-6
+          name: "Card #6"
+          memberCode: min
+          eraCode: na
+          sectionCode: sg23
+          img: /card/min-na-sg23-card-6.jpg
+          rounded: true
+        - id: u5xFBBqEKmmRPMxbusah2
+          code: card-7
+          name: "Card #7"
+          memberCode: min
+          eraCode: na
+          sectionCode: sg23
+          img: /card/min-na-sg23-card-7.jpg
+          rounded: true
+        - id: YvTsMeuvMWjKsgeVKc-vn
+          code: card-8
+          name: "Card #8"
+          memberCode: min
+          eraCode: na
+          sectionCode: sg23
+          img: /card/min-na-sg23-card-8.jpg
+          rounded: true
+        - id: 1FbKyfDNHU4DeWTd_3U4I
+          code: card-9
+          name: "Card #9"
+          memberCode: min
+          eraCode: na
+          sectionCode: sg23
+          img: /card/min-na-sg23-card-9.jpg
+          rounded: true
+        - id: j2PM1Yy_wzTKL7KSNv-SA
+          code: card-10
+          name: "Card #10"
+          memberCode: min
+          eraCode: na
+          sectionCode: sg23
+          img: /card/min-na-sg23-card-10.jpg
+          rounded: true
   dan:
     nj:
       bb:
@@ -1374,6 +1620,88 @@ cards:
           sectionCode: others
           img: /card/dan-omg-others-sbs-gayo.jpg
           rounded: false
+    na:
+      sg23:
+        - id: uBsCrR98gcsNWst9rjF63
+          code: card-1
+          name: "Card #1"
+          memberCode: dan
+          eraCode: na
+          sectionCode: sg23
+          img: /card/dan-na-sg23-card-1.jpg
+          rounded: true
+        - id: SqYzIF6wV8ipwdk7gV4II
+          code: card-2
+          name: "Card #2"
+          memberCode: dan
+          eraCode: na
+          sectionCode: sg23
+          img: /card/dan-na-sg23-card-2.jpg
+          rounded: true
+        - id: R830lL3wuJhy1jCF96C5j
+          code: card-3
+          name: "Card #3"
+          memberCode: dan
+          eraCode: na
+          sectionCode: sg23
+          img: /card/dan-na-sg23-card-3.jpg
+          rounded: true
+        - id: RGmWF-H0BfJJzZxvnNASo
+          code: card-4
+          name: "Card #4"
+          memberCode: dan
+          eraCode: na
+          sectionCode: sg23
+          img: /card/dan-na-sg23-card-4.jpg
+          rounded: true
+        - id: uq2LwntxisJBXNSHA9wrk
+          code: card-5
+          name: "Card #5"
+          memberCode: dan
+          eraCode: na
+          sectionCode: sg23
+          img: /card/dan-na-sg23-card-5.jpg
+          rounded: true
+        - id: 0ARRAnQPOG6kgaBrFjMSp
+          code: card-6
+          name: "Card #6"
+          memberCode: dan
+          eraCode: na
+          sectionCode: sg23
+          img: /card/dan-na-sg23-card-6.jpg
+          rounded: true
+        - id: v_PSZv9g_PZid8hvfqwmn
+          code: card-7
+          name: "Card #7"
+          memberCode: dan
+          eraCode: na
+          sectionCode: sg23
+          img: /card/dan-na-sg23-card-7.jpg
+          rounded: true
+        - id: CZQ0ImBhArM1i9n7vR7WM
+          code: card-8
+          name: "Card #8"
+          memberCode: dan
+          eraCode: na
+          sectionCode: sg23
+          img: /card/dan-na-sg23-card-8.jpg
+          rounded: true
+        - id: m0Oo7gjmT03aj5ww7eMVl
+          code: card-9
+          name: "Card #9"
+          memberCode: dan
+          eraCode: na
+          sectionCode: sg23
+          img: /card/dan-na-sg23-card-9.jpg
+          rounded: true
+        - id: hlY1-LO1iU055XfMZuG9_
+          code: card-10
+          name: "Card #10"
+          memberCode: dan
+          eraCode: na
+          sectionCode: sg23
+          img: /card/dan-na-sg23-card-10.jpg
+          rounded: true
   hye:
     nj:
       bb:
@@ -1680,3 +2008,85 @@ cards:
           sectionCode: others
           img: /card/hye-omg-others-sbs-gayo.jpg
           rounded: false
+    na:
+      sg23:
+        - id: diAb1yd0WHRInITljIoFS
+          code: card-1
+          name: "Card #1"
+          memberCode: hye
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hye-na-sg23-card-1.jpg
+          rounded: true
+        - id: DX3bgVJK6MJbFqXM0gKCN
+          code: card-2
+          name: "Card #2"
+          memberCode: hye
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hye-na-sg23-card-2.jpg
+          rounded: true
+        - id: Xaf9w5cwXONMcFJGrpSqG
+          code: card-3
+          name: "Card #3"
+          memberCode: hye
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hye-na-sg23-card-3.jpg
+          rounded: true
+        - id: YGgB6c-X4Pw6Z7XyJfnWW
+          code: card-4
+          name: "Card #4"
+          memberCode: hye
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hye-na-sg23-card-4.jpg
+          rounded: true
+        - id: KhsvagTIwmcJp3-NtKpMi
+          code: card-5
+          name: "Card #5"
+          memberCode: hye
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hye-na-sg23-card-5.jpg
+          rounded: true
+        - id: FQPn2Co7yFgZrgOxnSkiC
+          code: card-6
+          name: "Card #6"
+          memberCode: hye
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hye-na-sg23-card-6.jpg
+          rounded: true
+        - id: gp9me3L9HZXMbtVmDE0x1
+          code: card-7
+          name: "Card #7"
+          memberCode: hye
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hye-na-sg23-card-7.jpg
+          rounded: true
+        - id: u2NWjIBpSk_7QCHzWI5YE
+          code: card-8
+          name: "Card #8"
+          memberCode: hye
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hye-na-sg23-card-8.jpg
+          rounded: true
+        - id: he4Lbadm6dPLPZvd0wr6E
+          code: card-9
+          name: "Card #9"
+          memberCode: hye
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hye-na-sg23-card-9.jpg
+          rounded: true
+        - id: KvIpAlvqZ0l8eie3kxgGY
+          code: card-10
+          name: "Card #10"
+          memberCode: hye
+          eraCode: na
+          sectionCode: sg23
+          img: /card/hye-na-sg23-card-10.jpg
+          rounded: true
