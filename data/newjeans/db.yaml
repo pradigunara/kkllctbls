@@ -23,6 +23,10 @@ eras:
     name: OMG
     img: /era/omg.jpg
     photosPerRow: 3
+  - code: na
+    name: Non-Album
+    img: /era/na.jpg
+    photosPerRow: 3
 sections:
   nj:
     - code: bb
@@ -121,6 +125,30 @@ sections:
           rounded: false
         SBS Gayo:
           rounded: false
+  na:
+    - code: sg23
+      name: Season's Greetings 2023
+      variant:
+        "Card #1":
+          rounded: true
+        "Card #2":
+          rounded: true
+        "Card #3":
+          rounded: true
+        "Card #4":
+          rounded: true
+        "Card #5":
+          rounded: true
+        "Card #6":
+          rounded: true
+        "Card #7":
+          rounded: true
+        "Card #8":
+          rounded: true
+        "Card #9":
+          rounded: true
+        "Card #10":
+          rounded: true
 cards:
   han:
     nj:

@@ -678,6 +678,41 @@ sections:
           rounded: true
         Ball Cap PC:
           rounded: true
+    - code: sg23
+      name: Season's Greetings 2023
+      variant:
+        Polaroid A Ver. 1:
+          rounded: false
+        Polaroid A Ver. 2:
+          rounded: false
+        Polaroid A Ver. 3:
+          rounded: false
+        Polaroid B Ver. 1:
+          rounded: false
+        Polaroid B Ver. 2:
+          rounded: false
+        Polaroid B Ver. 3:
+          rounded: false
+        Polaroid C Ver. 1:
+          rounded: false
+        Polaroid C Ver. 2:
+          rounded: false
+        Polaroid C Ver. 3:
+          rounded: false
+        Polaroid D Ver. 1:
+          rounded: false
+        Polaroid D Ver. 2:
+          rounded: false
+        Polaroid D Ver. 3:
+          rounded: false
+        Photocard A Ver.:
+          rounded: true
+        Photocard B Ver.:
+          rounded: true
+        Photocard C Ver.:
+          rounded: true
+        Photocard D Ver.:
+          rounded: true
 cards:
   jyr:
     gla:
@@ -3094,4 +3129,133 @@ cards:
           eraCode: na
           sectionCode: op22fm
           img: /card/jyr-na-op22fm-ball-cap-pc.jpg
+          rounded: true
+      sg23:
+        - id: Mbkf02ACH0IkWIHFNrLkv
+          code: polaroid-a-ver-1
+          name: Polaroid A Ver. 1
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-polaroid-a-ver-1.jpg
+          rounded: false
+        - id: T4unTiPjIjIMKjpPIPP8R
+          code: polaroid-a-ver-2
+          name: Polaroid A Ver. 2
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-polaroid-a-ver-2.jpg
+          rounded: false
+        - id: epCaRNEKcuu-oesSGidGV
+          code: polaroid-a-ver-3
+          name: Polaroid A Ver. 3
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-polaroid-a-ver-3.jpg
+          rounded: false
+        - id: bA5DsJWDjAcRSA7-RGNA0
+          code: polaroid-b-ver-1
+          name: Polaroid B Ver. 1
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-polaroid-b-ver-1.jpg
+          rounded: false
+        - id: 0F4r5MP0zMzuoMSrE_Evj
+          code: polaroid-b-ver-2
+          name: Polaroid B Ver. 2
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-polaroid-b-ver-2.jpg
+          rounded: false
+        - id: 56EFDgCQz0uFmUhXkC7ou
+          code: polaroid-b-ver-3
+          name: Polaroid B Ver. 3
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-polaroid-b-ver-3.jpg
+          rounded: false
+        - id: tOdb2qL9s1CJpB-hNOXrH
+          code: polaroid-c-ver-1
+          name: Polaroid C Ver. 1
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-polaroid-c-ver-1.jpg
+          rounded: false
+        - id: pMjUiBCSlq-OWh_y88WLs
+          code: polaroid-c-ver-2
+          name: Polaroid C Ver. 2
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-polaroid-c-ver-2.jpg
+          rounded: false
+        - id: 3JNh9pg_nbwjMdXSCGuAK
+          code: polaroid-c-ver-3
+          name: Polaroid C Ver. 3
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-polaroid-c-ver-3.jpg
+          rounded: false
+        - id: jl4Tip8jDOutnOZdkbRqv
+          code: polaroid-d-ver-1
+          name: Polaroid D Ver. 1
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-polaroid-d-ver-1.jpg
+          rounded: false
+        - id: x-liRrGwnp_2rRKOxWHRU
+          code: polaroid-d-ver-2
+          name: Polaroid D Ver. 2
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-polaroid-d-ver-2.jpg
+          rounded: false
+        - id: 0kcpk68GPL_irAczuG0Tj
+          code: polaroid-d-ver-3
+          name: Polaroid D Ver. 3
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-polaroid-d-ver-3.jpg
+          rounded: false
+        - id: DkP-H0j-tT2qTHDzhbt2b
+          code: photocard-a-ver
+          name: Photocard A Ver.
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-photocard-a-ver.jpg
+          rounded: true
+        - id: rO3K2cshHu2fPvy6ItGUx
+          code: photocard-b-ver
+          name: Photocard B Ver.
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-photocard-b-ver.jpg
+          rounded: true
+        - id: d9paJohyAHTpy6KXj8YVu
+          code: photocard-c-ver
+          name: Photocard C Ver.
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-photocard-c-ver.jpg
+          rounded: true
+        - id: ac83UM2PV6S2gyMmR7Rc9
+          code: photocard-d-ver
+          name: Photocard D Ver.
+          memberCode: jyr
+          eraCode: na
+          sectionCode: sg23
+          img: /card/jyr-na-sg23-photocard-d-ver.jpg
           rounded: true
