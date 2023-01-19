@@ -1,0 +1,3848 @@
+members:
+  - code: cw
+    name: Chaewon
+    img: /member/cw.jpg
+  - code: sk
+    name: Sakura
+    img: /member/sk.jpg
+  - code: yj
+    name: Yunjin
+    img: /member/yj.jpg
+  - code: kz
+    name: Kazuha
+    img: /member/kz.jpg
+  - code: ec
+    name: Eunchae
+    img: /member/ec.jpg
+eras:
+  - code: fl
+    name: FEARLESS
+    img: /era/fl.jpg
+    photosPerRow: 4
+  - code: af
+    name: ANTIFRAGILE
+    img: /era/af.jpg
+    photosPerRow: 3
+sections:
+  fl:
+    - code: alb
+      name: Album
+      variant:
+        Black Petrol:
+          rounded: true
+        Blue Cyphre:
+          rounded: true
+        Monochrome Bouquet 1:
+          rounded: true
+        Monochrome Bouquet 2:
+          rounded: true
+    - code: pob
+      name: Preorder Benefits
+      variant:
+        Weverse 1:
+          rounded: true
+        Weverse 2:
+          rounded: true
+        Weverse JP:
+          rounded: true
+        Synnara:
+          rounded: true
+        Interpark:
+          rounded: true
+        Music Korea:
+          rounded: true
+        Musicplant:
+          rounded: true
+        Yes24:
+          rounded: true
+        Aladin:
+          rounded: false
+        UMS:
+          rounded: false
+        Ktown4u:
+          rounded: true
+        Shopee TH:
+          rounded: true
+        Kpopmerch 1:
+          rounded: true
+        Kpopmerch 2:
+          rounded: true
+        Naver Live:
+          rounded: true
+        TOU:
+          rounded: true
+        M2U LD:
+          rounded: true
+        Soundwave LD:
+          rounded: true
+        PWS LD:
+          rounded: true
+  af:
+    - code: alb
+      name: Album
+      variant:
+        Midnight Onyx:
+          rounded: true
+        Iridescent Opal:
+          rounded: true
+        Frozen Aquamarine:
+          rounded: true
+        Weverse 1:
+          rounded: true
+        Weverse 2:
+          rounded: true
+        Weverse 3:
+          rounded: true
+        Compact 1:
+          rounded: true
+        Compact 2:
+          rounded: true
+        Compact 3:
+          rounded: true
+        Compact 4:
+          rounded: true
+    - code: pbs
+      name: Preorder Benefit (Std.)
+      variant:
+        Music Korea:
+          rounded: true
+        Musicplant:
+          rounded: true
+        Aladin:
+          rounded: false
+        Yes24:
+          rounded: true
+        Synnara:
+          rounded: true
+        Ktown4u:
+          rounded: true
+        Weverse 1:
+          rounded: true
+        Weverse 2:
+          rounded: true
+        Weverse 3:
+          rounded: true
+        Weverse JP:
+          rounded: true
+        Naver Live:
+          rounded: true
+        UMS:
+          rounded: false
+        Hottracks:
+          rounded: false
+    - code: pbc
+      name: Preorder Benefit (Compact)
+      variant:
+        Music Korea:
+          rounded: true
+        Musicplant:
+          rounded: false
+        Aladin:
+          rounded: true
+        Yes24:
+          rounded: true
+        Synnara:
+          rounded: true
+        Ktown4u:
+          rounded: false
+        Weverse:
+          rounded: true
+        Weverse JP:
+          rounded: false
+        Naver Live:
+          rounded: true
+        UMS:
+          rounded: false
+        Hottracks:
+          rounded: false
+    - code: pbw
+      name: Preorder Benefit (Weverse)
+      variant:
+        Weverse 1:
+          rounded: true
+        Weverse 2:
+          rounded: true
+        Ktown4u:
+          rounded: true
+        Yes24:
+          rounded: true
+        Music Korea:
+          rounded: true
+        Musicplant:
+          rounded: true
+        Aladin:
+          rounded: true
+        Hottracks:
+          rounded: true
+        Synnara:
+          rounded: false
+    - code: fs
+      name: Fansign
+      variant:
+        M2U:
+          rounded: true
+        Musicplant:
+          rounded: true
+        Soundwave:
+          rounded: true
+        Yes24:
+          rounded: true
+        Kpopmerch:
+          rounded: true
+        Kpopmerch 2:
+          rounded: true
+        BIGPOP:
+          rounded: true
+        M2 Special:
+          rounded: true
+        Blue Dream Media:
+          rounded: true
+        Music Korea:
+          rounded: true
+        Ktown4u:
+          rounded: true
+        Joeun Music:
+          rounded: true
+        Weverse:
+          rounded: true
+        TOU:
+          rounded: true
+    - code: ld
+      name: Lucky Draw
+      variant:
+        Weverse JP:
+          rounded: true
+        UMS:
+          rounded: true
+        TOU:
+          rounded: true
+        Soundwave:
+          rounded: true
+        M2U:
+          rounded: true
+        Powerstation:
+          rounded: true
+        Soundwave 2:
+          rounded: true
+        M2U 2:
+          rounded: true
+        Powerstation 2:
+          rounded: true
+        Ktown4u:
+          rounded: true
+cards:
+  cw:
+    fl:
+      alb:
+        - id: h_RitTHeRBpKO60UEJG7G
+          code: black-petrol
+          name: Black Petrol
+          memberCode: cw
+          eraCode: fl
+          sectionCode: alb
+          img: /card/cw-fl-alb-black-petrol.jpg
+          rounded: true
+        - id: koL_jSWb-zfhJggBwx4ks
+          code: blue-cyphre
+          name: Blue Cyphre
+          memberCode: cw
+          eraCode: fl
+          sectionCode: alb
+          img: /card/cw-fl-alb-blue-cyphre.jpg
+          rounded: true
+        - id: ABImO1Tu7myz0dvRppygW
+          code: monochrome-bouquet-1
+          name: Monochrome Bouquet 1
+          memberCode: cw
+          eraCode: fl
+          sectionCode: alb
+          img: /card/cw-fl-alb-monochrome-bouquet-1.jpg
+          rounded: true
+        - id: vVPiDcJ1AiqoVEYOecujV
+          code: monochrome-bouquet-2
+          name: Monochrome Bouquet 2
+          memberCode: cw
+          eraCode: fl
+          sectionCode: alb
+          img: /card/cw-fl-alb-monochrome-bouquet-2.jpg
+          rounded: true
+      pob:
+        - id: n9SGzcR97x36KPqFn3PJL
+          code: weverse-1
+          name: Weverse 1
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-weverse-1.jpg
+          rounded: true
+        - id: 4kjJ9qZZ5pJNbD61H-ASr
+          code: weverse-2
+          name: Weverse 2
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-weverse-2.jpg
+          rounded: true
+        - id: VgmmwLyayih79MLrJbWFl
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-weverse-jp.jpg
+          rounded: true
+        - id: x9XGV-9hC1IR2KQYTo_Ip
+          code: synnara
+          name: Synnara
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-synnara.jpg
+          rounded: true
+        - id: BGtkIU-CoLtPMsXX41SVH
+          code: interpark
+          name: Interpark
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-interpark.jpg
+          rounded: true
+        - id: _FvmppVdsOBvvRADvxDoW
+          code: music-korea
+          name: Music Korea
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-music-korea.jpg
+          rounded: true
+        - id: FwIurq_V5iPXrmRmazk8I
+          code: musicplant
+          name: Musicplant
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-musicplant.jpg
+          rounded: true
+        - id: yvMvakWs2grx5cGg2r7IZ
+          code: yes-24
+          name: Yes24
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-yes-24.jpg
+          rounded: true
+        - id: WERihjOctPSRyiugZnr4n
+          code: aladin
+          name: Aladin
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-aladin.jpg
+          rounded: false
+        - id: eI46sUqoX5UdU3cRXRL_e
+          code: ums
+          name: UMS
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-ums.jpg
+          rounded: false
+        - id: 0JrfKe5WSB-X2KWCRw_za
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-ktown-4-u.jpg
+          rounded: true
+        - id: Ddfh5YxAcFNHsq8jvhAdg
+          code: shopee-th
+          name: Shopee TH
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-shopee-th.jpg
+          rounded: true
+        - id: iG0WGsbHEdS63C29RzV9R
+          code: kpopmerch-1
+          name: Kpopmerch 1
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-kpopmerch-1.jpg
+          rounded: true
+        - id: JzrVhYMk4tJMFB7T9Qh_T
+          code: kpopmerch-2
+          name: Kpopmerch 2
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-kpopmerch-2.jpg
+          rounded: true
+        - id: SZYEjBJpsN7i4oembjjXo
+          code: naver-live
+          name: Naver Live
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-naver-live.jpg
+          rounded: true
+        - id: bohdSBwB5LqIHlR_mzBVC
+          code: tou
+          name: TOU
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-tou.jpg
+          rounded: true
+        - id: e4qWxclqCQLzb9tM9c4Op
+          code: m-2-u-ld
+          name: M2U LD
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-m-2-u-ld.jpg
+          rounded: true
+        - id: Hfedoqz9N9PRi57nH6oLy
+          code: soundwave-ld
+          name: Soundwave LD
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-soundwave-ld.jpg
+          rounded: true
+        - id: FHW-YxncgrkAu3TUgc6su
+          code: pws-ld
+          name: PWS LD
+          memberCode: cw
+          eraCode: fl
+          sectionCode: pob
+          img: /card/cw-fl-pob-pws-ld.jpg
+          rounded: true
+    af:
+      alb:
+        - id: SAd_6XY6yh9QKW0QZOevx
+          code: midnight-onyx
+          name: Midnight Onyx
+          memberCode: cw
+          eraCode: af
+          sectionCode: alb
+          img: /card/cw-af-alb-midnight-onyx.jpg
+          rounded: true
+        - id: 1K4r4SuXtix5fam_DIsbK
+          code: iridescent-opal
+          name: Iridescent Opal
+          memberCode: cw
+          eraCode: af
+          sectionCode: alb
+          img: /card/cw-af-alb-iridescent-opal.jpg
+          rounded: true
+        - id: ceXm769F7O3GfEeptTRKx
+          code: frozen-aquamarine
+          name: Frozen Aquamarine
+          memberCode: cw
+          eraCode: af
+          sectionCode: alb
+          img: /card/cw-af-alb-frozen-aquamarine.jpg
+          rounded: true
+        - id: uIiZ-hg-I0A0ZnJ1gtyUy
+          code: weverse-1
+          name: Weverse 1
+          memberCode: cw
+          eraCode: af
+          sectionCode: alb
+          img: /card/cw-af-alb-weverse-1.jpg
+          rounded: true
+        - id: Pg9FmiGk6AJ7w-omLgR33
+          code: weverse-2
+          name: Weverse 2
+          memberCode: cw
+          eraCode: af
+          sectionCode: alb
+          img: /card/cw-af-alb-weverse-2.jpg
+          rounded: true
+        - id: 5Z5dZd13D4e5Rb8qlJSoZ
+          code: weverse-3
+          name: Weverse 3
+          memberCode: cw
+          eraCode: af
+          sectionCode: alb
+          img: /card/cw-af-alb-weverse-3.jpg
+          rounded: true
+        - id: jd82-gDkpqqxGf8hgmgwF
+          code: compact-1
+          name: Compact 1
+          memberCode: cw
+          eraCode: af
+          sectionCode: alb
+          img: /card/cw-af-alb-compact-1.jpg
+          rounded: true
+        - id: M-o1nFrnwKkGZINLSAHaM
+          code: compact-2
+          name: Compact 2
+          memberCode: cw
+          eraCode: af
+          sectionCode: alb
+          img: /card/cw-af-alb-compact-2.jpg
+          rounded: true
+        - id: jaR4SwVaJ5jbxOhm9RLZI
+          code: compact-3
+          name: Compact 3
+          memberCode: cw
+          eraCode: af
+          sectionCode: alb
+          img: /card/cw-af-alb-compact-3.jpg
+          rounded: true
+        - id: 7S-fhkgPObbcln8vvM6-E
+          code: compact-4
+          name: Compact 4
+          memberCode: cw
+          eraCode: af
+          sectionCode: alb
+          img: /card/cw-af-alb-compact-4.jpg
+          rounded: true
+      pbs:
+        - id: bjuk4X6YRKInKB7OHqdhU
+          code: aladin
+          name: Aladin
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbs
+          img: /card/cw-af-pbs-aladin.jpg
+          rounded: false
+        - id: nrG8DfY1HPSCtMNth_gQh
+          code: yes-24
+          name: Yes24
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbs
+          img: /card/cw-af-pbs-yes-24.jpg
+          rounded: true
+        - id: OzgAn2kqSTVhRKwzDo_EH
+          code: synnara
+          name: Synnara
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbs
+          img: /card/cw-af-pbs-synnara.jpg
+          rounded: true
+        - id: eNs85jdbgBdExyADNx1WU
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbs
+          img: /card/cw-af-pbs-ktown-4-u.jpg
+          rounded: true
+        - id: RL29LtUtklpCIvxEaQeyk
+          code: weverse-1
+          name: Weverse 1
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbs
+          img: /card/cw-af-pbs-weverse-1.jpg
+          rounded: true
+        - id: 45IKo53b6c10ULMB0NmEg
+          code: weverse-2
+          name: Weverse 2
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbs
+          img: /card/cw-af-pbs-weverse-2.jpg
+          rounded: true
+        - id: guw5KrUj9zjDD4NCZhCxx
+          code: weverse-3
+          name: Weverse 3
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbs
+          img: /card/cw-af-pbs-weverse-3.jpg
+          rounded: true
+        - id: HCtfnFdZ4rG1IKh37yYnJ
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbs
+          img: /card/cw-af-pbs-weverse-jp.jpg
+          rounded: true
+        - id: pAsG4mEKBT3F3n4rBAVJr
+          code: naver-live
+          name: Naver Live
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbs
+          img: /card/cw-af-pbs-naver-live.jpg
+          rounded: true
+        - id: h5bxSvcPhq2KUdDVm0vLs
+          code: ums
+          name: UMS
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbs
+          img: /card/cw-af-pbs-ums.jpg
+          rounded: false
+        - id: cHpP-rqN2GeGOR-MXRmxl
+          code: hottracks
+          name: Hottracks
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbs
+          img: /card/cw-af-pbs-hottracks.jpg
+          rounded: false
+      pbc:
+        - id: kjgQMRiOlLYFbe5PASl3C
+          code: music-korea
+          name: Music Korea
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbc
+          img: /card/cw-af-pbc-music-korea.jpg
+          rounded: true
+        - id: 1-m19NMC2wCgu6C4ncHw8
+          code: musicplant
+          name: Musicplant
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbc
+          img: /card/cw-af-pbc-musicplant.jpg
+          rounded: false
+        - id: 6j8o6hVxJ6n_OgMkE7laW
+          code: aladin
+          name: Aladin
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbc
+          img: /card/cw-af-pbc-aladin.jpg
+          rounded: true
+        - id: 7iPMksKKz7LHNEY6eiS-V
+          code: yes-24
+          name: Yes24
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbc
+          img: /card/cw-af-pbc-yes-24.jpg
+          rounded: true
+        - id: x8XpS5rSwXiOKBXNHdqEx
+          code: synnara
+          name: Synnara
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbc
+          img: /card/cw-af-pbc-synnara.jpg
+          rounded: true
+        - id: qaZnzX3_FjAJNVj26mTTz
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbc
+          img: /card/cw-af-pbc-ktown-4-u.jpg
+          rounded: false
+        - id: Nzs_h1cEftjZmnT4NEA0u
+          code: weverse
+          name: Weverse
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbc
+          img: /card/cw-af-pbc-weverse.jpg
+          rounded: true
+        - id: dHoyMwAAsJHH6HmCWgfzJ
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbc
+          img: /card/cw-af-pbc-weverse-jp.jpg
+          rounded: false
+        - id: Z_kesYnv04iRZCqK8S_M5
+          code: naver-live
+          name: Naver Live
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbc
+          img: /card/cw-af-pbc-naver-live.jpg
+          rounded: true
+        - id: 7wdZtEvoIvyS0uIpH4R7s
+          code: ums
+          name: UMS
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbc
+          img: /card/cw-af-pbc-ums.jpg
+          rounded: false
+        - id: iUlHz2o_1gdHm0WZoEEk8
+          code: hottracks
+          name: Hottracks
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbc
+          img: /card/cw-af-pbc-hottracks.jpg
+          rounded: false
+      pbw:
+        - id: 37WHjqvOqCedUP0c8mxxv
+          code: weverse-1
+          name: Weverse 1
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbw
+          img: /card/cw-af-pbw-weverse-1.jpg
+          rounded: true
+        - id: GqwwwZeWDzXy2v9WVP3wu
+          code: weverse-2
+          name: Weverse 2
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbw
+          img: /card/cw-af-pbw-weverse-2.jpg
+          rounded: true
+        - id: 3rN6a57KgFtVeNO_3JDit
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbw
+          img: /card/cw-af-pbw-ktown-4-u.jpg
+          rounded: true
+        - id: dN3frlWK5tbac2K5JLBRH
+          code: yes-24
+          name: Yes24
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbw
+          img: /card/cw-af-pbw-yes-24.jpg
+          rounded: true
+        - id: f1UtvDkO3aV06fVg-aXdN
+          code: music-korea
+          name: Music Korea
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbw
+          img: /card/cw-af-pbw-music-korea.jpg
+          rounded: true
+        - id: grd5vi_LqNL-1eYI1v_L3
+          code: musicplant
+          name: Musicplant
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbw
+          img: /card/cw-af-pbw-musicplant.jpg
+          rounded: true
+        - id: YlU_FnpuCQBSjVpCld4XD
+          code: aladin
+          name: Aladin
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbw
+          img: /card/cw-af-pbw-aladin.jpg
+          rounded: true
+        - id: 3Ry9EOhshII6bikfjo3Fy
+          code: hottracks
+          name: Hottracks
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbw
+          img: /card/cw-af-pbw-hottracks.jpg
+          rounded: true
+        - id: qtF24qdsqMRwX12ztzSR3
+          code: synnara
+          name: Synnara
+          memberCode: cw
+          eraCode: af
+          sectionCode: pbw
+          img: /card/cw-af-pbw-synnara.jpg
+          rounded: false
+      fs:
+        - id: yOrIfZ-z02LwOz03WADn1
+          code: m-2-u
+          name: M2U
+          memberCode: cw
+          eraCode: af
+          sectionCode: fs
+          img: /card/cw-af-fs-m-2-u.jpg
+          rounded: true
+        - id: sbWFQK1GGHKFRwtf2EmpE
+          code: musicplant
+          name: Musicplant
+          memberCode: cw
+          eraCode: af
+          sectionCode: fs
+          img: /card/cw-af-fs-musicplant.jpg
+          rounded: true
+        - id: ptz-HzWw8IXn25iVn8bq2
+          code: soundwave
+          name: Soundwave
+          memberCode: cw
+          eraCode: af
+          sectionCode: fs
+          img: /card/cw-af-fs-soundwave.jpg
+          rounded: true
+        - id: wqLWovVzX1dGiuX-mBlTo
+          code: yes-24
+          name: Yes24
+          memberCode: cw
+          eraCode: af
+          sectionCode: fs
+          img: /card/cw-af-fs-yes-24.jpg
+          rounded: true
+        - id: xWX3jVHn2AE-8ki2Ar87e
+          code: kpopmerch
+          name: Kpopmerch
+          memberCode: cw
+          eraCode: af
+          sectionCode: fs
+          img: /card/cw-af-fs-kpopmerch.jpg
+          rounded: true
+        - id: aDWY5JXhelyqN_AcoG9nJ
+          code: kpopmerch-2
+          name: Kpopmerch 2
+          memberCode: cw
+          eraCode: af
+          sectionCode: fs
+          img: /card/cw-af-fs-kpopmerch-2.jpg
+          rounded: true
+        - id: zBij0OlpVcf3HBpZZjfBp
+          code: bigpop
+          name: BIGPOP
+          memberCode: cw
+          eraCode: af
+          sectionCode: fs
+          img: /card/cw-af-fs-bigpop.jpg
+          rounded: true
+        - id: wraj8fCIGc7iLRzrMKasF
+          code: m-2-special
+          name: M2 Special
+          memberCode: cw
+          eraCode: af
+          sectionCode: fs
+          img: /card/cw-af-fs-m-2-special.jpg
+          rounded: true
+        - id: eBshtGykmwzjy3uzGeueU
+          code: blue-dream-media
+          name: Blue Dream Media
+          memberCode: cw
+          eraCode: af
+          sectionCode: fs
+          img: /card/cw-af-fs-blue-dream-media.jpg
+          rounded: true
+        - id: v7lHa9SaeUzuaa0DRdXqP
+          code: music-korea
+          name: Music Korea
+          memberCode: cw
+          eraCode: af
+          sectionCode: fs
+          img: /card/cw-af-fs-music-korea.jpg
+          rounded: true
+        - id: vgXWIKRDGmt2-j4I5OGUU
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: cw
+          eraCode: af
+          sectionCode: fs
+          img: /card/cw-af-fs-ktown-4-u.jpg
+          rounded: true
+        - id: 31J-4Jtl-8ZkXRKif0o8Q
+          code: joeun-music
+          name: Joeun Music
+          memberCode: cw
+          eraCode: af
+          sectionCode: fs
+          img: /card/cw-af-fs-joeun-music.jpg
+          rounded: true
+        - id: 2zVrN_pQOfIpSXCsS_mif
+          code: weverse
+          name: Weverse
+          memberCode: cw
+          eraCode: af
+          sectionCode: fs
+          img: /card/cw-af-fs-weverse.jpg
+          rounded: true
+        - id: L5Y_j_85N-JxKfXOR_oJ4
+          code: tou
+          name: TOU
+          memberCode: cw
+          eraCode: af
+          sectionCode: fs
+          img: /card/cw-af-fs-tou.jpg
+          rounded: true
+      ld:
+        - id: m6fBV-WViiNCDy2LMJoK2
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: cw
+          eraCode: af
+          sectionCode: ld
+          img: /card/cw-af-ld-weverse-jp.jpg
+          rounded: true
+        - id: vI36u1jCek79Ky_bUPSyb
+          code: ums
+          name: UMS
+          memberCode: cw
+          eraCode: af
+          sectionCode: ld
+          img: /card/cw-af-ld-ums.jpg
+          rounded: true
+        - id: 0GR5Js33pEy6uBHp9Iuir
+          code: tou
+          name: TOU
+          memberCode: cw
+          eraCode: af
+          sectionCode: ld
+          img: /card/cw-af-ld-tou.jpg
+          rounded: true
+        - id: pp28hyHfGwc645NNFiB1W
+          code: soundwave
+          name: Soundwave
+          memberCode: cw
+          eraCode: af
+          sectionCode: ld
+          img: /card/cw-af-ld-soundwave.jpg
+          rounded: true
+        - id: yrdT8vd5nC-5yHTYR-v2f
+          code: m-2-u
+          name: M2U
+          memberCode: cw
+          eraCode: af
+          sectionCode: ld
+          img: /card/cw-af-ld-m-2-u.jpg
+          rounded: true
+        - id: AeYuKmz_Fy4EPrA3544Bm
+          code: powerstation
+          name: Powerstation
+          memberCode: cw
+          eraCode: af
+          sectionCode: ld
+          img: /card/cw-af-ld-powerstation.jpg
+          rounded: true
+        - id: zXYwG3tPwV9lZdqKxMFJj
+          code: soundwave-2
+          name: Soundwave 2
+          memberCode: cw
+          eraCode: af
+          sectionCode: ld
+          img: /card/cw-af-ld-soundwave-2.jpg
+          rounded: true
+        - id: lh95jAi5jUUFXpjvyl35l
+          code: m-2-u-2
+          name: M2U 2
+          memberCode: cw
+          eraCode: af
+          sectionCode: ld
+          img: /card/cw-af-ld-m-2-u-2.jpg
+          rounded: true
+        - id: NEB-kOFCjFxRhrgPNMUms
+          code: powerstation-2
+          name: Powerstation 2
+          memberCode: cw
+          eraCode: af
+          sectionCode: ld
+          img: /card/cw-af-ld-powerstation-2.jpg
+          rounded: true
+        - id: JvoETD1_WsekeuAAZo-Lh
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: cw
+          eraCode: af
+          sectionCode: ld
+          img: /card/cw-af-ld-ktown-4-u.jpg
+          rounded: true
+  sk:
+    fl:
+      alb:
+        - id: enwkZeM0zgbYruCbm-zbL
+          code: black-petrol
+          name: Black Petrol
+          memberCode: sk
+          eraCode: fl
+          sectionCode: alb
+          img: /card/sk-fl-alb-black-petrol.jpg
+          rounded: true
+        - id: ao-lJJ8Cr6QGsBa5Ny-8b
+          code: blue-cyphre
+          name: Blue Cyphre
+          memberCode: sk
+          eraCode: fl
+          sectionCode: alb
+          img: /card/sk-fl-alb-blue-cyphre.jpg
+          rounded: true
+        - id: SUygS7VofeKS1Eh1AdWTw
+          code: monochrome-bouquet-1
+          name: Monochrome Bouquet 1
+          memberCode: sk
+          eraCode: fl
+          sectionCode: alb
+          img: /card/sk-fl-alb-monochrome-bouquet-1.jpg
+          rounded: true
+        - id: EodF_j_ns7uw-YpCuAN5-
+          code: monochrome-bouquet-2
+          name: Monochrome Bouquet 2
+          memberCode: sk
+          eraCode: fl
+          sectionCode: alb
+          img: /card/sk-fl-alb-monochrome-bouquet-2.jpg
+          rounded: true
+      pob:
+        - id: U86hdDBqhTJFu8oa92JmY
+          code: weverse-1
+          name: Weverse 1
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-weverse-1.jpg
+          rounded: true
+        - id: -ZKz8G3hCfA_Gv1EAEHdP
+          code: weverse-2
+          name: Weverse 2
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-weverse-2.jpg
+          rounded: true
+        - id: f9VKjbvA4Yj2eg314o5jT
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-weverse-jp.jpg
+          rounded: true
+        - id: v_oilFljstO9dgXjMvPNW
+          code: synnara
+          name: Synnara
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-synnara.jpg
+          rounded: true
+        - id: H9iJqZYNTaIjq-tDkMgqK
+          code: interpark
+          name: Interpark
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-interpark.jpg
+          rounded: true
+        - id: VczoLTpFUdU3V99VpEYvy
+          code: music-korea
+          name: Music Korea
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-music-korea.jpg
+          rounded: true
+        - id: GyuOfpQMEXwYxUysmmDy5
+          code: musicplant
+          name: Musicplant
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-musicplant.jpg
+          rounded: true
+        - id: DmU62NHs08RcXJFPmf86t
+          code: yes-24
+          name: Yes24
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-yes-24.jpg
+          rounded: true
+        - id: v_KsUPDhVWxIVQfLuc7BP
+          code: aladin
+          name: Aladin
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-aladin.jpg
+          rounded: false
+        - id: UK88_lQmrKSb_397bjuhE
+          code: ums
+          name: UMS
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-ums.jpg
+          rounded: false
+        - id: -1ItJS30k4K5p9N9Fw9E1
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-ktown-4-u.jpg
+          rounded: true
+        - id: 19cBpHyTPQWMqeEf2Gh6h
+          code: shopee-th
+          name: Shopee TH
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-shopee-th.jpg
+          rounded: true
+        - id: jhj5Wly721GLMo8b7VvlG
+          code: kpopmerch-1
+          name: Kpopmerch 1
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-kpopmerch-1.jpg
+          rounded: true
+        - id: 0r2qfIuVXYY3b5Dh7H-YT
+          code: kpopmerch-2
+          name: Kpopmerch 2
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-kpopmerch-2.jpg
+          rounded: true
+        - id: -CP7mv_ITxcrHXE76dMaN
+          code: naver-live
+          name: Naver Live
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-naver-live.jpg
+          rounded: true
+        - id: XgvrmHyqx31VhtMMPPnYR
+          code: tou
+          name: TOU
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-tou.jpg
+          rounded: true
+        - id: e6pEA631mPM8fgVNGKJGH
+          code: m-2-u-ld
+          name: M2U LD
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-m-2-u-ld.jpg
+          rounded: true
+        - id: YuPpyyqFtIwS4DcfwB9j0
+          code: soundwave-ld
+          name: Soundwave LD
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-soundwave-ld.jpg
+          rounded: true
+        - id: xFzf5ZF53doBcn2ToS_g5
+          code: pws-ld
+          name: PWS LD
+          memberCode: sk
+          eraCode: fl
+          sectionCode: pob
+          img: /card/sk-fl-pob-pws-ld.jpg
+          rounded: true
+    af:
+      alb:
+        - id: zESuvmAQWQIexfrMdvp5R
+          code: midnight-onyx
+          name: Midnight Onyx
+          memberCode: sk
+          eraCode: af
+          sectionCode: alb
+          img: /card/sk-af-alb-midnight-onyx.jpg
+          rounded: true
+        - id: GYHQiOsh0kGKgPqUD2w-E
+          code: iridescent-opal
+          name: Iridescent Opal
+          memberCode: sk
+          eraCode: af
+          sectionCode: alb
+          img: /card/sk-af-alb-iridescent-opal.jpg
+          rounded: true
+        - id: MezqLh4lejIl1MMxdZ8_j
+          code: frozen-aquamarine
+          name: Frozen Aquamarine
+          memberCode: sk
+          eraCode: af
+          sectionCode: alb
+          img: /card/sk-af-alb-frozen-aquamarine.jpg
+          rounded: true
+        - id: 67AUGjBntBiHJNjjVqUsk
+          code: weverse-1
+          name: Weverse 1
+          memberCode: sk
+          eraCode: af
+          sectionCode: alb
+          img: /card/sk-af-alb-weverse-1.jpg
+          rounded: true
+        - id: x8XbtKXaaWYoH-DlEKPoN
+          code: weverse-2
+          name: Weverse 2
+          memberCode: sk
+          eraCode: af
+          sectionCode: alb
+          img: /card/sk-af-alb-weverse-2.jpg
+          rounded: true
+        - id: 2nf53NGUBKNsU0SnrFfC4
+          code: weverse-3
+          name: Weverse 3
+          memberCode: sk
+          eraCode: af
+          sectionCode: alb
+          img: /card/sk-af-alb-weverse-3.jpg
+          rounded: true
+        - id: SwYDX5G2rSkiQxxHbgfz8
+          code: compact-1
+          name: Compact 1
+          memberCode: sk
+          eraCode: af
+          sectionCode: alb
+          img: /card/sk-af-alb-compact-1.jpg
+          rounded: true
+        - id: b10CF-UYj-U7qSuiyxcj5
+          code: compact-2
+          name: Compact 2
+          memberCode: sk
+          eraCode: af
+          sectionCode: alb
+          img: /card/sk-af-alb-compact-2.jpg
+          rounded: true
+        - id: CaXmsQ1An5XONA95W8O2k
+          code: compact-3
+          name: Compact 3
+          memberCode: sk
+          eraCode: af
+          sectionCode: alb
+          img: /card/sk-af-alb-compact-3.jpg
+          rounded: true
+        - id: kaKWS3nSVETZksRIINjRc
+          code: compact-4
+          name: Compact 4
+          memberCode: sk
+          eraCode: af
+          sectionCode: alb
+          img: /card/sk-af-alb-compact-4.jpg
+          rounded: true
+      pbs:
+        - id: zegbhz8-h6MJ8n6ebVIhN
+          code: music-korea
+          name: Music Korea
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbs
+          img: /card/sk-af-pbs-music-korea.jpg
+          rounded: true
+        - id: -YTRbfVuMV0dy0LZ6M4fT
+          code: musicplant
+          name: Musicplant
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbs
+          img: /card/sk-af-pbs-musicplant.jpg
+          rounded: true
+        - id: i3B4UjO6Pqr-p8ph6-4pI
+          code: aladin
+          name: Aladin
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbs
+          img: /card/sk-af-pbs-aladin.jpg
+          rounded: false
+        - id: 7lWuHJ7QQyPmhEx73Dxs8
+          code: yes-24
+          name: Yes24
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbs
+          img: /card/sk-af-pbs-yes-24.jpg
+          rounded: true
+        - id: 9RV_zHy1VVNv96f-52Zc8
+          code: synnara
+          name: Synnara
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbs
+          img: /card/sk-af-pbs-synnara.jpg
+          rounded: true
+        - id: m7BdjCYEEZi4Jq5H_FwPY
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbs
+          img: /card/sk-af-pbs-ktown-4-u.jpg
+          rounded: true
+        - id: qkHndBSZiTSGpxw2WCGI8
+          code: weverse-1
+          name: Weverse 1
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbs
+          img: /card/sk-af-pbs-weverse-1.jpg
+          rounded: true
+        - id: KYkdRy8lPF8S2kbSd8z_b
+          code: weverse-2
+          name: Weverse 2
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbs
+          img: /card/sk-af-pbs-weverse-2.jpg
+          rounded: true
+        - id: _KyTRy_pBIl0KTj095Ep3
+          code: weverse-3
+          name: Weverse 3
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbs
+          img: /card/sk-af-pbs-weverse-3.jpg
+          rounded: true
+        - id: eyh367R-rfEaQUQdP6uPS
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbs
+          img: /card/sk-af-pbs-weverse-jp.jpg
+          rounded: true
+        - id: uNnEk4adpaXqAMrKQ9iFh
+          code: naver-live
+          name: Naver Live
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbs
+          img: /card/sk-af-pbs-naver-live.jpg
+          rounded: true
+        - id: PhuLpHiyFM33-KSp7FL88
+          code: ums
+          name: UMS
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbs
+          img: /card/sk-af-pbs-ums.jpg
+          rounded: false
+        - id: XfUz6OMsnP_N0B1MctFxZ
+          code: hottracks
+          name: Hottracks
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbs
+          img: /card/sk-af-pbs-hottracks.jpg
+          rounded: false
+      pbc:
+        - id: 4fggMofmHGS-zLJpsgkYY
+          code: music-korea
+          name: Music Korea
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbc
+          img: /card/sk-af-pbc-music-korea.jpg
+          rounded: true
+        - id: Nc5G9aFIwhKfFrFDfM4hg
+          code: musicplant
+          name: Musicplant
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbc
+          img: /card/sk-af-pbc-musicplant.jpg
+          rounded: false
+        - id: yv2uYawC38dRPP-YH3KR9
+          code: aladin
+          name: Aladin
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbc
+          img: /card/sk-af-pbc-aladin.jpg
+          rounded: true
+        - id: ZLaGk1UJ3YdOxVYlTzJKo
+          code: yes-24
+          name: Yes24
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbc
+          img: /card/sk-af-pbc-yes-24.jpg
+          rounded: true
+        - id: YIq5KFLomLA7SwwPJRaYT
+          code: synnara
+          name: Synnara
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbc
+          img: /card/sk-af-pbc-synnara.jpg
+          rounded: true
+        - id: ziEGBIIZzo4DesChO5m-h
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbc
+          img: /card/sk-af-pbc-ktown-4-u.jpg
+          rounded: false
+        - id: rtP6TaaKp1uQFUP-GEeOC
+          code: weverse
+          name: Weverse
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbc
+          img: /card/sk-af-pbc-weverse.jpg
+          rounded: true
+        - id: -etrFgXrPaf5CEe0fBQzn
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbc
+          img: /card/sk-af-pbc-weverse-jp.jpg
+          rounded: false
+        - id: kvJeAGOO_Qp-Xm-Fjdto7
+          code: naver-live
+          name: Naver Live
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbc
+          img: /card/sk-af-pbc-naver-live.jpg
+          rounded: true
+        - id: 6i-QLyB0qVIhXjQxNR0uv
+          code: ums
+          name: UMS
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbc
+          img: /card/sk-af-pbc-ums.jpg
+          rounded: false
+        - id: zyq5DHKD5Ac5Z0ztLIHyj
+          code: hottracks
+          name: Hottracks
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbc
+          img: /card/sk-af-pbc-hottracks.jpg
+          rounded: false
+      pbw:
+        - id: R1AIE3IGxgFYPs_0TGtDw
+          code: weverse-1
+          name: Weverse 1
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbw
+          img: /card/sk-af-pbw-weverse-1.jpg
+          rounded: true
+        - id: Ldr25c7UtH9rc0EcYO5J5
+          code: weverse-2
+          name: Weverse 2
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbw
+          img: /card/sk-af-pbw-weverse-2.jpg
+          rounded: true
+        - id: wBND2p2Df_LzA03bOiQvx
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbw
+          img: /card/sk-af-pbw-ktown-4-u.jpg
+          rounded: true
+        - id: Ku9bFcGI-mJ-u10fw6P_P
+          code: yes-24
+          name: Yes24
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbw
+          img: /card/sk-af-pbw-yes-24.jpg
+          rounded: true
+        - id: Z7hEs--LdChSjQc9tj_Yo
+          code: music-korea
+          name: Music Korea
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbw
+          img: /card/sk-af-pbw-music-korea.jpg
+          rounded: true
+        - id: 14wTnES1cwY2DG6C8oinh
+          code: musicplant
+          name: Musicplant
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbw
+          img: /card/sk-af-pbw-musicplant.jpg
+          rounded: true
+        - id: PN5p9MnornSz1yrU_86a4
+          code: aladin
+          name: Aladin
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbw
+          img: /card/sk-af-pbw-aladin.jpg
+          rounded: true
+        - id: UosKcLLoKuwAn2hh6rYaO
+          code: hottracks
+          name: Hottracks
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbw
+          img: /card/sk-af-pbw-hottracks.jpg
+          rounded: true
+        - id: vptQFHmhSdDb9ex6RczZK
+          code: synnara
+          name: Synnara
+          memberCode: sk
+          eraCode: af
+          sectionCode: pbw
+          img: /card/sk-af-pbw-synnara.jpg
+          rounded: false
+      fs:
+        - id: B2VfDFZofwm7I3PA1HWXV
+          code: m-2-u
+          name: M2U
+          memberCode: sk
+          eraCode: af
+          sectionCode: fs
+          img: /card/sk-af-fs-m-2-u.jpg
+          rounded: true
+        - id: B9yfionwnfm3S9_xn7bd5
+          code: musicplant
+          name: Musicplant
+          memberCode: sk
+          eraCode: af
+          sectionCode: fs
+          img: /card/sk-af-fs-musicplant.jpg
+          rounded: true
+        - id: NcPfrOuDsEIdnVpLMHMz2
+          code: soundwave
+          name: Soundwave
+          memberCode: sk
+          eraCode: af
+          sectionCode: fs
+          img: /card/sk-af-fs-soundwave.jpg
+          rounded: true
+        - id: XJTg7DIZgPPWGAkEo1d92
+          code: yes-24
+          name: Yes24
+          memberCode: sk
+          eraCode: af
+          sectionCode: fs
+          img: /card/sk-af-fs-yes-24.jpg
+          rounded: true
+        - id: lpFiJKrW1Rbi77LBOfvLj
+          code: kpopmerch
+          name: Kpopmerch
+          memberCode: sk
+          eraCode: af
+          sectionCode: fs
+          img: /card/sk-af-fs-kpopmerch.jpg
+          rounded: true
+        - id: qbCQJR3QlOp1K7CRbI6C6
+          code: kpopmerch-2
+          name: Kpopmerch 2
+          memberCode: sk
+          eraCode: af
+          sectionCode: fs
+          img: /card/sk-af-fs-kpopmerch-2.jpg
+          rounded: true
+        - id: O8yzwHyg114n0PftFxmV3
+          code: bigpop
+          name: BIGPOP
+          memberCode: sk
+          eraCode: af
+          sectionCode: fs
+          img: /card/sk-af-fs-bigpop.jpg
+          rounded: true
+        - id: oK_t4-QAXU1GAc4gmTybe
+          code: m-2-special
+          name: M2 Special
+          memberCode: sk
+          eraCode: af
+          sectionCode: fs
+          img: /card/sk-af-fs-m-2-special.jpg
+          rounded: true
+        - id: -jkoJh8wVYf9gGOtOQyux
+          code: blue-dream-media
+          name: Blue Dream Media
+          memberCode: sk
+          eraCode: af
+          sectionCode: fs
+          img: /card/sk-af-fs-blue-dream-media.jpg
+          rounded: true
+        - id: nN9QRZuzxFJQl3PtgqXat
+          code: music-korea
+          name: Music Korea
+          memberCode: sk
+          eraCode: af
+          sectionCode: fs
+          img: /card/sk-af-fs-music-korea.jpg
+          rounded: true
+        - id: IQThhszGFzoq3B0QArrjU
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: sk
+          eraCode: af
+          sectionCode: fs
+          img: /card/sk-af-fs-ktown-4-u.jpg
+          rounded: true
+        - id: YKEieF3zoRBR3v7nmV4aw
+          code: joeun-music
+          name: Joeun Music
+          memberCode: sk
+          eraCode: af
+          sectionCode: fs
+          img: /card/sk-af-fs-joeun-music.jpg
+          rounded: true
+        - id: n8BaDnETKvUnYcwdJmo-E
+          code: weverse
+          name: Weverse
+          memberCode: sk
+          eraCode: af
+          sectionCode: fs
+          img: /card/sk-af-fs-weverse.jpg
+          rounded: true
+        - id: 62FBoZnV5jEXgk0-0q9al
+          code: tou
+          name: TOU
+          memberCode: sk
+          eraCode: af
+          sectionCode: fs
+          img: /card/sk-af-fs-tou.jpg
+          rounded: true
+      ld:
+        - id: yOa4ZMjUAhryDozdl0hax
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: sk
+          eraCode: af
+          sectionCode: ld
+          img: /card/sk-af-ld-weverse-jp.jpg
+          rounded: true
+        - id: piral6qjIpsWaelCePrMQ
+          code: ums
+          name: UMS
+          memberCode: sk
+          eraCode: af
+          sectionCode: ld
+          img: /card/sk-af-ld-ums.jpg
+          rounded: true
+        - id: UXO3YU-m2JdP4kVMf81rx
+          code: tou
+          name: TOU
+          memberCode: sk
+          eraCode: af
+          sectionCode: ld
+          img: /card/sk-af-ld-tou.jpg
+          rounded: true
+        - id: grkZKkATRu7C88KSCGv7y
+          code: soundwave
+          name: Soundwave
+          memberCode: sk
+          eraCode: af
+          sectionCode: ld
+          img: /card/sk-af-ld-soundwave.jpg
+          rounded: true
+        - id: PtyvQRaHltJNiQtMhE7pv
+          code: m-2-u
+          name: M2U
+          memberCode: sk
+          eraCode: af
+          sectionCode: ld
+          img: /card/sk-af-ld-m-2-u.jpg
+          rounded: true
+        - id: Aw1TNuB-z8UOaRQh-dvhf
+          code: powerstation
+          name: Powerstation
+          memberCode: sk
+          eraCode: af
+          sectionCode: ld
+          img: /card/sk-af-ld-powerstation.jpg
+          rounded: true
+        - id: NM_7MSF6k2lm1pFZCkvgF
+          code: soundwave-2
+          name: Soundwave 2
+          memberCode: sk
+          eraCode: af
+          sectionCode: ld
+          img: /card/sk-af-ld-soundwave-2.jpg
+          rounded: true
+        - id: yXybpVY2mONZeitZ2GWr3
+          code: m-2-u-2
+          name: M2U 2
+          memberCode: sk
+          eraCode: af
+          sectionCode: ld
+          img: /card/sk-af-ld-m-2-u-2.jpg
+          rounded: true
+        - id: av3Z25UDg2OffD3DEclMo
+          code: powerstation-2
+          name: Powerstation 2
+          memberCode: sk
+          eraCode: af
+          sectionCode: ld
+          img: /card/sk-af-ld-powerstation-2.jpg
+          rounded: true
+        - id: fdfiDKU9YKYerdexm4ecg
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: sk
+          eraCode: af
+          sectionCode: ld
+          img: /card/sk-af-ld-ktown-4-u.jpg
+          rounded: true
+  ec:
+    fl:
+      alb:
+        - id: RFawSfZDYSqf7rDtrAKio
+          code: black-petrol
+          name: Black Petrol
+          memberCode: ec
+          eraCode: fl
+          sectionCode: alb
+          img: /card/ec-fl-alb-black-petrol.jpg
+          rounded: true
+        - id: MsS3Tz8NLiS8XJ3GIfSp0
+          code: blue-cyphre
+          name: Blue Cyphre
+          memberCode: ec
+          eraCode: fl
+          sectionCode: alb
+          img: /card/ec-fl-alb-blue-cyphre.jpg
+          rounded: true
+        - id: vfPBy0n7RkLKapVdkax3j
+          code: monochrome-bouquet-1
+          name: Monochrome Bouquet 1
+          memberCode: ec
+          eraCode: fl
+          sectionCode: alb
+          img: /card/ec-fl-alb-monochrome-bouquet-1.jpg
+          rounded: true
+        - id: DpI2SRdkMcWTjy1urmbjK
+          code: monochrome-bouquet-2
+          name: Monochrome Bouquet 2
+          memberCode: ec
+          eraCode: fl
+          sectionCode: alb
+          img: /card/ec-fl-alb-monochrome-bouquet-2.jpg
+          rounded: true
+      pob:
+        - id: VQ0vUiJM5q7JAxIHnK8Ij
+          code: weverse-1
+          name: Weverse 1
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-weverse-1.jpg
+          rounded: true
+        - id: RUksgBtmOsq2SN0HquZer
+          code: weverse-2
+          name: Weverse 2
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-weverse-2.jpg
+          rounded: true
+        - id: aEYSvYyc-TMpUP_VM9kyS
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-weverse-jp.jpg
+          rounded: true
+        - id: O3Rs9s7Y-v6hyHUTRaGrU
+          code: synnara
+          name: Synnara
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-synnara.jpg
+          rounded: true
+        - id: 0hdxtTJFRWeRspJLLoJVh
+          code: interpark
+          name: Interpark
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-interpark.jpg
+          rounded: true
+        - id: 5xW6419TE5q6kH9ttsInq
+          code: music-korea
+          name: Music Korea
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-music-korea.jpg
+          rounded: true
+        - id: yvv1MQ4VlI9Q-aQmG5HhK
+          code: musicplant
+          name: Musicplant
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-musicplant.jpg
+          rounded: true
+        - id: 964sV8armDyFzmXNpGSwi
+          code: yes-24
+          name: Yes24
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-yes-24.jpg
+          rounded: true
+        - id: uk1aFwH2l53siHZYtZgFV
+          code: aladin
+          name: Aladin
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-aladin.jpg
+          rounded: false
+        - id: fnb8BrCBUzSJjwnO_IfgB
+          code: ums
+          name: UMS
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-ums.jpg
+          rounded: false
+        - id: tiZHPTKdbRyv-WD1wT70P
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-ktown-4-u.jpg
+          rounded: true
+        - id: Fe_AGuoNYssDWAvUUzijN
+          code: shopee-th
+          name: Shopee TH
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-shopee-th.jpg
+          rounded: true
+        - id: U5D1-IC68_PpuWpzRBD1o
+          code: kpopmerch-1
+          name: Kpopmerch 1
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-kpopmerch-1.jpg
+          rounded: true
+        - id: 4VbeKDVwoAWIM1d19NUR5
+          code: kpopmerch-2
+          name: Kpopmerch 2
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-kpopmerch-2.jpg
+          rounded: true
+        - id: vpnr6j2B5B20RzqrKGChD
+          code: naver-live
+          name: Naver Live
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-naver-live.jpg
+          rounded: true
+        - id: QZNmo0b3Dlm1tkJng0Myn
+          code: tou
+          name: TOU
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-tou.jpg
+          rounded: true
+        - id: 29D9u-qPxfAFivDzEObqS
+          code: m-2-u-ld
+          name: M2U LD
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-m-2-u-ld.jpg
+          rounded: true
+        - id: p1LUa0hoYYP4Spp_XV0aU
+          code: soundwave-ld
+          name: Soundwave LD
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-soundwave-ld.jpg
+          rounded: true
+        - id: 4iuQRvMec-YU5fp6yTxRe
+          code: pws-ld
+          name: PWS LD
+          memberCode: ec
+          eraCode: fl
+          sectionCode: pob
+          img: /card/ec-fl-pob-pws-ld.jpg
+          rounded: true
+    af:
+      alb:
+        - id: OtX9sCAXCFHM3FeyMMV8T
+          code: midnight-onyx
+          name: Midnight Onyx
+          memberCode: ec
+          eraCode: af
+          sectionCode: alb
+          img: /card/ec-af-alb-midnight-onyx.jpg
+          rounded: true
+        - id: G-Oc93K5EoaWs0VezLE7W
+          code: iridescent-opal
+          name: Iridescent Opal
+          memberCode: ec
+          eraCode: af
+          sectionCode: alb
+          img: /card/ec-af-alb-iridescent-opal.jpg
+          rounded: true
+        - id: EzsratmNlDDpaSytYghW5
+          code: frozen-aquamarine
+          name: Frozen Aquamarine
+          memberCode: ec
+          eraCode: af
+          sectionCode: alb
+          img: /card/ec-af-alb-frozen-aquamarine.jpg
+          rounded: true
+        - id: xKTaNna5QzXlWidt3lpni
+          code: weverse-1
+          name: Weverse 1
+          memberCode: ec
+          eraCode: af
+          sectionCode: alb
+          img: /card/ec-af-alb-weverse-1.jpg
+          rounded: true
+        - id: SS8yDJDNw3YJXb2u672cQ
+          code: weverse-2
+          name: Weverse 2
+          memberCode: ec
+          eraCode: af
+          sectionCode: alb
+          img: /card/ec-af-alb-weverse-2.jpg
+          rounded: true
+        - id: UseAXgWZtT5-HjaLFDvO1
+          code: weverse-3
+          name: Weverse 3
+          memberCode: ec
+          eraCode: af
+          sectionCode: alb
+          img: /card/ec-af-alb-weverse-3.jpg
+          rounded: true
+        - id: O1k2XPl9xhUUgcFSaoisE
+          code: compact-1
+          name: Compact 1
+          memberCode: ec
+          eraCode: af
+          sectionCode: alb
+          img: /card/ec-af-alb-compact-1.jpg
+          rounded: true
+        - id: 9zwf45fSlBqqXOE7c-zGs
+          code: compact-2
+          name: Compact 2
+          memberCode: ec
+          eraCode: af
+          sectionCode: alb
+          img: /card/ec-af-alb-compact-2.jpg
+          rounded: true
+        - id: jpAumuZuHihBnzp2ciSJp
+          code: compact-3
+          name: Compact 3
+          memberCode: ec
+          eraCode: af
+          sectionCode: alb
+          img: /card/ec-af-alb-compact-3.jpg
+          rounded: true
+        - id: AhAYCsQvEP0GycRAJwLNj
+          code: compact-4
+          name: Compact 4
+          memberCode: ec
+          eraCode: af
+          sectionCode: alb
+          img: /card/ec-af-alb-compact-4.jpg
+          rounded: true
+      pbs:
+        - id: oxFjFUFGwx2_wukAtlHon
+          code: music-korea
+          name: Music Korea
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbs
+          img: /card/ec-af-pbs-music-korea.jpg
+          rounded: true
+        - id: p8cgrwANwdRYvdo4gXIaV
+          code: musicplant
+          name: Musicplant
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbs
+          img: /card/ec-af-pbs-musicplant.jpg
+          rounded: true
+        - id: J1mWf4tR1EqPhU9UzG-2V
+          code: aladin
+          name: Aladin
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbs
+          img: /card/ec-af-pbs-aladin.jpg
+          rounded: false
+        - id: sCyasDwWKvZqSkB3ZlyGN
+          code: yes-24
+          name: Yes24
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbs
+          img: /card/ec-af-pbs-yes-24.jpg
+          rounded: true
+        - id: WciNvEMCJu81geloT7u7P
+          code: synnara
+          name: Synnara
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbs
+          img: /card/ec-af-pbs-synnara.jpg
+          rounded: true
+        - id: JuDjK3nrbpRQeaSUbUe_-
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbs
+          img: /card/ec-af-pbs-ktown-4-u.jpg
+          rounded: true
+        - id: WJMAw7rx2NKXa80oA2zJ5
+          code: weverse-1
+          name: Weverse 1
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbs
+          img: /card/ec-af-pbs-weverse-1.jpg
+          rounded: true
+        - id: Vv5zZhQCLdXeqx9NkTD5n
+          code: weverse-2
+          name: Weverse 2
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbs
+          img: /card/ec-af-pbs-weverse-2.jpg
+          rounded: true
+        - id: Cfdm_QwRjln-IrgL__mJt
+          code: weverse-3
+          name: Weverse 3
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbs
+          img: /card/ec-af-pbs-weverse-3.jpg
+          rounded: true
+        - id: 2-vkgcYE4XvlefXJKJgE9
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbs
+          img: /card/ec-af-pbs-weverse-jp.jpg
+          rounded: true
+        - id: g8FSMOIj8F4CjPgYfrQvJ
+          code: naver-live
+          name: Naver Live
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbs
+          img: /card/ec-af-pbs-naver-live.jpg
+          rounded: true
+        - id: 3FND3dBWEfjuPVyDW8vQI
+          code: ums
+          name: UMS
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbs
+          img: /card/ec-af-pbs-ums.jpg
+          rounded: false
+        - id: rjZ_EmdJ9WPTsZ2sbQU1X
+          code: hottracks
+          name: Hottracks
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbs
+          img: /card/ec-af-pbs-hottracks.jpg
+          rounded: false
+      pbc:
+        - id: XpBNd8L4jpgmJ6_mpvIBI
+          code: music-korea
+          name: Music Korea
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbc
+          img: /card/ec-af-pbc-music-korea.jpg
+          rounded: true
+        - id: WvDkF6GOsqxFZBSMy9yX3
+          code: musicplant
+          name: Musicplant
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbc
+          img: /card/ec-af-pbc-musicplant.jpg
+          rounded: false
+        - id: Yd3G8HFtpInkxEpuFtFoL
+          code: aladin
+          name: Aladin
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbc
+          img: /card/ec-af-pbc-aladin.jpg
+          rounded: true
+        - id: 7G3-WBwsEK4XhbdzkDCQo
+          code: yes-24
+          name: Yes24
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbc
+          img: /card/ec-af-pbc-yes-24.jpg
+          rounded: true
+        - id: F81Ukln7fWh-NoT6KGlRw
+          code: synnara
+          name: Synnara
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbc
+          img: /card/ec-af-pbc-synnara.jpg
+          rounded: true
+        - id: jwPImbIlbFtRo6y5UzPp2
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbc
+          img: /card/ec-af-pbc-ktown-4-u.jpg
+          rounded: false
+        - id: 2yU08LXvUHd-fnPGdjrcq
+          code: weverse
+          name: Weverse
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbc
+          img: /card/ec-af-pbc-weverse.jpg
+          rounded: true
+        - id: sRjECeDGSNW3lWKZEWV6z
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbc
+          img: /card/ec-af-pbc-weverse-jp.jpg
+          rounded: false
+        - id: 6YQ6JF7fGKHHJjBp6LKVw
+          code: naver-live
+          name: Naver Live
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbc
+          img: /card/ec-af-pbc-naver-live.jpg
+          rounded: true
+        - id: vqTbx6aCTQU1n_jjOYh7k
+          code: ums
+          name: UMS
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbc
+          img: /card/ec-af-pbc-ums.jpg
+          rounded: false
+        - id: qG8jcGaGBxkv-RcI42xpJ
+          code: hottracks
+          name: Hottracks
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbc
+          img: /card/ec-af-pbc-hottracks.jpg
+          rounded: false
+      pbw:
+        - id: IxuUKnIDELTq5VB3aCV_b
+          code: weverse-1
+          name: Weverse 1
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbw
+          img: /card/ec-af-pbw-weverse-1.jpg
+          rounded: true
+        - id: ANqOF1PuxAP-42teHMFVX
+          code: weverse-2
+          name: Weverse 2
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbw
+          img: /card/ec-af-pbw-weverse-2.jpg
+          rounded: true
+        - id: MoXui9Wl3hHqRI1oIUGCX
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbw
+          img: /card/ec-af-pbw-ktown-4-u.jpg
+          rounded: true
+        - id: fKLRpINYhcfQrPJc6lmjm
+          code: yes-24
+          name: Yes24
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbw
+          img: /card/ec-af-pbw-yes-24.jpg
+          rounded: true
+        - id: kREiPdgDkAlMT8hwGaugo
+          code: music-korea
+          name: Music Korea
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbw
+          img: /card/ec-af-pbw-music-korea.jpg
+          rounded: true
+        - id: wSzJF1MSIcRwAGKGi5iYi
+          code: musicplant
+          name: Musicplant
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbw
+          img: /card/ec-af-pbw-musicplant.jpg
+          rounded: true
+        - id: f1m3DjXYt7zbYPK92lP-y
+          code: aladin
+          name: Aladin
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbw
+          img: /card/ec-af-pbw-aladin.jpg
+          rounded: true
+        - id: l06lvbBHiz5Q-PsfRND6m
+          code: hottracks
+          name: Hottracks
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbw
+          img: /card/ec-af-pbw-hottracks.jpg
+          rounded: true
+        - id: 20OWi9L4lc965sElBPRet
+          code: synnara
+          name: Synnara
+          memberCode: ec
+          eraCode: af
+          sectionCode: pbw
+          img: /card/ec-af-pbw-synnara.jpg
+          rounded: false
+      fs:
+        - id: 3DV1vB83T_rzxkU4joJL-
+          code: m-2-u
+          name: M2U
+          memberCode: ec
+          eraCode: af
+          sectionCode: fs
+          img: /card/ec-af-fs-m-2-u.jpg
+          rounded: true
+        - id: BNi5aYPv0wPWkPIgNbOa4
+          code: musicplant
+          name: Musicplant
+          memberCode: ec
+          eraCode: af
+          sectionCode: fs
+          img: /card/ec-af-fs-musicplant.jpg
+          rounded: true
+        - id: hrw43Co0goy-eo1CPv-1_
+          code: soundwave
+          name: Soundwave
+          memberCode: ec
+          eraCode: af
+          sectionCode: fs
+          img: /card/ec-af-fs-soundwave.jpg
+          rounded: true
+        - id: -WvJF6zKRHKQntyT9kfy3
+          code: yes-24
+          name: Yes24
+          memberCode: ec
+          eraCode: af
+          sectionCode: fs
+          img: /card/ec-af-fs-yes-24.jpg
+          rounded: true
+        - id: -nCpl-MuO1I7KFLAYoHrI
+          code: kpopmerch
+          name: Kpopmerch
+          memberCode: ec
+          eraCode: af
+          sectionCode: fs
+          img: /card/ec-af-fs-kpopmerch.jpg
+          rounded: true
+        - id: 2dhQD8MzIV5CDWP02KgGx
+          code: kpopmerch-2
+          name: Kpopmerch 2
+          memberCode: ec
+          eraCode: af
+          sectionCode: fs
+          img: /card/ec-af-fs-kpopmerch-2.jpg
+          rounded: true
+        - id: 0iIIzlJak8qecp8G2iYgW
+          code: bigpop
+          name: BIGPOP
+          memberCode: ec
+          eraCode: af
+          sectionCode: fs
+          img: /card/ec-af-fs-bigpop.jpg
+          rounded: true
+        - id: M2BseZuHGTpBiXcziwVGP
+          code: m-2-special
+          name: M2 Special
+          memberCode: ec
+          eraCode: af
+          sectionCode: fs
+          img: /card/ec-af-fs-m-2-special.jpg
+          rounded: true
+        - id: 6IoWyiQvuXTi5X5-VOzDp
+          code: blue-dream-media
+          name: Blue Dream Media
+          memberCode: ec
+          eraCode: af
+          sectionCode: fs
+          img: /card/ec-af-fs-blue-dream-media.jpg
+          rounded: true
+        - id: u0fTjB8TWabsG1dPFEbW6
+          code: music-korea
+          name: Music Korea
+          memberCode: ec
+          eraCode: af
+          sectionCode: fs
+          img: /card/ec-af-fs-music-korea.jpg
+          rounded: true
+        - id: 1w5aUltH1qfGnM3micdXK
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: ec
+          eraCode: af
+          sectionCode: fs
+          img: /card/ec-af-fs-ktown-4-u.jpg
+          rounded: true
+        - id: QVwX8Vx7A9PdHYfCQ96LO
+          code: joeun-music
+          name: Joeun Music
+          memberCode: ec
+          eraCode: af
+          sectionCode: fs
+          img: /card/ec-af-fs-joeun-music.jpg
+          rounded: true
+        - id: JBcYsCRe_nIPEK20EV8As
+          code: weverse
+          name: Weverse
+          memberCode: ec
+          eraCode: af
+          sectionCode: fs
+          img: /card/ec-af-fs-weverse.jpg
+          rounded: true
+        - id: wH_ofmhzPxcG62mx8ockK
+          code: tou
+          name: TOU
+          memberCode: ec
+          eraCode: af
+          sectionCode: fs
+          img: /card/ec-af-fs-tou.jpg
+          rounded: true
+      ld:
+        - id: vctfg6fo127q9PmE8CGXD
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: ec
+          eraCode: af
+          sectionCode: ld
+          img: /card/ec-af-ld-weverse-jp.jpg
+          rounded: true
+        - id: mL--M-VO7ERoGrLvAmgiM
+          code: ums
+          name: UMS
+          memberCode: ec
+          eraCode: af
+          sectionCode: ld
+          img: /card/ec-af-ld-ums.jpg
+          rounded: true
+        - id: 0y935Gs9kdlxIpbzHgHww
+          code: tou
+          name: TOU
+          memberCode: ec
+          eraCode: af
+          sectionCode: ld
+          img: /card/ec-af-ld-tou.jpg
+          rounded: true
+        - id: hPcH62eAFHJ8jPbzsYsR1
+          code: soundwave
+          name: Soundwave
+          memberCode: ec
+          eraCode: af
+          sectionCode: ld
+          img: /card/ec-af-ld-soundwave.jpg
+          rounded: true
+        - id: S0FxoDSvpKGv0_qjSRfU4
+          code: m-2-u
+          name: M2U
+          memberCode: ec
+          eraCode: af
+          sectionCode: ld
+          img: /card/ec-af-ld-m-2-u.jpg
+          rounded: true
+        - id: Np1mT8FX6q1y8dYqoHYVn
+          code: powerstation
+          name: Powerstation
+          memberCode: ec
+          eraCode: af
+          sectionCode: ld
+          img: /card/ec-af-ld-powerstation.jpg
+          rounded: true
+        - id: nGmhBg0bnAyPcrRmHFBPX
+          code: soundwave-2
+          name: Soundwave 2
+          memberCode: ec
+          eraCode: af
+          sectionCode: ld
+          img: /card/ec-af-ld-soundwave-2.jpg
+          rounded: true
+        - id: uxb8b9xqHvvVmfGXlt93N
+          code: m-2-u-2
+          name: M2U 2
+          memberCode: ec
+          eraCode: af
+          sectionCode: ld
+          img: /card/ec-af-ld-m-2-u-2.jpg
+          rounded: true
+        - id: QKcD6WNNOMABjsjCmIbPT
+          code: powerstation-2
+          name: Powerstation 2
+          memberCode: ec
+          eraCode: af
+          sectionCode: ld
+          img: /card/ec-af-ld-powerstation-2.jpg
+          rounded: true
+        - id: juSl-8HinDTeNBr0jg6he
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: ec
+          eraCode: af
+          sectionCode: ld
+          img: /card/ec-af-ld-ktown-4-u.jpg
+          rounded: true
+  yj:
+    fl:
+      alb:
+        - id: -4zKUreYyaMI6yS14qO6R
+          code: black-petrol
+          name: Black Petrol
+          memberCode: yj
+          eraCode: fl
+          sectionCode: alb
+          img: /card/yj-fl-alb-black-petrol.jpg
+          rounded: true
+        - id: nPB5h1TZlCV3VaQmNYtbW
+          code: blue-cyphre
+          name: Blue Cyphre
+          memberCode: yj
+          eraCode: fl
+          sectionCode: alb
+          img: /card/yj-fl-alb-blue-cyphre.jpg
+          rounded: true
+        - id: QhvaZLZATUvbvrZJVNSUi
+          code: monochrome-bouquet-1
+          name: Monochrome Bouquet 1
+          memberCode: yj
+          eraCode: fl
+          sectionCode: alb
+          img: /card/yj-fl-alb-monochrome-bouquet-1.jpg
+          rounded: true
+        - id: yr5MP0sAAavr6n8xsiTI6
+          code: monochrome-bouquet-2
+          name: Monochrome Bouquet 2
+          memberCode: yj
+          eraCode: fl
+          sectionCode: alb
+          img: /card/yj-fl-alb-monochrome-bouquet-2.jpg
+          rounded: true
+      pob:
+        - id: J215e7WU3gD2mYNInyGF9
+          code: weverse-1
+          name: Weverse 1
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-weverse-1.jpg
+          rounded: true
+        - id: 39A644RhkLf8WgofIUUkZ
+          code: weverse-2
+          name: Weverse 2
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-weverse-2.jpg
+          rounded: true
+        - id: t4Se7z6dfhaKv13v2nGnN
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-weverse-jp.jpg
+          rounded: true
+        - id: ZixaODsAK04FGUlZGWXse
+          code: synnara
+          name: Synnara
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-synnara.jpg
+          rounded: true
+        - id: fxMKjIGUSpWND1EyO7qTR
+          code: interpark
+          name: Interpark
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-interpark.jpg
+          rounded: true
+        - id: 5hBBdgShRfCXOhP95YuiK
+          code: music-korea
+          name: Music Korea
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-music-korea.jpg
+          rounded: true
+        - id: 6ZbvaEy84zVTXkwExsZPE
+          code: musicplant
+          name: Musicplant
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-musicplant.jpg
+          rounded: true
+        - id: HCIDNOWsgr82BsYJNtx_L
+          code: yes-24
+          name: Yes24
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-yes-24.jpg
+          rounded: true
+        - id: ht9wOl7W1Pm70QB4KSwbU
+          code: aladin
+          name: Aladin
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-aladin.jpg
+          rounded: false
+        - id: KHh1ooPT24ry9T9MX1j-x
+          code: ums
+          name: UMS
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-ums.jpg
+          rounded: false
+        - id: xv_3CTj7hsr8y5sNUEQX3
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-ktown-4-u.jpg
+          rounded: true
+        - id: dwlccXZ9vmJ8DLHYlfy1o
+          code: shopee-th
+          name: Shopee TH
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-shopee-th.jpg
+          rounded: true
+        - id: BhDzGOGlmkgRIbE6vmr-c
+          code: kpopmerch-1
+          name: Kpopmerch 1
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-kpopmerch-1.jpg
+          rounded: true
+        - id: LY410oBXUoTNTJbmexdEW
+          code: kpopmerch-2
+          name: Kpopmerch 2
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-kpopmerch-2.jpg
+          rounded: true
+        - id: 0MBQ77vQwTX-mVyzcqyhS
+          code: naver-live
+          name: Naver Live
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-naver-live.jpg
+          rounded: true
+        - id: 2pAMgrz3-Q9I7sIQN5WHw
+          code: tou
+          name: TOU
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-tou.jpg
+          rounded: true
+        - id: 6-LEnkwFyxujRc_UpZKEV
+          code: m-2-u-ld
+          name: M2U LD
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-m-2-u-ld.jpg
+          rounded: true
+        - id: 20p4QHM9DQQc6bhy58v6b
+          code: soundwave-ld
+          name: Soundwave LD
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-soundwave-ld.jpg
+          rounded: true
+        - id: pu8apP_ywJcVi5iTEFWbm
+          code: pws-ld
+          name: PWS LD
+          memberCode: yj
+          eraCode: fl
+          sectionCode: pob
+          img: /card/yj-fl-pob-pws-ld.jpg
+          rounded: true
+    af:
+      alb:
+        - id: GSCy4ZvCmM-oFod7ZhAMA
+          code: midnight-onyx
+          name: Midnight Onyx
+          memberCode: yj
+          eraCode: af
+          sectionCode: alb
+          img: /card/yj-af-alb-midnight-onyx.jpg
+          rounded: true
+        - id: 9jVmwlMVzrGVjoE59rd4P
+          code: iridescent-opal
+          name: Iridescent Opal
+          memberCode: yj
+          eraCode: af
+          sectionCode: alb
+          img: /card/yj-af-alb-iridescent-opal.jpg
+          rounded: true
+        - id: BJWnKNf5vF73F3z6DLVe3
+          code: frozen-aquamarine
+          name: Frozen Aquamarine
+          memberCode: yj
+          eraCode: af
+          sectionCode: alb
+          img: /card/yj-af-alb-frozen-aquamarine.jpg
+          rounded: true
+        - id: 4DiHarAEPteC0CKaKn4nL
+          code: weverse-1
+          name: Weverse 1
+          memberCode: yj
+          eraCode: af
+          sectionCode: alb
+          img: /card/yj-af-alb-weverse-1.jpg
+          rounded: true
+        - id: z8ughhigeJPv_m7cKnJh6
+          code: weverse-2
+          name: Weverse 2
+          memberCode: yj
+          eraCode: af
+          sectionCode: alb
+          img: /card/yj-af-alb-weverse-2.jpg
+          rounded: true
+        - id: 4yulGE9735S5yUDcHV1U9
+          code: weverse-3
+          name: Weverse 3
+          memberCode: yj
+          eraCode: af
+          sectionCode: alb
+          img: /card/yj-af-alb-weverse-3.jpg
+          rounded: true
+        - id: -N_3-ENE7pHRndAS12z2o
+          code: compact-1
+          name: Compact 1
+          memberCode: yj
+          eraCode: af
+          sectionCode: alb
+          img: /card/yj-af-alb-compact-1.jpg
+          rounded: true
+        - id: OApLh82n7qaTTBv3uI4qq
+          code: compact-2
+          name: Compact 2
+          memberCode: yj
+          eraCode: af
+          sectionCode: alb
+          img: /card/yj-af-alb-compact-2.jpg
+          rounded: true
+        - id: DGQUQHCjn7odK2FX8Gfe4
+          code: compact-3
+          name: Compact 3
+          memberCode: yj
+          eraCode: af
+          sectionCode: alb
+          img: /card/yj-af-alb-compact-3.jpg
+          rounded: true
+        - id: oP3-PiEg-JkNLh6slLRYN
+          code: compact-4
+          name: Compact 4
+          memberCode: yj
+          eraCode: af
+          sectionCode: alb
+          img: /card/yj-af-alb-compact-4.jpg
+          rounded: true
+      pbs:
+        - id: V-tQgKscZLtsp_eEl9svR
+          code: music-korea
+          name: Music Korea
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbs
+          img: /card/yj-af-pbs-music-korea.jpg
+          rounded: true
+        - id: bvd9AQSeXGcJ3ofWIys5H
+          code: musicplant
+          name: Musicplant
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbs
+          img: /card/yj-af-pbs-musicplant.jpg
+          rounded: true
+        - id: Z4AMTxr-qZ1BR6IFYp3Ou
+          code: aladin
+          name: Aladin
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbs
+          img: /card/yj-af-pbs-aladin.jpg
+          rounded: false
+        - id: lZPj9ju-HPK4h9gk2miZE
+          code: yes-24
+          name: Yes24
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbs
+          img: /card/yj-af-pbs-yes-24.jpg
+          rounded: true
+        - id: LvmovDYiXCwEIzLl7uL1v
+          code: synnara
+          name: Synnara
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbs
+          img: /card/yj-af-pbs-synnara.jpg
+          rounded: true
+        - id: 6a4SGmyoEMtgMKrfZpaPs
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbs
+          img: /card/yj-af-pbs-ktown-4-u.jpg
+          rounded: true
+        - id: 4OyTffmLehzyeVYxc-yRU
+          code: weverse-1
+          name: Weverse 1
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbs
+          img: /card/yj-af-pbs-weverse-1.jpg
+          rounded: true
+        - id: EAQylKBTzcN40GOSlsL4D
+          code: weverse-2
+          name: Weverse 2
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbs
+          img: /card/yj-af-pbs-weverse-2.jpg
+          rounded: true
+        - id: taXstbPAazwjPdeontxmJ
+          code: weverse-3
+          name: Weverse 3
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbs
+          img: /card/yj-af-pbs-weverse-3.jpg
+          rounded: true
+        - id: szmOAoK2MvYGP9NsdXgk0
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbs
+          img: /card/yj-af-pbs-weverse-jp.jpg
+          rounded: true
+        - id: iP6E-nEjg4cmSP84PlOP5
+          code: naver-live
+          name: Naver Live
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbs
+          img: /card/yj-af-pbs-naver-live.jpg
+          rounded: true
+        - id: v7ltX23ArxUVdfyy0E9vA
+          code: ums
+          name: UMS
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbs
+          img: /card/yj-af-pbs-ums.jpg
+          rounded: false
+        - id: XaUwIE48uauH-UcVmQ61a
+          code: hottracks
+          name: Hottracks
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbs
+          img: /card/yj-af-pbs-hottracks.jpg
+          rounded: false
+      pbc:
+        - id: YYcWB_bQbkHOlj979iYXl
+          code: music-korea
+          name: Music Korea
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbc
+          img: /card/yj-af-pbc-music-korea.jpg
+          rounded: true
+        - id: Jwk_5c7wrnfU4FMSiRAJ_
+          code: musicplant
+          name: Musicplant
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbc
+          img: /card/yj-af-pbc-musicplant.jpg
+          rounded: false
+        - id: CyLuRQmafJv2qxx8Zjraa
+          code: aladin
+          name: Aladin
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbc
+          img: /card/yj-af-pbc-aladin.jpg
+          rounded: true
+        - id: YMDYVRQUHhYa-xgqfQJ36
+          code: yes-24
+          name: Yes24
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbc
+          img: /card/yj-af-pbc-yes-24.jpg
+          rounded: true
+        - id: oFMjxnD5vUtO4bvp-bEZa
+          code: synnara
+          name: Synnara
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbc
+          img: /card/yj-af-pbc-synnara.jpg
+          rounded: true
+        - id: tce15mMEb4cR_y1SZ1cXd
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbc
+          img: /card/yj-af-pbc-ktown-4-u.jpg
+          rounded: false
+        - id: YPtSTMpsjhHh5_6HENjFi
+          code: weverse
+          name: Weverse
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbc
+          img: /card/yj-af-pbc-weverse.jpg
+          rounded: true
+        - id: -KlsR6vEVqeLC4R9LDxvx
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbc
+          img: /card/yj-af-pbc-weverse-jp.jpg
+          rounded: false
+        - id: 8FKBj9W3HkR3l9HWov0wM
+          code: naver-live
+          name: Naver Live
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbc
+          img: /card/yj-af-pbc-naver-live.jpg
+          rounded: true
+        - id: 1OsHRm09GnqNKcwbKxq1c
+          code: ums
+          name: UMS
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbc
+          img: /card/yj-af-pbc-ums.jpg
+          rounded: false
+        - id: H1aZRNhVjbSdA_otphRMc
+          code: hottracks
+          name: Hottracks
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbc
+          img: /card/yj-af-pbc-hottracks.jpg
+          rounded: false
+      pbw:
+        - id: -x1f_iUIQqm-1bEsYOvdM
+          code: weverse-1
+          name: Weverse 1
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbw
+          img: /card/yj-af-pbw-weverse-1.jpg
+          rounded: true
+        - id: Lvv98J6c8USXJbKmq4po3
+          code: weverse-2
+          name: Weverse 2
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbw
+          img: /card/yj-af-pbw-weverse-2.jpg
+          rounded: true
+        - id: 53aNRZV_DmM6sMelPjcgK
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbw
+          img: /card/yj-af-pbw-ktown-4-u.jpg
+          rounded: true
+        - id: Ey9OCwPVcJs0wQnG_WqYZ
+          code: yes-24
+          name: Yes24
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbw
+          img: /card/yj-af-pbw-yes-24.jpg
+          rounded: true
+        - id: 8WniBt2YM68RkMVpQ_ExK
+          code: music-korea
+          name: Music Korea
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbw
+          img: /card/yj-af-pbw-music-korea.jpg
+          rounded: true
+        - id: drXwxjbGtuYydGTW__7lv
+          code: musicplant
+          name: Musicplant
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbw
+          img: /card/yj-af-pbw-musicplant.jpg
+          rounded: true
+        - id: G4KR7Va6Skc_yin96hG9-
+          code: aladin
+          name: Aladin
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbw
+          img: /card/yj-af-pbw-aladin.jpg
+          rounded: true
+        - id: Y6A9VbL3uo2lVRxHT6fxT
+          code: hottracks
+          name: Hottracks
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbw
+          img: /card/yj-af-pbw-hottracks.jpg
+          rounded: true
+        - id: 0wIVcx21ew5HTDAX3CpHt
+          code: synnara
+          name: Synnara
+          memberCode: yj
+          eraCode: af
+          sectionCode: pbw
+          img: /card/yj-af-pbw-synnara.jpg
+          rounded: false
+      fs:
+        - id: 7FfTszrLUmdPy135pnOUM
+          code: m-2-u
+          name: M2U
+          memberCode: yj
+          eraCode: af
+          sectionCode: fs
+          img: /card/yj-af-fs-m-2-u.jpg
+          rounded: true
+        - id: IaNHnUSrQ520SnoOaU_Wx
+          code: musicplant
+          name: Musicplant
+          memberCode: yj
+          eraCode: af
+          sectionCode: fs
+          img: /card/yj-af-fs-musicplant.jpg
+          rounded: true
+        - id: ZQouL-c0cYm-p9bd46GHS
+          code: soundwave
+          name: Soundwave
+          memberCode: yj
+          eraCode: af
+          sectionCode: fs
+          img: /card/yj-af-fs-soundwave.jpg
+          rounded: true
+        - id: 8wcRj32J4YeSjbargwBAp
+          code: yes-24
+          name: Yes24
+          memberCode: yj
+          eraCode: af
+          sectionCode: fs
+          img: /card/yj-af-fs-yes-24.jpg
+          rounded: true
+        - id: _n3Ju315saFBkDtB6N8kl
+          code: kpopmerch
+          name: Kpopmerch
+          memberCode: yj
+          eraCode: af
+          sectionCode: fs
+          img: /card/yj-af-fs-kpopmerch.jpg
+          rounded: true
+        - id: Ao2pzRO9Fs3_rY-puYMlI
+          code: kpopmerch-2
+          name: Kpopmerch 2
+          memberCode: yj
+          eraCode: af
+          sectionCode: fs
+          img: /card/yj-af-fs-kpopmerch-2.jpg
+          rounded: true
+        - id: qF_9EEqJ6qAytz1t_W-lW
+          code: bigpop
+          name: BIGPOP
+          memberCode: yj
+          eraCode: af
+          sectionCode: fs
+          img: /card/yj-af-fs-bigpop.jpg
+          rounded: true
+        - id: 57699npw3_cHoQdrUnzby
+          code: m-2-special
+          name: M2 Special
+          memberCode: yj
+          eraCode: af
+          sectionCode: fs
+          img: /card/yj-af-fs-m-2-special.jpg
+          rounded: true
+        - id: kWZcemFXapjfzGl5yGdQa
+          code: blue-dream-media
+          name: Blue Dream Media
+          memberCode: yj
+          eraCode: af
+          sectionCode: fs
+          img: /card/yj-af-fs-blue-dream-media.jpg
+          rounded: true
+        - id: ei1FnY_3Q3tTNvUROpsY_
+          code: music-korea
+          name: Music Korea
+          memberCode: yj
+          eraCode: af
+          sectionCode: fs
+          img: /card/yj-af-fs-music-korea.jpg
+          rounded: true
+        - id: 2fjiyFM6d4hn-O3LCzO5r
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: yj
+          eraCode: af
+          sectionCode: fs
+          img: /card/yj-af-fs-ktown-4-u.jpg
+          rounded: true
+        - id: 9NzAorjTfOltAPWotBCFD
+          code: joeun-music
+          name: Joeun Music
+          memberCode: yj
+          eraCode: af
+          sectionCode: fs
+          img: /card/yj-af-fs-joeun-music.jpg
+          rounded: true
+        - id: XPvRCi_ffDHcUEcOPu4yM
+          code: weverse
+          name: Weverse
+          memberCode: yj
+          eraCode: af
+          sectionCode: fs
+          img: /card/yj-af-fs-weverse.jpg
+          rounded: true
+        - id: nEFDpR5abGatYegMnZE0C
+          code: tou
+          name: TOU
+          memberCode: yj
+          eraCode: af
+          sectionCode: fs
+          img: /card/yj-af-fs-tou.jpg
+          rounded: true
+      ld:
+        - id: YJUtfJAvY3aAehr8uN0kZ
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: yj
+          eraCode: af
+          sectionCode: ld
+          img: /card/yj-af-ld-weverse-jp.jpg
+          rounded: true
+        - id: 48M0_fLVAv3m3quvR3stW
+          code: ums
+          name: UMS
+          memberCode: yj
+          eraCode: af
+          sectionCode: ld
+          img: /card/yj-af-ld-ums.jpg
+          rounded: true
+        - id: SKztkL2ECJkgf_u4KaTI_
+          code: tou
+          name: TOU
+          memberCode: yj
+          eraCode: af
+          sectionCode: ld
+          img: /card/yj-af-ld-tou.jpg
+          rounded: true
+        - id: 7JR8Rm0ec0g5zSUFTUIyK
+          code: soundwave
+          name: Soundwave
+          memberCode: yj
+          eraCode: af
+          sectionCode: ld
+          img: /card/yj-af-ld-soundwave.jpg
+          rounded: true
+        - id: tn7VWIhZGeGAzfCeoS0I5
+          code: m-2-u
+          name: M2U
+          memberCode: yj
+          eraCode: af
+          sectionCode: ld
+          img: /card/yj-af-ld-m-2-u.jpg
+          rounded: true
+        - id: 6OdFwl4OQ3fqSpMp2cblY
+          code: powerstation
+          name: Powerstation
+          memberCode: yj
+          eraCode: af
+          sectionCode: ld
+          img: /card/yj-af-ld-powerstation.jpg
+          rounded: true
+        - id: 198uuaji5PV6t88bLzyaV
+          code: soundwave-2
+          name: Soundwave 2
+          memberCode: yj
+          eraCode: af
+          sectionCode: ld
+          img: /card/yj-af-ld-soundwave-2.jpg
+          rounded: true
+        - id: F6NtS1tNDRcLUCXXUOlsb
+          code: m-2-u-2
+          name: M2U 2
+          memberCode: yj
+          eraCode: af
+          sectionCode: ld
+          img: /card/yj-af-ld-m-2-u-2.jpg
+          rounded: true
+        - id: UrU0ip715iJFuxDSmQhZh
+          code: powerstation-2
+          name: Powerstation 2
+          memberCode: yj
+          eraCode: af
+          sectionCode: ld
+          img: /card/yj-af-ld-powerstation-2.jpg
+          rounded: true
+        - id: deVQiKqSlWNT_pF7-QywZ
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: yj
+          eraCode: af
+          sectionCode: ld
+          img: /card/yj-af-ld-ktown-4-u.jpg
+          rounded: true
+  kz:
+    fl:
+      alb:
+        - id: ds6d5F1o9cTeicX6UOE7f
+          code: black-petrol
+          name: Black Petrol
+          memberCode: kz
+          eraCode: fl
+          sectionCode: alb
+          img: /card/kz-fl-alb-black-petrol.jpg
+          rounded: true
+        - id: EpzHWspUtI2Cc9xfxpF3I
+          code: blue-cyphre
+          name: Blue Cyphre
+          memberCode: kz
+          eraCode: fl
+          sectionCode: alb
+          img: /card/kz-fl-alb-blue-cyphre.jpg
+          rounded: true
+        - id: bE3TRsNHkTB42ZIlZMcvB
+          code: monochrome-bouquet-1
+          name: Monochrome Bouquet 1
+          memberCode: kz
+          eraCode: fl
+          sectionCode: alb
+          img: /card/kz-fl-alb-monochrome-bouquet-1.jpg
+          rounded: true
+        - id: k9mS0HvtA-_mxDZ1zwTld
+          code: monochrome-bouquet-2
+          name: Monochrome Bouquet 2
+          memberCode: kz
+          eraCode: fl
+          sectionCode: alb
+          img: /card/kz-fl-alb-monochrome-bouquet-2.jpg
+          rounded: true
+      pob:
+        - id: DrO8_sCDMThZHvXPKkbnM
+          code: weverse-1
+          name: Weverse 1
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-weverse-1.jpg
+          rounded: true
+        - id: _34B1vtXWl4vjDMv8rgzT
+          code: weverse-2
+          name: Weverse 2
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-weverse-2.jpg
+          rounded: true
+        - id: AVRpX015GicKJ34lKadtX
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-weverse-jp.jpg
+          rounded: true
+        - id: NaIZS7QJTPKA5ixgvD-z4
+          code: synnara
+          name: Synnara
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-synnara.jpg
+          rounded: true
+        - id: OYNr5cZprwXd-7t0eyw4x
+          code: interpark
+          name: Interpark
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-interpark.jpg
+          rounded: true
+        - id: YplOKcC7u5QyqU4gMCDp2
+          code: music-korea
+          name: Music Korea
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-music-korea.jpg
+          rounded: true
+        - id: lKx7ALASMKY6nc6mamA4W
+          code: musicplant
+          name: Musicplant
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-musicplant.jpg
+          rounded: true
+        - id: IoAu3ZwZMexbIyrwbN6YV
+          code: yes-24
+          name: Yes24
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-yes-24.jpg
+          rounded: true
+        - id: KTC5AOQygSCKSU1QSTfKF
+          code: aladin
+          name: Aladin
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-aladin.jpg
+          rounded: false
+        - id: iWZoHCy4bnBNHdUL95caZ
+          code: ums
+          name: UMS
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-ums.jpg
+          rounded: false
+        - id: n8msWVZVQNnuxDLwlgfnS
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-ktown-4-u.jpg
+          rounded: true
+        - id: 4tAjOsjLpTxx_JwgXxmHV
+          code: shopee-th
+          name: Shopee TH
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-shopee-th.jpg
+          rounded: true
+        - id: TFlmrj_1ZGX6mFTPD7QKz
+          code: kpopmerch-1
+          name: Kpopmerch 1
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-kpopmerch-1.jpg
+          rounded: true
+        - id: Sufc1j-fEuuENvof4PmNv
+          code: kpopmerch-2
+          name: Kpopmerch 2
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-kpopmerch-2.jpg
+          rounded: true
+        - id: 4f79UVJ5LD4upeHoG4zEK
+          code: naver-live
+          name: Naver Live
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-naver-live.jpg
+          rounded: true
+        - id: 0tkTDCVP2k3Y_HnugRfdd
+          code: tou
+          name: TOU
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-tou.jpg
+          rounded: true
+        - id: 3AAzdi5rzNLShG27xw9go
+          code: m-2-u-ld
+          name: M2U LD
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-m-2-u-ld.jpg
+          rounded: true
+        - id: XqoPdQCSoR02UyIc9JN-m
+          code: soundwave-ld
+          name: Soundwave LD
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-soundwave-ld.jpg
+          rounded: true
+        - id: _PvJLWAFfvERRM3rSrUvs
+          code: pws-ld
+          name: PWS LD
+          memberCode: kz
+          eraCode: fl
+          sectionCode: pob
+          img: /card/kz-fl-pob-pws-ld.jpg
+          rounded: true
+    af:
+      alb:
+        - id: dAf5fHL8C0aIkEqOwpOj7
+          code: midnight-onyx
+          name: Midnight Onyx
+          memberCode: kz
+          eraCode: af
+          sectionCode: alb
+          img: /card/kz-af-alb-midnight-onyx.jpg
+          rounded: true
+        - id: WPsqX58ezwxbFQUtKFfhN
+          code: iridescent-opal
+          name: Iridescent Opal
+          memberCode: kz
+          eraCode: af
+          sectionCode: alb
+          img: /card/kz-af-alb-iridescent-opal.jpg
+          rounded: true
+        - id: fUEtFhoo2uCog332ftwzi
+          code: frozen-aquamarine
+          name: Frozen Aquamarine
+          memberCode: kz
+          eraCode: af
+          sectionCode: alb
+          img: /card/kz-af-alb-frozen-aquamarine.jpg
+          rounded: true
+        - id: GiZO425PewX0I_o_LAHGX
+          code: weverse-1
+          name: Weverse 1
+          memberCode: kz
+          eraCode: af
+          sectionCode: alb
+          img: /card/kz-af-alb-weverse-1.jpg
+          rounded: true
+        - id: tckFCxGDdV3I5avUjLK35
+          code: weverse-2
+          name: Weverse 2
+          memberCode: kz
+          eraCode: af
+          sectionCode: alb
+          img: /card/kz-af-alb-weverse-2.jpg
+          rounded: true
+        - id: d2pYNUjSGyQMXCc8UVPgr
+          code: weverse-3
+          name: Weverse 3
+          memberCode: kz
+          eraCode: af
+          sectionCode: alb
+          img: /card/kz-af-alb-weverse-3.jpg
+          rounded: true
+        - id: tkRfEii1lLKDsI4ED4-xV
+          code: compact-1
+          name: Compact 1
+          memberCode: kz
+          eraCode: af
+          sectionCode: alb
+          img: /card/kz-af-alb-compact-1.jpg
+          rounded: true
+        - id: bePt9rNJFbhITZKR1GVs1
+          code: compact-2
+          name: Compact 2
+          memberCode: kz
+          eraCode: af
+          sectionCode: alb
+          img: /card/kz-af-alb-compact-2.jpg
+          rounded: true
+        - id: GRrxG9Ld3_oQRPVcNKV7Y
+          code: compact-3
+          name: Compact 3
+          memberCode: kz
+          eraCode: af
+          sectionCode: alb
+          img: /card/kz-af-alb-compact-3.jpg
+          rounded: true
+        - id: uG0-AH5cEcAQ64adDHXDB
+          code: compact-4
+          name: Compact 4
+          memberCode: kz
+          eraCode: af
+          sectionCode: alb
+          img: /card/kz-af-alb-compact-4.jpg
+          rounded: true
+      pbs:
+        - id: 5hDAmiNElfE6ENTlvWjeN
+          code: aladin
+          name: Aladin
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbs
+          img: /card/kz-af-pbs-aladin.jpg
+          rounded: false
+        - id: I_sfcpyphd_9eqTcSlDfm
+          code: yes-24
+          name: Yes24
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbs
+          img: /card/kz-af-pbs-yes-24.jpg
+          rounded: true
+        - id: yWx0Snx3WZf21dkQH48pO
+          code: synnara
+          name: Synnara
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbs
+          img: /card/kz-af-pbs-synnara.jpg
+          rounded: true
+        - id: k9LFw4Bzkcrbc58jrcMJE
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbs
+          img: /card/kz-af-pbs-ktown-4-u.jpg
+          rounded: true
+        - id: aYFInyOMcKiMHIzXmW4yo
+          code: weverse-1
+          name: Weverse 1
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbs
+          img: /card/kz-af-pbs-weverse-1.jpg
+          rounded: true
+        - id: 0V2IByKKfw7MplmmvVSjB
+          code: weverse-2
+          name: Weverse 2
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbs
+          img: /card/kz-af-pbs-weverse-2.jpg
+          rounded: true
+        - id: iC-_aC_GOWXdY1Y0r6Bjo
+          code: weverse-3
+          name: Weverse 3
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbs
+          img: /card/kz-af-pbs-weverse-3.jpg
+          rounded: true
+        - id: DRf0SzGUisUzKNCjCquuW
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbs
+          img: /card/kz-af-pbs-weverse-jp.jpg
+          rounded: true
+        - id: 3XRQ5lagd42suEOkdWR-W
+          code: naver-live
+          name: Naver Live
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbs
+          img: /card/kz-af-pbs-naver-live.jpg
+          rounded: true
+        - id: M1qKYwXtY6t6Aihsu5HmO
+          code: ums
+          name: UMS
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbs
+          img: /card/kz-af-pbs-ums.jpg
+          rounded: false
+        - id: Qc5vTMr7E0le9oJkeK8l0
+          code: hottracks
+          name: Hottracks
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbs
+          img: /card/kz-af-pbs-hottracks.jpg
+          rounded: false
+      pbc:
+        - id: mWfy7_2XWRb4jTaG-gOQH
+          code: music-korea
+          name: Music Korea
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbc
+          img: /card/kz-af-pbc-music-korea.jpg
+          rounded: true
+        - id: RJ5prphvxZzOpXw1mQrhJ
+          code: musicplant
+          name: Musicplant
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbc
+          img: /card/kz-af-pbc-musicplant.jpg
+          rounded: false
+        - id: anCPngBdIQlzvGdDNjvd_
+          code: aladin
+          name: Aladin
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbc
+          img: /card/kz-af-pbc-aladin.jpg
+          rounded: true
+        - id: -GYRConUxPmIMn8dAowC8
+          code: yes-24
+          name: Yes24
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbc
+          img: /card/kz-af-pbc-yes-24.jpg
+          rounded: true
+        - id: GndXo5Wk5JlNyHSCGl8fN
+          code: synnara
+          name: Synnara
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbc
+          img: /card/kz-af-pbc-synnara.jpg
+          rounded: true
+        - id: u0aDd8hMH43m6jU4e50hk
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbc
+          img: /card/kz-af-pbc-ktown-4-u.jpg
+          rounded: false
+        - id: _tftlqVZoYxD9Nxt22r_J
+          code: weverse
+          name: Weverse
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbc
+          img: /card/kz-af-pbc-weverse.jpg
+          rounded: true
+        - id: 79RIoaBPrb-KgLUjDlpBt
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbc
+          img: /card/kz-af-pbc-weverse-jp.jpg
+          rounded: false
+        - id: NyMUu4XEG6xdYStQtiyxV
+          code: naver-live
+          name: Naver Live
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbc
+          img: /card/kz-af-pbc-naver-live.jpg
+          rounded: true
+        - id: 2XBIdKMLBIc9fFKtzK_Dl
+          code: ums
+          name: UMS
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbc
+          img: /card/kz-af-pbc-ums.jpg
+          rounded: false
+        - id: YhRZaKP14svHbYjKogMU7
+          code: hottracks
+          name: Hottracks
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbc
+          img: /card/kz-af-pbc-hottracks.jpg
+          rounded: false
+      pbw:
+        - id: M-EanwOTMFvbqfDEqXS3A
+          code: weverse-1
+          name: Weverse 1
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbw
+          img: /card/kz-af-pbw-weverse-1.jpg
+          rounded: true
+        - id: SCPcWAudgXKg4h19mFERR
+          code: weverse-2
+          name: Weverse 2
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbw
+          img: /card/kz-af-pbw-weverse-2.jpg
+          rounded: true
+        - id: TOR7y9g4OQ3XpkIjKiN0O
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbw
+          img: /card/kz-af-pbw-ktown-4-u.jpg
+          rounded: true
+        - id: 5YxcPWb1stfrrGmwtaZB1
+          code: yes-24
+          name: Yes24
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbw
+          img: /card/kz-af-pbw-yes-24.jpg
+          rounded: true
+        - id: 4Cf5f5jMsqsxgCZijojkg
+          code: music-korea
+          name: Music Korea
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbw
+          img: /card/kz-af-pbw-music-korea.jpg
+          rounded: true
+        - id: rDN0StIxBJZT6ri0gYqsM
+          code: musicplant
+          name: Musicplant
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbw
+          img: /card/kz-af-pbw-musicplant.jpg
+          rounded: true
+        - id: E9-8c79G9O8dO3zRk078M
+          code: aladin
+          name: Aladin
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbw
+          img: /card/kz-af-pbw-aladin.jpg
+          rounded: true
+        - id: Jl05YIv2-Ho_wc0dV4JUA
+          code: hottracks
+          name: Hottracks
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbw
+          img: /card/kz-af-pbw-hottracks.jpg
+          rounded: true
+        - id: oQ42mh2yBWnwh7z8NqKax
+          code: synnara
+          name: Synnara
+          memberCode: kz
+          eraCode: af
+          sectionCode: pbw
+          img: /card/kz-af-pbw-synnara.jpg
+          rounded: false
+      ld:
+        - id: F-mZjsR0ZFnx8OYt-zC_B
+          code: weverse-jp
+          name: Weverse JP
+          memberCode: kz
+          eraCode: af
+          sectionCode: ld
+          img: /card/kz-af-ld-weverse-jp.jpg
+          rounded: true
+        - id: 024v0yjVmvyJ6nR6M1XDs
+          code: ums
+          name: UMS
+          memberCode: kz
+          eraCode: af
+          sectionCode: ld
+          img: /card/kz-af-ld-ums.jpg
+          rounded: true
+        - id: Jc-vlhWrE4HoZ71v0KdIo
+          code: tou
+          name: TOU
+          memberCode: kz
+          eraCode: af
+          sectionCode: ld
+          img: /card/kz-af-ld-tou.jpg
+          rounded: true
+        - id: XaU0pkx5dQ_rn6IDZv1gZ
+          code: soundwave
+          name: Soundwave
+          memberCode: kz
+          eraCode: af
+          sectionCode: ld
+          img: /card/kz-af-ld-soundwave.jpg
+          rounded: true
+        - id: FDH4_cY_c0hjh-AaXhQ3B
+          code: m-2-u
+          name: M2U
+          memberCode: kz
+          eraCode: af
+          sectionCode: ld
+          img: /card/kz-af-ld-m-2-u.jpg
+          rounded: true
+        - id: wOnY6Ve7w-0Iq5XhVm5Vl
+          code: powerstation
+          name: Powerstation
+          memberCode: kz
+          eraCode: af
+          sectionCode: ld
+          img: /card/kz-af-ld-powerstation.jpg
+          rounded: true
+        - id: nYyATESS2HZC4VRosMCcf
+          code: soundwave-2
+          name: Soundwave 2
+          memberCode: kz
+          eraCode: af
+          sectionCode: ld
+          img: /card/kz-af-ld-soundwave-2.jpg
+          rounded: true
+        - id: 9TA__mFkvL3Spy6eb2X9B
+          code: m-2-u-2
+          name: M2U 2
+          memberCode: kz
+          eraCode: af
+          sectionCode: ld
+          img: /card/kz-af-ld-m-2-u-2.jpg
+          rounded: true
+        - id: cU_5lF0mHiKPZuNSbemxT
+          code: powerstation-2
+          name: Powerstation 2
+          memberCode: kz
+          eraCode: af
+          sectionCode: ld
+          img: /card/kz-af-ld-powerstation-2.jpg
+          rounded: true
+      fs:
+        - id: tCIwYLzRnIPJtujWv3wNX
+          code: m-2-u
+          name: M2U
+          memberCode: kz
+          eraCode: af
+          sectionCode: fs
+          img: /card/kz-af-fs-m-2-u.jpg
+          rounded: true
+        - id: 13S2UPrRdr90w-LK2aljn
+          code: musicplant
+          name: Musicplant
+          memberCode: kz
+          eraCode: af
+          sectionCode: fs
+          img: /card/kz-af-fs-musicplant.jpg
+          rounded: true
+        - id: _ZsJ80Xh9Kv5SBIgFu3p4
+          code: soundwave
+          name: Soundwave
+          memberCode: kz
+          eraCode: af
+          sectionCode: fs
+          img: /card/kz-af-fs-soundwave.jpg
+          rounded: true
+        - id: B7hqZW3KlcSaxPrKDwCnY
+          code: yes-24
+          name: Yes24
+          memberCode: kz
+          eraCode: af
+          sectionCode: fs
+          img: /card/kz-af-fs-yes-24.jpg
+          rounded: true
+        - id: 7cU1_I1uJp_F1WyEidVWI
+          code: kpopmerch
+          name: Kpopmerch
+          memberCode: kz
+          eraCode: af
+          sectionCode: fs
+          img: /card/kz-af-fs-kpopmerch.jpg
+          rounded: true
+        - id: JfZsKjX-ErjDXpkHgALaT
+          code: kpopmerch-2
+          name: Kpopmerch 2
+          memberCode: kz
+          eraCode: af
+          sectionCode: fs
+          img: /card/kz-af-fs-kpopmerch-2.jpg
+          rounded: true
+        - id: W6Ufq4OahfGAidbWPUKjo
+          code: bigpop
+          name: BIGPOP
+          memberCode: kz
+          eraCode: af
+          sectionCode: fs
+          img: /card/kz-af-fs-bigpop.jpg
+          rounded: true
+        - id: _94NxUKm0kYQLBCrFGxsf
+          code: m-2-special
+          name: M2 Special
+          memberCode: kz
+          eraCode: af
+          sectionCode: fs
+          img: /card/kz-af-fs-m-2-special.jpg
+          rounded: true
+        - id: ohvl1JhMnpYZsSrGeBBQz
+          code: blue-dream-media
+          name: Blue Dream Media
+          memberCode: kz
+          eraCode: af
+          sectionCode: fs
+          img: /card/kz-af-fs-blue-dream-media.jpg
+          rounded: true
+        - id: ZYUtO3i3EvtshlTHbv85H
+          code: music-korea
+          name: Music Korea
+          memberCode: kz
+          eraCode: af
+          sectionCode: fs
+          img: /card/kz-af-fs-music-korea.jpg
+          rounded: true
+        - id: 7h96gWvXoP3CHoHpZ3ydu
+          code: ktown-4-u
+          name: Ktown4u
+          memberCode: kz
+          eraCode: af
+          sectionCode: fs
+          img: /card/kz-af-fs-ktown-4-u.jpg
+          rounded: true
+        - id: -CUhOO6Od5VJzKhzxRJOh
+          code: joeun-music
+          name: Joeun Music
+          memberCode: kz
+          eraCode: af
+          sectionCode: fs
+          img: /card/kz-af-fs-joeun-music.jpg
+          rounded: true
+        - id: UV3G3B3VcjtskOfQtbBY3
+          code: weverse
+          name: Weverse
+          memberCode: kz
+          eraCode: af
+          sectionCode: fs
+          img: /card/kz-af-fs-weverse.jpg
+          rounded: true
+        - id: JlpH_2HllINTGmKlYZ2Ac
+          code: tou
+          name: TOU
+          memberCode: kz
+          eraCode: af
+          sectionCode: fs
+          img: /card/kz-af-fs-tou.jpg
+          rounded: true

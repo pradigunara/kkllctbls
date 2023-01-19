@@ -12,6 +12,7 @@ let initiated = false
 let fromisDB
 let newjeansDB
 let joyuriDB
+let lesserafimDB
 
 export function getDB(group) {
   if (!initiated) loadDB()
@@ -20,6 +21,7 @@ export function getDB(group) {
     [GROUP.fromis]: fromisDB,
     [GROUP.newjeans]: newjeansDB,
     [GROUP.joyuri]: joyuriDB,
+    [GROUP.lesserafim]: lesserafimDB,
   }[group]
 }
 
@@ -27,4 +29,5 @@ export function loadDB() {
   fromisDB = load(GROUP.fromis)
   newjeansDB = load(GROUP.newjeans)
   joyuriDB = load(GROUP.joyuri)
+  lesserafimDB = load(GROUP.lesserafim)
 }

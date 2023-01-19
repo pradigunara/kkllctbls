@@ -16,7 +16,7 @@ export const GROUP_LINK = {
   [GROUP.fromis]: `/${GROUP.fromis}`,
   [GROUP.newjeans]: `/${GROUP.newjeans}`,
   [GROUP.joyuri]: `/${GROUP.joyuri}/jyr`,
-  [GROUP.lesserafim]: '/'
+  [GROUP.lesserafim]: `/${GROUP.lesserafim}`
 }
 
 export const GROUP_DATA = [{
@@ -38,7 +38,7 @@ export const GROUP_DATA = [{
   name: GROUP_NAME[GROUP.lesserafim],
   code: GROUP.lesserafim,
   link: GROUP_LINK[GROUP.lesserafim],
-  disabled: true,
+  disabled: false,
 }]
 
 export const PRIMARY_COLOR = {
