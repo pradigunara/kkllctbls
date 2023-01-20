@@ -9,7 +9,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>kkollectibles</title>
+        <title>kkollectibles • k-pop girl group photocard template</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
@@ -26,7 +26,7 @@ export default function MyApp({ Component, pageProps }) {
           content="kkollectibles"
           key="ogsitename"
         />
-        <meta property="og:title" content="kkollectibles" key="ogtitle" />
+        <meta property="og:title" content="kkollectibles • k-pop girl group photocard template" key="ogtitle" />
         <meta
           property="og:description"
           content="gotta kkollect 'em all!"
