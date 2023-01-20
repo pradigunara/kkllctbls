@@ -28,7 +28,7 @@ export default function Home({ members, group }) {
             <Col>
               {chunkedContents.map((chunk, idx) => (
                 <Row
-                  gutter={{ xs: 24, md: 36 }}
+                  gutter={{ xs: 16, md: 24 }}
                   justify="center"
                   align="bottom"
                   key={idx}
@@ -37,7 +37,7 @@ export default function Home({ members, group }) {
                     <Col
                       span={24 / CHUNK_SIZE}
                       key={member.code}
-                      style={{ marginBottom: '1.5em' }}
+                      style={{ marginBottom: '1em' }}
                     >
                       <Link href={`/${group}/${member.code}`}>
                         <a style={{ color: 'inherit' }} className="group-member-image">
