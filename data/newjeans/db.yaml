@@ -1,19 +1,19 @@
 members:
   - code: min
     name: Minji
-    img: /member/min.jpg
+    img: /member/min-cts.jpg
   - code: han
     name: Hanni
-    img: /member/han.jpg
+    img: /member/han-cts.jpg
   - code: dan
     name: Danielle
-    img: /member/dan.jpg
+    img: /member/dan-cts.jpg
   - code: hae
     name: Haerin
-    img: /member/hae.jpg
+    img: /member/hae-cts.jpg
   - code: hye
     name: Hyein
-    img: /member/hye.jpg
+    img: /member/hye-cts.jpg
 eras:
   - code: nj
     name: New Jeans

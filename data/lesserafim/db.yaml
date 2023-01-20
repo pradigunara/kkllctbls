@@ -1,19 +1,19 @@
 members:
   - code: cw
     name: Chaewon
-    img: /member/cw.jpg
+    img: /member/cw-sg.jpg
   - code: sk
     name: Sakura
-    img: /member/sk.jpg
+    img: /member/sk-sg.jpg
   - code: yj
     name: Yunjin
-    img: /member/yj.jpg
+    img: /member/yj-sg.jpg
   - code: kz
     name: Kazuha
-    img: /member/kz.jpg
+    img: /member/kz-sg.jpg
   - code: ec
     name: Eunchae
-    img: /member/ec.jpg
+    img: /member/ec-sg.jpg
 eras:
   - code: fl
     name: FEARLESS
