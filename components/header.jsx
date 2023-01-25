@@ -3,8 +3,6 @@ import Link from 'next/link'
 import { StarFilled } from '@ant-design/icons'
 
 export default function Header() {
-  const [title, ...subtitle] = 'kkollectibles.nakko.fans'.split('.')
-
   return (
     <Row justify="space-between" align="middle">
       <Col>
@@ -13,13 +11,12 @@ export default function Header() {
             <div
               style={{
                 lineHeight: '0.2em',
-                fontSize: '1.5em',
                 marginTop: '1em',
                 marginBottom: '1em',
               }}
             >
-              <h1>{title}</h1>
-              <h5>{`.${subtitle.join('.')}`}</h5>
+              <h1 style={{ fontSize: '2.5em' }}>kkollectibles</h1>
+              <h5>k-pop girl group photocard template</h5>
             </div>
           </a>
         </Link>
@@ -32,6 +29,6 @@ export default function Header() {
           size="large"
         />
       </Link>
-    </Row>
+    </Row >
   )
 }
