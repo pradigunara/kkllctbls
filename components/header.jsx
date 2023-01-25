@@ -13,6 +13,7 @@ export default function Header() {
                 lineHeight: '0.2em',
                 marginTop: '1em',
                 marginBottom: '1em',
+                fontSize: '1.1em'
               }}
             >
               <h1 style={{ fontSize: '2.5em' }}>kkollectibles</h1>
